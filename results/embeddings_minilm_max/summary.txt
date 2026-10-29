@@ -1,0 +1,31 @@
+
+===== Embeddings (MiniLM, max)  (n=48) =====
+top-1 accuracy : 90%   95% CI 81% to 98%   (chance ~11%)
+top-3 accuracy : 98%   95% CI 94% to 100%   (chance ~33%)
+MRR            : 0.94
+macro-F1       : 0.90
+
+Per-rasa precision / recall / F1:
+              precision    recall  f1-score   support
+
+     Adbhuta       0.80      0.80      0.80         5
+   Bhayanaka       0.83      1.00      0.91         5
+    Bibhatsa       1.00      1.00      1.00         5
+       Hasya       1.00      1.00      1.00         6
+      Karuna       0.80      0.67      0.73         6
+      Raudra       1.00      0.80      0.89         5
+      Shanta       1.00      1.00      1.00         5
+   Shringara       0.83      0.83      0.83         6
+       Veera       0.83      1.00      0.91         5
+
+    accuracy                           0.90        48
+   macro avg       0.90      0.90      0.90        48
+weighted avg       0.90      0.90      0.89        48
+
+
+Misclassified (5):
+  correct=['Shringara']  predicted=Adbhuta  | I've got a huge crush and can't stop thinking about them, suggest some songs
+  correct=['Karuna']  predicted=Shringara  | can you recommend songs for a breakup? I'm heartbroken
+  correct=['Karuna']  predicted=Bhayanaka  | I'm having a really bad day, nothing is going right
+  correct=['Raudra']  predicted=Karuna  | I want to scream, play something heavy
+  correct=['Adbhuta']  predicted=Veera  | just saw the northern lights and I'm speechless, what music fits this?

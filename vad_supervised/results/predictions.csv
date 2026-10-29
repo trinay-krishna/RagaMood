@@ -1,0 +1,476 @@
+﻿text,true,pred,confidence,top3,correct,V,A,D,true_V,pred_V,true_A,pred_A
+the monastery was so silent I could hear my heartbeat and I loved it,Shanta,Shanta,0.504,"Shanta, Shringara, Adbhuta",1.0,0.85,0.053,0.45,High,High,Low,Low
+"no way that actually happened, I'm stunned",Adbhuta,Raudra,0.245,"Raudra, Veera, Bhayanaka",0.0,0.483,0.796,0.531,Medium,Low,High,High
+"my girlfriend and i are watching the sunset on the terrace, what should we listen to",Shringara,Adbhuta,0.217,"Adbhuta, Shringara, Hasya",0.0,0.832,0.477,0.548,High,High,Low,Medium
+"nothing much going on, just scrolling",None,Bibhatsa,0.223,"Bibhatsa, Bhayanaka, Karuna",,0.399,0.496,0.382,Medium,Low,Low,Medium
+"my grandma's village life has taught me patience, feeling that calm now",Shanta,Shanta,0.381,"Shanta, Shringara, Adbhuta",1.0,1.0,0.17,0.697,High,High,Low,Low
+"we won!!! after all those months of training, we actually won",Veera,Veera,0.629,"Veera, Adbhuta, Shringara",1.0,0.887,0.796,0.87,High,High,High,High
+"what a plot twist in my life, I'm still processing",Adbhuta,Bibhatsa,0.24,"Bibhatsa, Bhayanaka, Raudra",0.0,0.385,0.588,0.348,Medium,Low,High,High
+"my patience is gone, completely gone",Raudra,Karuna,0.435,"Karuna, Bibhatsa, Bhayanaka",0.0,0.311,0.359,0.274,Low,Low,Medium,Low
+I lost my job today and I'm trying to hold it together,Karuna,Karuna,0.25,"Karuna, Bibhatsa, Bhayanaka",1.0,0.335,0.477,0.363,Low,Low,Medium,Medium
+he promised he'd come back. he didn't.,Karuna,Raudra,0.226,"Raudra, Bhayanaka, Bibhatsa",0.0,0.396,0.561,0.52,Low,Low,Low,High
+"Beach at sunset with nobody around, can't ask for more",Shanta,Shanta,0.408,"Shanta, Shringara, Adbhuta",1.0,0.943,0.268,0.466,High,High,Low,Low
+today my toddler said her first swear word and i can't stop giggling,Hasya,Veera,0.338,"Veera, Adbhuta, Hasya",0.0,0.721,0.866,0.61,High,High,Medium,High
+i have to speak in front of 500 people and i feel sick with fear,Bhayanaka,Raudra,0.28,"Raudra, Bhayanaka, Bibhatsa",0.0,0.294,0.655,0.425,Low,Low,High,High
+"i want something slow and warm for tonight, my partner's coming over for dinner",Shringara,Shanta,0.375,"Shanta, Shringara, Hasya",0.0,0.731,0.28,0.389,High,High,Low,Low
+my teammate took credit for my work and I want to explode,Raudra,Raudra,0.318,"Raudra, Bhayanaka, Veera",1.0,0.387,0.777,0.6,Low,Low,High,High
+"fed up with watching people exploit others for money, it makes me want to retch",Bibhatsa,Bhayanaka,0.296,"Bhayanaka, Raudra, Bibhatsa",0.0,0.074,0.647,0.379,Low,Low,Medium,High
+time to stand tall and take back my life after everything,Veera,Veera,0.277,"Veera, Adbhuta, Shringara",1.0,0.792,0.574,0.664,Medium,High,High,High
+thinking about what to cook tonight,None,Hasya,0.192,"Hasya, Adbhuta, Shringara",,0.616,0.555,0.485,Medium,High,Low,High
+i just want to slow dance in the kitchen with my husband at midnight,Shringara,Hasya,0.236,"Hasya, Adbhuta, Shringara",0.0,0.707,0.555,0.472,High,High,Low,Medium
+I want music that feels like discovering a secret world,Adbhuta,Shanta,0.23,"Shanta, Shringara, Hasya",0.0,0.734,0.433,0.5,High,High,Medium,Low
+my exam is tomorrow and I haven't studied. I'm dying inside.,Bhayanaka,Karuna,0.407,"Karuna, Bibhatsa, Shanta",0.0,0.336,0.31,0.445,Low,Low,High,Low
+i want to throw something against a wall,Raudra,Raudra,0.229,"Raudra, Bhayanaka, Bibhatsa",1.0,0.3,0.569,0.441,Low,Low,High,High
+trembling because I saw a snake in the garden,Bhayanaka,Bhayanaka,0.297,"Bhayanaka, Bibhatsa, Raudra",1.0,0.262,0.631,0.274,Low,Low,High,High
+Incredible. I never imagined a place like this could exist.,Adbhuta,Veera,0.26,"Veera, Adbhuta, Shringara",0.0,0.883,0.518,0.689,High,High,Medium,Medium
+someone scratched my car and drove off and I'm shaking with rage,Raudra,Raudra,0.458,"Raudra, Bhayanaka, Bibhatsa",1.0,0.115,0.871,0.508,Low,Low,High,High
+"my boss wants to see me in his office ""right now"" and i'm freaking out",Bhayanaka,Raudra,0.376,"Raudra, Bhayanaka, Bibhatsa",0.0,0.282,0.718,0.553,Low,Low,High,High
+"i miss my grandmother so much, the house feels so empty without her",Karuna,Karuna,0.397,"Karuna, Shanta, Bibhatsa",1.0,0.517,0.209,0.311,Low,High,Low,Low
+"Seeking tranquility, preferably something spacious and unhurried",Shanta,Shanta,0.524,"Shanta, Shringara, Adbhuta",1.0,0.959,0.007,0.528,Medium,High,Low,Low
+My best friend moved away and I miss her more than I expected.,Karuna,Shringara,0.207,"Shringara, Adbhuta, Shanta",0.0,0.67,0.461,0.527,Low,High,Low,Medium
+"light and bouncy please, I'm in a giggly mood",Hasya,Hasya,0.26,"Hasya, Shringara, Adbhuta",1.0,0.82,0.533,0.411,High,High,Medium,Medium
+holy crap I just got into my dream school,Adbhuta,Veera,0.334,"Veera, Adbhuta, Shringara",0.0,1.0,0.511,0.77,High,High,High,Medium
+"there's this tenderness i feel watching her sleep, can't really explain it",Shringara,Shanta,0.417,"Shanta, Shringara, Adbhuta",0.0,0.775,0.266,0.523,High,High,Low,Low
+"busy day, lots of errands",None,Hasya,0.177,"Hasya, Adbhuta, Veera",,0.572,0.691,0.515,Medium,High,Medium,High
+kind of in a daze after a long meeting,None,Shanta,0.269,"Shanta, Shringara, Hasya",,0.639,0.349,0.36,Medium,High,Low,Low
+lol my dad tried to use tiktok and it's the funniest thing i've ever seen,Hasya,Hasya,0.218,"Hasya, Adbhuta, Shringara",1.0,0.623,0.641,0.458,High,High,Medium,High
+today I said goodbye to my childhood home,Karuna,Shanta,0.287,"Shanta, Shringara, Hasya",0.0,0.67,0.357,0.395,Low,High,Low,Low
+"i keep pinching myself, did that really happen",Adbhuta,Hasya,0.158,"Hasya, Bhayanaka, Raudra",0.0,0.507,0.544,0.438,High,Low,High,Medium
+long distance is rough but hearing her voice tonight made everything okay,Shringara,Veera,0.28,"Veera, Adbhuta, Shringara",0.0,1.0,0.482,0.743,Medium,High,Low,Medium
+"Time to rise to the occasion. Something stirring, please.",Veera,Veera,0.291,"Veera, Adbhuta, Shringara",1.0,0.762,0.605,0.664,High,High,High,High
+"a goofy song for cooking, i'm dancing with a spatula",Hasya,Bhayanaka,0.18,"Bhayanaka, Bibhatsa, Hasya",0.0,0.51,0.576,0.336,High,Low,High,High
+"bro i'm so down rn, my whole friend group went out without me",Karuna,Bibhatsa,0.247,"Bibhatsa, Karuna, Bhayanaka",0.0,0.396,0.444,0.338,Low,Low,Low,Medium
+"i am SO done with my landlord, the audacity of this man",Raudra,Raudra,0.206,"Raudra, Bhayanaka, Karuna",1.0,0.307,0.443,0.55,Low,Low,High,Medium
+"looking at the milky way on a clear night, I feel so tiny and amazed",Adbhuta,Shanta,0.355,"Shanta, Shringara, Adbhuta",0.0,1.0,0.313,0.536,High,High,Medium,Low
+"letting the day dissolve, soft lights, soft music",Shanta,Shanta,0.449,"Shanta, Shringara, Adbhuta",1.0,1.0,0.138,0.404,High,High,Low,Low
+I'm leading the charge on this project and nothing will get in my way,Veera,Veera,0.498,"Veera, Adbhuta, Shringara",1.0,0.695,0.596,0.84,High,High,High,High
+"she just texted ""thinking of you"" and my whole day is made lol",Shringara,Veera,0.288,"Veera, Adbhuta, Shringara",0.0,1.0,0.558,0.685,High,High,Medium,High
+"need a track that matches my fury, nothing mellow",Raudra,Raudra,0.195,"Raudra, Adbhuta, Veera",1.0,0.442,0.563,0.591,Low,Low,High,High
+I saw maggots in the bin and now I'm done for the day,Bibhatsa,Karuna,0.379,"Karuna, Bibhatsa, Bhayanaka",0.0,0.254,0.41,0.253,Low,Low,Medium,Low
+gonna scream into a pillow. recommend something that screams back,Raudra,Raudra,0.198,"Raudra, Bhayanaka, Bibhatsa",1.0,0.323,0.494,0.464,Low,Low,High,Medium
+"feeling mischievous, plotting a harmless prank on my roommate",Hasya,Raudra,0.346,"Raudra, Bhayanaka, Bibhatsa",0.0,0.233,0.72,0.446,High,Low,Medium,High
+feel completely revolted by what he said about women,Bibhatsa,Raudra,0.436,"Raudra, Bhayanaka, Bibhatsa",0.0,0.21,0.746,0.548,Low,Low,High,High
+been getting through my anxiety with breathing and I'm finally calm,Shanta,Adbhuta,0.249,"Adbhuta, Veera, Shringara",0.0,0.845,0.542,0.648,Medium,High,Low,Medium
+my partner surprised me with flowers for no reason and i melted,Shringara,Hasya,0.246,"Hasya, Shanta, Shringara",0.0,0.903,0.472,0.419,High,High,Low,Medium
+"sitting by the lake at dawn, feeling content",Shanta,Shanta,0.441,"Shanta, Shringara, Adbhuta",1.0,1.0,0.168,0.616,High,High,Low,Low
+just saw the northern lights and I'm speechless,Adbhuta,Adbhuta,0.225,"Adbhuta, Shanta, Shringara",1.0,0.958,0.441,0.636,High,High,High,Low
+woke up early for no reason,None,Bhayanaka,0.275,"Bhayanaka, Bibhatsa, Raudra",,0.29,0.629,0.366,Medium,Low,Low,High
+"he said he never loved me, and i keep replaying it",Karuna,Bibhatsa,0.297,"Bibhatsa, Bhayanaka, Karuna",0.0,0.134,0.546,0.338,Low,Low,Medium,High
+"that smell, i'll never forget it, gross",Bibhatsa,Karuna,0.372,"Karuna, Bibhatsa, Bhayanaka",0.0,0.101,0.427,0.227,Low,Low,Medium,Low
+it hurts to watch my parents fight and not be able to help,Karuna,Raudra,0.168,"Raudra, Bhayanaka, Bibhatsa",0.0,0.402,0.497,0.5,Low,Low,Medium,Medium
+traffic was annoying but whatever,None,Bibhatsa,0.256,"Bibhatsa, Karuna, Bhayanaka",,0.387,0.474,0.291,Medium,Low,Medium,Medium
+rage-cleaning my whole apartment at midnight lol,Raudra,Raudra,0.318,"Raudra, Bhayanaka, Bibhatsa",1.0,0.263,0.717,0.422,Low,Low,High,High
+my uncle did the worm at the wedding and fell over. iconic,Hasya,Hasya,0.224,"Hasya, Adbhuta, Veera",1.0,0.631,0.708,0.498,High,High,High,High
+"When the stars came out over the desert, I could hardly speak.",Adbhuta,Karuna,0.32,"Karuna, Bibhatsa, Bhayanaka",0.0,0.287,0.454,0.209,High,Low,Low,Medium
+relaxed and weightless after a long massage,Shanta,Shanta,0.485,"Shanta, Shringara, Hasya",1.0,0.878,0.083,0.394,High,High,Low,Low
+nobody remembered my birthday and i'm trying not to cry,Karuna,Karuna,0.352,"Karuna, Bibhatsa, Shanta",1.0,0.48,0.329,0.259,Low,Low,Low,Low
+"been laughing since morning, no reason, it's just one of those days",Hasya,Shanta,0.219,"Shanta, Shringara, Adbhuta",0.0,0.721,0.435,0.562,High,High,Medium,Low
+A moment of stillness is all I want,Shanta,Shanta,0.484,"Shanta, Shringara, Adbhuta",1.0,0.834,0.139,0.459,Medium,High,Low,Low
+"wish i could tell my younger self it gets better, cause right now it doesn't",Karuna,Shanta,0.288,"Shanta, Karuna, Shringara",0.0,0.597,0.319,0.388,Low,High,Low,Low
+need clowning-around music for the office party,Hasya,Hasya,0.182,"Hasya, Adbhuta, Shringara",1.0,0.6,0.541,0.493,High,High,High,Medium
+His grovelling in front of the boss turned my stomach,Bibhatsa,Bhayanaka,0.296,"Bhayanaka, Bibhatsa, Raudra",0.0,0.0,0.626,0.318,Low,Low,Medium,High
+"feeling really low and lonely tonight, nothing helps",Karuna,Karuna,0.629,"Karuna, Bibhatsa, Shanta",1.0,0.351,0.169,0.246,Low,Low,Low,Low
+"something sensual and moody, candles are lit and the lights are low",Shringara,Shanta,0.431,"Shanta, Shringara, Adbhuta",0.0,0.828,0.234,0.417,High,High,Medium,Low
+spent the evening looking at old photos 😢,Karuna,Adbhuta,0.222,"Adbhuta, Shringara, Shanta",0.0,0.924,0.461,0.555,Low,High,Low,Medium
+"pure goofball energy, give me something to dance badly to",Hasya,Veera,0.211,"Veera, Raudra, Adbhuta",0.0,0.516,0.764,0.586,High,High,High,High
+"proud to say I finally quit smoking, 100 days clean",Veera,Veera,0.284,"Veera, Adbhuta, Shringara",1.0,0.915,0.522,0.707,High,High,Medium,Medium
+watching old family videos and missing everybody who's gone,Karuna,Shanta,0.256,"Shanta, Hasya, Shringara",0.0,0.715,0.404,0.428,Low,High,Low,Low
+"need a playlist for a picnic with my crush, nothing too cheesy but still romantic",Shringara,Shanta,0.314,"Shanta, Shringara, Hasya",0.0,0.737,0.353,0.448,High,High,Medium,Low
+"sitting under a tree after a long hike, perfectly at rest",Shanta,Shanta,0.476,"Shanta, Shringara, Adbhuta",1.0,1.0,0.086,0.452,High,High,Low,Low
+Looking for music for yoga and deep breathing,Shanta,Shanta,0.269,"Shanta, Shringara, Adbhuta",1.0,0.776,0.383,0.538,Medium,High,Low,Low
+"nothing special, just a regular tuesday",None,Shringara,0.227,"Shringara, Adbhuta, Veera",,0.773,0.48,0.631,Medium,High,Low,Medium
+woah!! the tiny robot just solved the rubik's cube in 2 seconds,Adbhuta,Hasya,0.23,"Hasya, Adbhuta, Shringara",0.0,0.809,0.546,0.484,High,High,High,Medium
+just saw roadkill on my morning walk and I'm shaken,Bibhatsa,Bhayanaka,0.242,"Bhayanaka, Raudra, Bibhatsa",0.0,0.333,0.609,0.397,Low,Low,Medium,High
+i'm tired of being treated like I don't matter and it's making my blood boil,Raudra,Karuna,0.252,"Karuna, Bibhatsa, Raudra",0.0,0.25,0.426,0.501,Low,Low,High,Low
+"earthquake just hit, everyone's panicking",Bhayanaka,Raudra,0.343,"Raudra, Bhayanaka, Bibhatsa",0.0,0.262,0.756,0.42,Low,Low,High,High
+so nervous about the interview that I feel nauseous,Bhayanaka,Raudra,0.246,"Raudra, Bhayanaka, Bibhatsa",0.0,0.382,0.595,0.499,Low,Low,High,High
+i guess today was okay,None,Shanta,0.385,"Shanta, Shringara, Adbhuta",,0.738,0.296,0.509,Medium,High,Low,Low
+the lava glowing in the night is out of this world,Adbhuta,Veera,0.285,"Veera, Adbhuta, Shringara",0.0,0.605,0.62,0.668,High,High,High,High
+satisfied with my life as it is right now,Shanta,Shanta,0.36,"Shanta, Shringara, Adbhuta",1.0,1.0,0.281,0.631,High,High,Low,Low
+"my heart is racing, i have a really bad feeling about tonight",Bhayanaka,Bhayanaka,0.319,"Bhayanaka, Raudra, Bibhatsa",1.0,0.126,0.715,0.363,Low,Low,High,High
+Overthinking everything and my chest feels tight.,Bhayanaka,Raudra,0.316,"Raudra, Bhayanaka, Bibhatsa",0.0,0.301,0.633,0.495,Low,Low,Medium,High
+"fed up, absolutely fed up with everyone's excuses",Raudra,Karuna,0.468,"Karuna, Bibhatsa, Bhayanaka",0.0,0.376,0.316,0.308,Low,Low,Medium,Low
+been holding this anger in for years and it's finally boiling over,Raudra,Raudra,0.496,"Raudra, Bhayanaka, Veera",1.0,0.171,0.735,0.643,Low,Low,High,High
+"wedding season vibes, i want to feel dreamy and in love",Shringara,Shringara,0.236,"Shringara, Shanta, Adbhuta",1.0,1.0,0.411,0.612,High,High,Medium,Low
+"last lap of the race, legs are burning but I'm not slowing down",Veera,Bhayanaka,0.255,"Bhayanaka, Raudra, Bibhatsa",0.0,0.337,0.641,0.382,High,Low,High,High
+grandpa told the same joke for the fifth time and we all still laughed,Hasya,Shanta,0.235,"Shanta, Shringara, Adbhuta",0.0,0.733,0.411,0.515,High,High,Low,Low
+It's surreal how the sky turned purple during the storm,Adbhuta,Veera,0.252,"Veera, Adbhuta, Shringara",0.0,0.659,0.621,0.615,Medium,High,Medium,High
+i love him. i just wanted to say it out loud to someone.,Shringara,Veera,0.418,"Veera, Adbhuta, Shringara",0.0,0.922,0.746,0.696,High,High,Medium,High
+today I learnt how big the universe is and my brain is melting,Adbhuta,Adbhuta,0.209,"Adbhuta, Shringara, Hasya",1.0,0.675,0.538,0.555,Medium,High,Medium,Medium
+my dog died this morning 💔,Karuna,Karuna,0.274,"Karuna, Bibhatsa, Bhayanaka",1.0,0.39,0.464,0.248,Low,Low,Low,Medium
+"there's a fire in my chest, so much resentment",Raudra,Bhayanaka,0.284,"Bhayanaka, Raudra, Bibhatsa",0.0,0.0,0.617,0.41,Low,Low,High,High
+just killing time before the meeting,None,Karuna,0.199,"Karuna, Shanta, Bibhatsa",,0.498,0.368,0.417,Medium,Low,Low,Low
+watching someone be cruel to a waiter just made my stomach flip,Bibhatsa,Raudra,0.31,"Raudra, Bhayanaka, Bibhatsa",0.0,0.167,0.668,0.402,Low,Low,Medium,High
+my blood pressure is through the roof after that argument,Raudra,Veera,0.531,"Veera, Adbhuta, Shringara",0.0,0.572,0.822,0.814,Low,High,High,High
+"sick of the cruelty on social media, I need to log off",Bibhatsa,Karuna,0.368,"Karuna, Bibhatsa, Bhayanaka",0.0,0.189,0.383,0.426,Low,Low,Medium,Low
+lost in wonder at the deep sea documentary,Adbhuta,Shanta,0.246,"Shanta, Shringara, Adbhuta",0.0,0.589,0.383,0.478,High,High,Low,Low
+"my boss sent a ""per my last email"" and i just laughed because the audacity",Hasya,Adbhuta,0.234,"Adbhuta, Veera, Shringara",0.0,0.689,0.557,0.609,Medium,High,Medium,High
+what if i lose everything? i can't stop spiralling,Bhayanaka,Bhayanaka,0.32,"Bhayanaka, Raudra, Bibhatsa",1.0,0.162,0.687,0.337,Low,Low,High,High
+"idk, a bit off today, can't say why",None,Karuna,0.468,"Karuna, Shanta, Bibhatsa",,0.469,0.157,0.269,Low,Low,Low,Low
+"no rush today, just want to be here",Shanta,Adbhuta,0.231,"Adbhuta, Shringara, Hasya",0.0,0.833,0.499,0.599,Medium,High,Low,Medium
+"I'm okay, thanks for asking",None,Karuna,0.346,"Karuna, Bibhatsa, Shanta",,0.399,0.332,0.366,Medium,Low,Low,Low
+my heart hurts for the kids in that news story,Karuna,Raudra,0.206,"Raudra, Bhayanaka, Hasya",0.0,0.492,0.745,0.442,Low,Low,Medium,High
+"i'm done chasing, just content with what i have",Shanta,Adbhuta,0.174,"Adbhuta, Shringara, Hasya",0.0,0.556,0.555,0.551,High,High,Low,High
+my grandfather doesn't recognise me anymore,Karuna,Karuna,0.461,"Karuna, Bibhatsa, Bhayanaka",1.0,0.245,0.339,0.313,Low,Low,Low,Low
+"seeing my city from the top of the tower, I'm overwhelmed by how beautiful it is",Adbhuta,Veera,0.525,"Veera, Adbhuta, Shringara",0.0,1.0,0.599,0.871,High,High,Medium,High
+i failed my exam again and i feel like such a disappointment,Karuna,Karuna,0.316,"Karuna, Bibhatsa, Bhayanaka",1.0,0.38,0.37,0.371,Low,Low,Low,Low
+I feel a deep sorrow I can't quite name.,Karuna,Karuna,0.373,"Karuna, Bibhatsa, Bhayanaka",1.0,0.0,0.434,0.045,Low,Low,Low,Low
+"fantasy-novel energy today, as if dragons could fly outside",Adbhuta,Veera,0.464,"Veera, Adbhuta, Shringara",0.0,0.771,0.663,0.785,High,High,Medium,High
+everything leaves a bad taste in my mouth lately,Bibhatsa,Karuna,0.378,"Karuna, Bibhatsa, Bhayanaka",0.0,0.094,0.441,0.224,Low,Low,Low,Low
+furious at how the referee ruined the whole match,Raudra,Bhayanaka,0.342,"Bhayanaka, Raudra, Bibhatsa",0.0,0.105,0.785,0.366,Low,Low,High,High
+I feel so settled in my own skin lately,Shanta,Shanta,0.477,"Shanta, Shringara, Adbhuta",1.0,1.0,0.06,0.575,High,High,Low,Low
+"hype for movie night with friends, we're watching the dumbest comedy ever",Hasya,Bibhatsa,0.201,"Bibhatsa, Bhayanaka, Raudra",0.0,0.443,0.547,0.364,High,Low,Medium,High
+"rainy day, dull heart, i just want to feel it out",Karuna,Karuna,0.295,"Karuna, Shanta, Bibhatsa",1.0,0.57,0.224,0.284,Low,High,Low,Low
+Raise the spirit! We're launching the product today,Veera,Veera,0.546,"Veera, Adbhuta, Shringara",1.0,1.0,0.732,0.81,High,High,High,High
+"flirty mood today, someone hit me with a song that makes me wink at strangers",Shringara,Hasya,0.212,"Hasya, Adbhuta, Shringara",0.0,0.644,0.651,0.493,High,High,High,High
+I can't shake this uneasy feeling that someone's watching me,Bhayanaka,Raudra,0.282,"Raudra, Bhayanaka, Bibhatsa",0.0,0.221,0.568,0.487,Low,Low,Medium,High
+after the temple visit I feel so still inside,Shanta,Shanta,0.387,"Shanta, Shringara, Adbhuta",1.0,0.852,0.249,0.611,High,High,Low,Low
+dude my dog is wearing a tiny raincoat and i can't,Hasya,Karuna,0.468,"Karuna, Bibhatsa, Shanta",0.0,0.446,0.293,0.223,High,Low,Medium,Low
+he laughed when I told him I was hurt. I will not forget that.,Raudra,Adbhuta,0.252,"Adbhuta, Veera, Shringara",0.0,0.943,0.568,0.624,Low,High,High,High
+"morning tea, birds chirping, I feel complete",Shanta,Shanta,0.28,"Shanta, Shringara, Adbhuta",1.0,1.0,0.364,0.594,High,High,Low,Low
+"finals week and I'm locked in, ain't nobody breaking my focus",Veera,Veera,0.167,"Veera, Adbhuta, Raudra",1.0,0.491,0.558,0.611,High,Low,High,Medium
+I want a song that makes me feel like the main character walking into a boss fight,Veera,Veera,0.318,"Veera, Raudra, Adbhuta",1.0,0.436,0.75,0.713,High,Low,High,High
+the smell in that public restroom was unbearable ugh,Bibhatsa,Bibhatsa,0.278,"Bibhatsa, Bhayanaka, Raudra",1.0,0.294,0.567,0.318,Low,Low,Medium,High
+unbelievable! my favourite band just walked onto the stage,Adbhuta,Veera,0.336,"Veera, Adbhuta, Shringara",0.0,0.721,0.733,0.639,High,High,High,High
+just finished journaling and feel lighter,Shanta,Shanta,0.447,"Shanta, Shringara, Adbhuta",1.0,0.743,0.166,0.45,Medium,High,Low,Low
+"i hate how they talk down to me in every meeting, I could scream",Raudra,Karuna,0.311,"Karuna, Bibhatsa, Raudra",0.0,0.234,0.352,0.552,Low,Low,High,Low
+we've been cracking jokes all evening and my face hurts 😂,Hasya,Hasya,0.213,"Hasya, Shringara, Adbhuta",1.0,0.717,0.485,0.434,High,High,High,Medium
+was gobsmacked by the ending of that game,Adbhuta,Raudra,0.303,"Raudra, Bhayanaka, Hasya",0.0,0.394,0.746,0.528,High,Low,High,High
+watching politicians do their thing makes my skin crawl,Bibhatsa,Bibhatsa,0.261,"Bibhatsa, Bhayanaka, Raudra",1.0,0.076,0.578,0.407,Low,Low,Medium,High
+my jaw literally dropped at the fireworks show,Adbhuta,Veera,0.31,"Veera, Adbhuta, Hasya",0.0,0.692,0.904,0.596,High,High,High,High
+the news about the scam made me physically sick,Bibhatsa,Bhayanaka,0.346,"Bhayanaka, Raudra, Bibhatsa",0.0,0.015,0.818,0.323,Low,Low,Medium,High
+"why do people think it's okay to treat staff like dirt, it makes me see red",Raudra,Bibhatsa,0.196,"Bibhatsa, Bhayanaka, Raudra",0.0,0.327,0.499,0.451,Low,Low,High,Medium
+Could you suggest music for an anniversary evening? We've been married thirty years.,Shringara,Veera,0.307,"Veera, Adbhuta, Shringara",0.0,0.873,0.62,0.673,High,High,Low,High
+"pre-game hype, the whole team is pumped",Veera,Veera,0.407,"Veera, Adbhuta, Shringara",1.0,0.647,0.87,0.693,High,High,High,High
+visited the Taj Mahal at sunrise and I'm lost for words,Adbhuta,Adbhuta,0.232,"Adbhuta, Shringara, Shanta",1.0,0.969,0.453,0.649,High,High,Medium,Low
+"Rainy evening, a warm blanket, absolutely no plans.",Shanta,Shanta,0.39,"Shanta, Karuna, Shringara",1.0,0.72,0.071,0.327,High,High,Low,Low
+feeling guilty and sad about how i treated my brother before he left,Karuna,Bibhatsa,0.287,"Bibhatsa, Karuna, Bhayanaka",0.0,0.153,0.485,0.391,Low,Low,Low,Medium
+"i'm amazed by how the human body works, just learnt about it",Adbhuta,Veera,0.247,"Veera, Adbhuta, Shringara",0.0,0.77,0.603,0.624,High,High,Medium,High
+creepy vibes in this empty parking garage,Bhayanaka,Karuna,0.554,"Karuna, Bibhatsa, Bhayanaka",0.0,0.018,0.338,0.208,Low,Low,High,Low
+just saw a stray puppy shivering in the cold and it broke me,Karuna,Karuna,0.411,"Karuna, Bibhatsa, Bhayanaka",1.0,0.264,0.399,0.214,Low,Low,Low,Low
+"feeling the fire to protect my family, whatever it takes",Veera,Veera,0.606,"Veera, Adbhuta, Shringara",1.0,0.857,0.647,0.921,Medium,High,High,High
+need a soundtrack for flying a plane for the first time,Adbhuta,Veera,0.274,"Veera, Adbhuta, Shringara",0.0,0.749,0.54,0.685,High,High,High,Medium
+romance is back in my life and i'm not hiding it 💃,Shringara,Shringara,0.254,"Shringara, Adbhuta, Shanta",1.0,1.0,0.429,0.618,High,High,High,Low
+"i'm in a revenge mood, don't ask",Raudra,Raudra,0.489,"Raudra, Bhayanaka, Bibhatsa",1.0,0.0,0.794,0.551,Low,Low,High,High
+"chill vibes only, I'm lying in the grass looking at clouds",Shanta,Shanta,0.433,"Shanta, Shringara, Karuna",1.0,0.727,0.171,0.379,High,High,Low,Low
+"panic attack incoming, hands are shaking",Bhayanaka,Raudra,0.348,"Raudra, Bhayanaka, Bibhatsa",0.0,0.146,0.835,0.348,Low,Low,High,High
+just got a good morning text with a heart and i'm absolutely glowing,Shringara,Veera,0.439,"Veera, Adbhuta, Shringara",0.0,1.0,0.557,0.823,High,High,Medium,High
+anger is the only thing i can feel today,Raudra,Raudra,0.267,"Raudra, Bhayanaka, Bibhatsa",1.0,0.315,0.56,0.533,Low,Low,High,Medium
+"I've never seen anything like this before, what even is this place",Adbhuta,Karuna,0.197,"Karuna, Bibhatsa, Bhayanaka",0.0,0.432,0.449,0.398,High,Low,High,Medium
+disgusted and ashamed at how corrupt the officials were,Bibhatsa,Bhayanaka,0.315,"Bhayanaka, Raudra, Bibhatsa",0.0,0.099,0.727,0.339,Low,Low,Medium,High
+just got dumped over text. i don't even know how to feel,Karuna,Bibhatsa,0.259,"Bibhatsa, Bhayanaka, Raudra",0.0,0.174,0.532,0.409,Low,Low,Low,Medium
+we haven't spoken in days and i'm aching for her to just call,Shringara,Adbhuta,0.264,"Adbhuta, Veera, Shringara",0.0,0.882,0.478,0.683,Low,High,Medium,Medium
+my entire body recoiled when I touched that slime,Bibhatsa,Karuna,0.298,"Karuna, Bibhatsa, Bhayanaka",0.0,0.314,0.464,0.298,Low,Low,Medium,Medium
+feeling so sick of the world's selfishness,Bibhatsa,Shringara,0.165,"Shringara, Shanta, Adbhuta",0.0,0.484,0.458,0.562,Low,Low,Low,Medium
+"a little jealous, a little smitten, mostly just thinking about her all day",Shringara,Veera,0.319,"Veera, Adbhuta, Shringara",0.0,0.685,0.731,0.647,Medium,High,Medium,High
+"ugh the neighbours are blasting music at 3am, I'm about to lose it",Raudra,Bibhatsa,0.268,"Bibhatsa, Bhayanaka, Raudra",0.0,0.26,0.566,0.37,Low,Low,High,High
+eh could be better could be worse,None,Karuna,0.392,"Karuna, Bibhatsa, Bhayanaka",,0.247,0.401,0.355,Medium,Low,Low,Low
+"we're getting giddy over nothing, three coffees deep",Hasya,Hasya,0.227,"Hasya, Adbhuta, Veera",1.0,0.683,0.662,0.487,High,High,High,High
+"nasty comments under every post, humanity is gross",Bibhatsa,Bibhatsa,0.261,"Bibhatsa, Bhayanaka, Raudra",1.0,0.247,0.583,0.373,Low,Low,Medium,High
+he held my hand in the rain and i think i forgot how to breathe,Shringara,Hasya,0.223,"Hasya, Adbhuta, Shringara",0.0,0.791,0.587,0.512,High,High,High,High
+"mountain trek starts at dawn, I'm hyped and determined",Veera,Veera,0.501,"Veera, Adbhuta, Shringara",1.0,0.768,0.723,0.792,High,High,High,High
+play something that sounds like a ghost is behind me lol,Bhayanaka,Karuna,0.382,"Karuna, Bibhatsa, Bhayanaka",0.0,0.371,0.35,0.321,Medium,Low,Medium,Low
+i can't believe he betrayed me like that after everything i did,Raudra,Raudra,0.259,"Raudra, Bhayanaka, Bibhatsa",1.0,0.279,0.606,0.415,Low,Low,High,High
+I can't believe how greedy and shameless some people are,Bibhatsa,Bhayanaka,0.242,"Bhayanaka, Raudra, Bibhatsa",0.0,0.272,0.581,0.413,Low,Low,Medium,High
+something about this old house gives me chills,Bhayanaka,Karuna,0.389,"Karuna, Shanta, Bibhatsa",0.0,0.474,0.202,0.344,Low,Low,Medium,Low
+"dread is sitting in my stomach, something's coming, I just know it",Bhayanaka,Bhayanaka,0.3,"Bhayanaka, Raudra, Bibhatsa",1.0,0.087,0.667,0.4,Low,Low,Medium,High
+watched a horror movie and now i'm afraid to turn off the lights,Bhayanaka,Karuna,0.346,"Karuna, Bibhatsa, Bhayanaka",0.0,0.212,0.443,0.276,Low,Low,High,Medium
+kinda bored honestly,None,Karuna,0.253,"Karuna, Shanta, Shringara",,0.504,0.305,0.404,Low,High,Low,Low
+"just need to decompress after work, no noise",Shanta,Karuna,0.472,"Karuna, Shanta, Bibhatsa",0.0,0.407,0.102,0.367,Medium,Low,Low,Low
+smelled something rotten in the elevator and nearly passed out,Bibhatsa,Bibhatsa,0.329,"Bibhatsa, Karuna, Bhayanaka",1.0,0.107,0.471,0.222,Low,Low,Medium,Medium
+"my cat just fell off the fridge and i'm crying laughing, need music to match",Hasya,Hasya,0.183,"Hasya, Shanta, Shringara",1.0,0.62,0.439,0.384,High,High,High,Medium
+"standing up to my bully tomorrow, wish me luck",Veera,Veera,0.639,"Veera, Adbhuta, Shringara",1.0,0.593,0.757,0.922,Medium,High,High,High
+paranoid that i left the stove on and now i can't think of anything else,Bhayanaka,Bhayanaka,0.298,"Bhayanaka, Bibhatsa, Raudra",1.0,0.163,0.612,0.261,Low,Low,Medium,High
+cannot get over how huge the whale was,Adbhuta,Veera,0.328,"Veera, Adbhuta, Shringara",0.0,0.597,0.714,0.659,High,High,High,High
+every little noise makes me jump tonight,Bhayanaka,Veera,0.371,"Veera, Adbhuta, Shringara",0.0,0.866,0.794,0.645,Low,High,High,High
+First time seeing snow. Absolutely astonished.,Adbhuta,Shanta,0.339,"Shanta, Shringara, Adbhuta",0.0,0.872,0.352,0.598,High,High,Medium,Low
+"feeling heroic, like I could carry the whole world",Veera,Veera,0.635,"Veera, Adbhuta, Shringara",1.0,0.91,0.826,0.89,High,High,High,High
+"tickle fight with my niece, I need music that sounds like that",Hasya,Hasya,0.172,"Hasya, Veera, Raudra",1.0,0.564,0.731,0.517,High,High,High,High
+"need to unwind after a crazy week, something soothing please",Shanta,Shanta,0.325,"Shanta, Shringara, Hasya",1.0,0.746,0.334,0.479,Medium,High,Low,Low
+releasing everything I can't control and breathing out,Shanta,Adbhuta,0.199,"Adbhuta, Shringara, Hasya",0.0,0.705,0.526,0.521,Medium,High,Low,Medium
+lowkey in a roast-your-friends mood,Hasya,Karuna,0.327,"Karuna, Bibhatsa, Bhayanaka",0.0,0.43,0.385,0.344,Medium,Low,High,Low
+my sibling broke my laptop and shrugged. unreal.,Raudra,Shanta,0.248,"Shanta, Hasya, Shringara",0.0,0.653,0.378,0.407,Low,High,High,Low
+"I get tense whenever I hear sirens, bad memories",Bhayanaka,Bhayanaka,0.305,"Bhayanaka, Raudra, Bibhatsa",1.0,0.106,0.66,0.382,Low,Low,Medium,High
+I want to feel determined and focused for my workout,Veera,Veera,0.502,"Veera, Adbhuta, Shringara",1.0,0.683,0.645,0.816,High,High,High,High
+"we've come so far, no way we're quitting now",Veera,Shanta,0.267,"Shanta, Shringara, Adbhuta",0.0,0.64,0.383,0.554,High,High,High,Low
+"cried in the shower again, wanna let it all out",Karuna,Karuna,0.247,"Karuna, Bibhatsa, Bhayanaka",1.0,0.434,0.431,0.35,Low,Low,Low,Low
+"it's so ridiculous that i can't even be mad, just laughing",Hasya,Raudra,0.213,"Raudra, Bhayanaka, Hasya",0.0,0.433,0.628,0.506,Medium,Low,Medium,High
+rooting for my country's team and the energy is unreal,Veera,Veera,0.617,"Veera, Adbhuta, Shringara",1.0,0.98,0.864,0.86,High,High,High,High
+i keep rereading our old messages and smiling like an idiot,Shringara,Veera,0.276,"Veera, Adbhuta, Shringara",0.0,0.896,0.59,0.662,Medium,High,Low,High
+feeling kind of neutral about everything,None,Karuna,0.421,"Karuna, Shanta, Bibhatsa",,0.502,0.161,0.303,Medium,Low,Low,Low
+"not sure how i feel, just here",None,Karuna,0.716,"Karuna, Bibhatsa, Bhayanaka",,0.2,0.116,0.251,Medium,Low,Low,Low
+so revolted by my own bad habits right now,Bibhatsa,Karuna,0.37,"Karuna, Bibhatsa, Bhayanaka",0.0,0.33,0.404,0.291,Low,Low,Low,Low
+the hills are quiet and so am i,Shanta,Shanta,0.473,"Shanta, Shringara, Adbhuta",1.0,0.983,0.11,0.553,Medium,High,Low,Low
+eww. just eww. that video is stuck in my head.,Bibhatsa,Bhayanaka,0.187,"Bhayanaka, Bibhatsa, Raudra",0.0,0.473,0.591,0.403,Low,Low,Medium,High
+my friends and i are doing karaoke badly on purpose,Hasya,Bibhatsa,0.286,"Bibhatsa, Bhayanaka, Raudra",0.0,0.298,0.545,0.341,High,Low,High,Medium
+the sheer scale of the waterfall left me dumbfounded,Adbhuta,Hasya,0.168,"Hasya, Adbhuta, Shringara",0.0,0.581,0.504,0.488,High,High,Medium,Medium
+"can't stop crying, today is one year since dad passed",Karuna,Shanta,0.233,"Shanta, Shringara, Hasya",0.0,0.575,0.373,0.451,Low,High,Low,Low
+the group chat is unhinged tonight and i'm loving it,Hasya,Veera,0.192,"Veera, Raudra, Adbhuta",0.0,0.516,0.721,0.587,High,Low,High,High
+Interview in an hour. Need courage.,Veera,Veera,0.234,"Veera, Adbhuta, Shringara",1.0,0.488,0.523,0.686,Medium,Low,High,Medium
+"slow and soft, i'm in a reflective mood",Shanta,Shanta,0.45,"Shanta, Shringara, Adbhuta",1.0,0.818,0.161,0.414,Medium,High,Low,Low
+bleh. that was vile.,Bibhatsa,Bhayanaka,0.32,"Bhayanaka, Raudra, Bibhatsa",0.0,0.179,0.674,0.304,Low,Low,Medium,High
+i just want to meditate in silence,Shanta,Karuna,0.527,"Karuna, Shanta, Bibhatsa",0.0,0.459,0.0,0.242,Medium,Low,Low,Low
+"feeling like a warrior today, bring on the challenge",Veera,Veera,0.475,"Veera, Adbhuta, Raudra",1.0,0.518,0.7,0.814,High,High,High,High
+Extremely irritated with my coworker. Please provide something forceful.,Raudra,Raudra,0.403,"Raudra, Bhayanaka, Veera",1.0,0.326,0.844,0.631,Low,Low,High,High
+"blood in the street, I wish I hadn't seen it",Bibhatsa,Bibhatsa,0.321,"Bibhatsa, Bhayanaka, Karuna",1.0,0.201,0.52,0.262,Low,Low,High,Medium
+injustice makes me so mad i could fight someone,Raudra,Raudra,0.507,"Raudra, Bhayanaka, Veera",1.0,0.191,0.812,0.654,Low,Low,High,High
+watching my daughter walk for the first time and I'm amazed,Adbhuta,Veera,0.278,"Veera, Adbhuta, Shringara",0.0,1.0,0.604,0.655,High,High,Medium,High
+so overwhelmed and sad i can barely get out of bed,Karuna,Bibhatsa,0.279,"Bibhatsa, Karuna, Bhayanaka",0.0,0.344,0.498,0.293,Low,Low,Low,Medium
+Absolutely livid about the way they've treated the elderly at that care home,Raudra,Bibhatsa,0.339,"Bibhatsa, Karuna, Bhayanaka",0.0,0.067,0.505,0.306,Low,Low,High,Medium
+the scale of this cathedral is unreal,Adbhuta,Shringara,0.233,"Shringara, Veera, Adbhuta",0.0,0.585,0.423,0.719,High,High,Medium,Low
+Please play something sad. I don't want to be cheered up.,Karuna,Karuna,0.46,"Karuna, Bibhatsa, Shanta",1.0,0.485,0.253,0.226,Low,Low,Low,Low
+need a song that sounds like a cartoon chase scene,Hasya,Veera,0.164,"Veera, Adbhuta, Raudra",0.0,0.537,0.673,0.538,High,High,High,High
+wow the magician made a whole elephant disappear,Adbhuta,Shanta,0.168,"Shanta, Karuna, Hasya",0.0,0.504,0.432,0.465,High,Low,High,Low
+"cheerful and a little bit silly, thanks",Hasya,Hasya,0.227,"Hasya, Adbhuta, Shringara",1.0,0.793,0.57,0.505,High,High,Medium,High
+Horrified and repulsed by the documentary on factory farming.,Bibhatsa,Bibhatsa,0.343,"Bibhatsa, Karuna, Bhayanaka",1.0,0.0,0.506,0.229,Low,Low,Medium,Medium
+everything about this city feels filthy and I need out,Bibhatsa,Bibhatsa,0.29,"Bibhatsa, Bhayanaka, Raudra",1.0,0.056,0.646,0.336,Low,Low,Medium,High
+"i'm done being scared, going to ask for that promotion",Veera,Veera,0.313,"Veera, Adbhuta, Shringara",1.0,0.54,0.625,0.693,High,High,High,High
+ugh people who spit on the street are the worst,Bibhatsa,Bibhatsa,0.318,"Bibhatsa, Karuna, Bhayanaka",1.0,0.105,0.49,0.288,Low,Low,Medium,Medium
+need an anthem for my startup launch,Veera,Veera,0.373,"Veera, Adbhuta, Shringara",1.0,0.884,0.521,0.811,High,High,High,Medium
+"They insulted my family in front of everyone and I just stood there, now I'm burning up",Raudra,Raudra,0.329,"Raudra, Bhayanaka, Bibhatsa",1.0,0.222,0.664,0.453,Low,Low,High,High
+need something to quieten my racing thoughts before bed,Shanta,Shanta,0.31,"Shanta, Shringara, Adbhuta",1.0,0.634,0.354,0.542,Medium,High,Low,Low
+every no just fuels me more,Veera,Karuna,0.32,"Karuna, Bibhatsa, Bhayanaka",0.0,0.42,0.412,0.308,Medium,Low,High,Low
+They cancelled my flight AGAIN and customer service just hung up on me,Raudra,Raudra,0.177,"Raudra, Bhayanaka, Bibhatsa",1.0,0.415,0.546,0.463,Low,Low,High,Medium
+"my kid hasn't come home and it's been hours, I'm sick with worry",Bhayanaka,Karuna,0.313,"Karuna, Bibhatsa, Bhayanaka",0.0,0.248,0.46,0.222,Low,Low,High,Medium
+ready to fight for what's right at the protest tomorrow,Veera,Veera,0.587,"Veera, Adbhuta, Shringara",1.0,0.647,0.82,0.84,Medium,High,High,High
+yuck the milk went bad and I drank it 🤢,Bibhatsa,Bibhatsa,0.223,"Bibhatsa, Karuna, Bhayanaka",1.0,0.467,0.502,0.218,Low,Low,Medium,Medium
+my stomach turned when I saw the kitchen at that restaurant,Bibhatsa,Bibhatsa,0.215,"Bibhatsa, Bhayanaka, Karuna",1.0,0.47,0.568,0.309,Low,Low,Medium,High
+"just finished my first lift of a new PR, feeling invincible 🔥",Veera,Veera,0.484,"Veera, Adbhuta, Shringara",1.0,0.942,0.758,0.767,High,High,High,High
+today is just heavy for no reason,Karuna,Karuna,0.321,"Karuna, Bibhatsa, Bhayanaka",1.0,0.261,0.417,0.357,Low,Low,Low,Low
+"don't talk to me, i'm in a foul mood and want heavy, aggressive music",Raudra,Raudra,0.543,"Raudra, Bhayanaka, Veera",1.0,0.144,0.719,0.635,Low,Low,High,High
+astonished at a street performer who juggled fire and played guitar,Adbhuta,Raudra,0.189,"Raudra, Hasya, Bhayanaka",0.0,0.53,0.921,0.442,High,High,High,High
+my mind is finally quiet after months of chaos,Shanta,Shanta,0.357,"Shanta, Shringara, Adbhuta",1.0,0.971,0.304,0.57,Medium,High,Low,Low
+got rejected from my dream college. i'm numb,Karuna,Karuna,0.237,"Karuna, Bibhatsa, Bhayanaka",1.0,0.341,0.441,0.427,Low,Low,Low,Medium
+after the argument we hugged and everything felt okay again,Shanta,Veera,0.273,"Veera, Adbhuta, Shringara",0.0,0.802,0.579,0.66,Medium,High,Low,High
+"miss him so much it physically hurts, three more weeks until he's back",Shringara,Raudra,0.163,"Raudra, Adbhuta, Hasya",0.0,0.497,0.575,0.527,Medium,Low,Medium,High
+graduation day and the one person i wanted there isn't alive to see it,Karuna,Shringara,0.149,"Shringara, Hasya, Adbhuta",0.0,0.518,0.5,0.5,Low,High,Low,Medium
+I am so over this sleazy industry,Bibhatsa,Bibhatsa,0.284,"Bibhatsa, Bhayanaka, Raudra",1.0,0.148,0.537,0.377,Low,Low,Medium,Medium
+everything feels tense and I'm waiting for the other shoe to drop,Bhayanaka,Bibhatsa,0.226,"Bibhatsa, Karuna, Bhayanaka",0.0,0.371,0.486,0.395,Low,Low,Medium,Medium
+"I feel dirty after that conversation, like I need a shower",Bibhatsa,Bhayanaka,0.164,"Bhayanaka, Raudra, Bibhatsa",0.0,0.486,0.571,0.418,Low,Low,Medium,High
+"my ex got engaged, happy for them i guess but it stings",Karuna,Raudra,0.254,"Raudra, Veera, Bhayanaka",0.0,0.452,0.811,0.58,Low,Low,Low,High
+stand-up comedy night just ended and my cheeks are sore,Hasya,Karuna,0.168,"Karuna, Bibhatsa, Shanta",0.0,0.522,0.44,0.358,High,High,Medium,Medium
+just saw something so gross in the fridge i gagged,Bibhatsa,Karuna,0.366,"Karuna, Bibhatsa, Bhayanaka",0.0,0.163,0.431,0.266,Low,Low,Medium,Low
+"my little cousin does the funniest voices, we've been in stitches",Hasya,Adbhuta,0.241,"Adbhuta, Veera, Hasya",0.0,1.0,0.7,0.562,High,High,Medium,High
+every little thing is setting me off today,Raudra,Bibhatsa,0.335,"Bibhatsa, Bhayanaka, Karuna",0.0,0.091,0.588,0.255,Low,Low,Medium,High
+"gotta walk through the cemetery to get home, send courage",Bhayanaka,Shanta,0.286,"Shanta, Karuna, Shringara",0.0,0.553,0.274,0.411,Low,High,High,Low
+scared of the dark again like i'm five,Bhayanaka,Karuna,0.389,"Karuna, Bibhatsa, Bhayanaka",0.0,0.242,0.424,0.214,Low,Low,Medium,Low
+What would you play while writing a love poem to someone you've never told?,Shringara,Shanta,0.333,"Shanta, Shringara, Hasya",0.0,0.705,0.314,0.354,Medium,High,Low,Low
+"these people on the road are driving me insane, honking nonstop",Raudra,Raudra,0.434,"Raudra, Bhayanaka, Bibhatsa",1.0,0.209,0.739,0.521,Low,Low,High,High
+"cheer me on, I'm about to start a business from scratch",Veera,Veera,0.438,"Veera, Adbhuta, Shringara",1.0,0.8,0.666,0.769,High,High,High,High
+"feeling noble and resolute, need something majestic",Veera,Shanta,0.318,"Shanta, Shringara, Adbhuta",0.0,0.92,0.317,0.733,High,High,Medium,Low
+"at peace with everything today, no worries",Shanta,Shanta,0.433,"Shanta, Shringara, Adbhuta",1.0,1.0,0.154,0.638,High,High,Low,Low
+brave mode: on. nothing scares me today,Veera,Raudra,0.176,"Raudra, Veera, Adbhuta",0.0,0.516,0.666,0.553,High,High,High,High
+"amazed by how fast technology is moving, feels like sci-fi",Adbhuta,Veera,0.427,"Veera, Adbhuta, Shringara",0.0,0.673,0.732,0.74,High,High,Medium,High
+"i feel like a kid again, giggling at everything",Hasya,Hasya,0.259,"Hasya, Adbhuta, Shringara",1.0,0.836,0.539,0.418,High,High,Medium,Medium
+space documentary has me questioning everything,Adbhuta,Raudra,0.161,"Raudra, Bhayanaka, Bibhatsa",0.0,0.422,0.488,0.509,Medium,Low,Medium,Medium
+"sunday morning, nowhere to be, windows open",Shanta,Karuna,0.393,"Karuna, Bibhatsa, Bhayanaka",0.0,0.25,0.413,0.259,High,Low,Low,Low
+I'm repulsed by gossip culture at work,Bibhatsa,Bibhatsa,0.308,"Bibhatsa, Bhayanaka, Raudra",1.0,0.0,0.541,0.352,Low,Low,Medium,Medium
+it's been a rough week and i just need a good cry,Karuna,Shanta,0.212,"Shanta, Karuna, Bibhatsa",0.0,0.565,0.345,0.338,Low,High,Low,Low
+"i swear my brain has no filter today, just blurting out dumb jokes",Hasya,Karuna,0.337,"Karuna, Shanta, Bibhatsa",0.0,0.495,0.244,0.349,High,Low,Medium,Low
+punch-the-wall level of annoyed rn,Raudra,Raudra,0.36,"Raudra, Bhayanaka, Bibhatsa",1.0,0.064,0.7,0.438,Low,Low,High,High
+meh,None,Bibhatsa,0.311,"Bibhatsa, Karuna, Bhayanaka",,0.233,0.492,0.299,Medium,Low,Low,Medium
+We met on a train and now we're planning a life together. Something to celebrate that.,Shringara,Veera,0.626,"Veera, Adbhuta, Shringara",0.0,1.0,0.678,0.902,High,High,Medium,High
+falling for my best friend and i have no idea what to do about it,Shringara,Adbhuta,0.196,"Adbhuta, Hasya, Shringara",0.0,0.709,0.501,0.52,Medium,High,Medium,Medium
+wow. just wow. the nerve of some people.,Raudra,Raudra,0.408,"Raudra, Bhayanaka, Bibhatsa",1.0,0.246,0.711,0.524,Low,Low,Medium,High
+"feeling silly today, want something goofy",Hasya,Hasya,0.197,"Hasya, Karuna, Bibhatsa",1.0,0.618,0.464,0.292,High,High,Medium,Medium
+"he is so fake, every smile makes me want to be sick",Bibhatsa,Bibhatsa,0.275,"Bibhatsa, Bhayanaka, Karuna",1.0,0.341,0.561,0.267,Low,Low,Medium,High
+"been seeing someone new and i genuinely can't stop smiling, need a song that feels like that",Shringara,Adbhuta,0.253,"Adbhuta, Shringara, Shanta",0.0,0.956,0.441,0.662,High,High,Medium,Medium
+"long day at work, kinda tired",None,Raudra,0.126,"Raudra, Shanta, Karuna",,0.457,0.467,0.486,Medium,Low,Low,Medium
+"so in love it's embarrassing, my friends are tired of hearing about it",Shringara,Raudra,0.187,"Raudra, Hasya, Bhayanaka",0.0,0.529,0.776,0.44,High,High,Medium,High
+"goosebumps all over, the orchestra was beyond words",Adbhuta,Veera,0.406,"Veera, Adbhuta, Shringara",0.0,0.863,0.834,0.684,High,High,High,High
+"i'm in such a goofy mood, everything is funny rn",Hasya,Hasya,0.24,"Hasya, Shringara, Adbhuta",1.0,0.915,0.478,0.442,High,High,High,Medium
+my friend's wedding speech was so funny the whole hall was roaring,Hasya,Veera,0.423,"Veera, Adbhuta, Shringara",0.0,0.917,0.786,0.688,High,High,High,High
+"grind mode on, 5am run in the rain",Veera,Karuna,0.302,"Karuna, Bibhatsa, Bhayanaka",0.0,0.314,0.433,0.357,High,Low,High,Low
+"Heartbroken. I would like something to cry to, quietly.",Karuna,Karuna,0.512,"Karuna, Bibhatsa, Shanta",1.0,0.481,0.11,0.2,Low,Low,Low,Low
+"love letter energy today, i feel poetic and soft",Shringara,Adbhuta,0.268,"Adbhuta, Shringara, Veera",0.0,1.0,0.483,0.664,High,High,Low,Medium
+snort-laughing at my own jokes again,Hasya,Hasya,0.211,"Hasya, Adbhuta, Shringara",1.0,0.592,0.629,0.471,High,High,Medium,High
+"a double rainbow right outside my window, look at that",Adbhuta,Shanta,0.208,"Shanta, Shringara, Adbhuta",0.0,0.696,0.459,0.538,High,High,Medium,Medium
+a little sleepy,None,Karuna,0.649,"Karuna, Bibhatsa, Bhayanaka",,0.276,0.208,0.07,Medium,Low,Low,Low
+had a rough year but I'm still standing and stronger for it,Veera,Adbhuta,0.262,"Adbhuta, Veera, Shringara",0.0,0.819,0.497,0.676,Medium,High,Medium,Medium
+Looking for something lighthearted and amusing to start the weekend.,Hasya,Hasya,0.226,"Hasya, Shanta, Shringara",1.0,0.805,0.453,0.42,High,High,Medium,Medium
+need a song to pump me up before my presentation,Veera,Veera,0.395,"Veera, Adbhuta, Shringara",1.0,0.764,0.64,0.741,High,High,High,High
+"just signed up for my first marathon, let's gooo",Veera,Adbhuta,0.22,"Adbhuta, Hasya, Veera",0.0,0.715,0.598,0.537,High,High,High,High
+waiting for my friend to show up,None,Shanta,0.284,"Shanta, Shringara, Karuna",,0.617,0.313,0.379,Medium,High,Low,Low
+"spoiled food, dirty dishes, a messy house, I can't take it",Bibhatsa,Karuna,0.36,"Karuna, Bhayanaka, Bibhatsa",0.0,0.0,0.489,0.075,Low,Low,Medium,Medium
+giving thanks for the little things today,Shanta,Shanta,0.296,"Shanta, Shringara, Adbhuta",1.0,1.0,0.354,0.579,High,High,Low,Low
+something magical happened today and I can't even explain,Adbhuta,Shringara,0.235,"Shringara, Adbhuta, Shanta",0.0,0.95,0.434,0.631,High,High,Medium,Low
+"late night drive with the one i love, windows down, what's the soundtrack",Shringara,Karuna,0.254,"Karuna, Bibhatsa, Shanta",0.0,0.434,0.362,0.42,High,Low,Medium,Low
+scared something is wrong with my health and afraid to check,Bhayanaka,Bhayanaka,0.301,"Bhayanaka, Bibhatsa, Raudra",1.0,0.029,0.631,0.333,Low,Low,Medium,High
+Today's mood: sarcastic and amused. Nothing serious please.,Hasya,Adbhuta,0.255,"Adbhuta, Shringara, Veera",0.0,0.974,0.5,0.623,Medium,High,Medium,Medium
+"proper rage mode, headphones on, world off",Raudra,Raudra,0.418,"Raudra, Bhayanaka, Veera",1.0,0.22,0.651,0.6,Low,Low,High,High
+"feeling content and detached, like watching clouds drift by",Shanta,Shanta,0.302,"Shanta, Karuna, Shringara",1.0,0.639,0.105,0.29,Medium,High,Low,Low
+"so mad I'm crying, which makes me even madder",Raudra,Raudra,0.334,"Raudra, Bhayanaka, Bibhatsa",1.0,0.3,0.746,0.447,Low,Low,High,High
+I'm petrified of flying and my flight is in two hours,Bhayanaka,Bibhatsa,0.22,"Bibhatsa, Bhayanaka, Raudra",0.0,0.371,0.558,0.385,Low,Low,High,High
+"never thought humans could build something this grand, look at the pyramids",Adbhuta,Shringara,0.254,"Shringara, Adbhuta, Veera",0.0,0.737,0.419,0.72,High,High,Medium,Low
+we're pretending to be fancy at dinner but dropped spaghetti on the floor 😭,Hasya,Karuna,0.218,"Karuna, Bibhatsa, Hasya",0.0,0.553,0.457,0.183,High,High,High,Medium
+ngl i think i'm catching feelings and it's terrifying and amazing,Shringara,Veera,0.2,"Veera, Adbhuta, Hasya",0.0,0.605,0.769,0.533,High,High,High,High
+"just feel a quiet ache today, hard to describe",Karuna,Karuna,0.625,"Karuna, Bibhatsa, Bhayanaka",1.0,0.194,0.261,0.213,Low,Low,Low,Low
+"sitting at the airport after saying goodbye, feeling so empty",Karuna,Karuna,0.586,"Karuna, Bibhatsa, Shanta",1.0,0.402,0.216,0.187,Low,Low,Low,Low
+everything is a bit absurd today and i'm leaning into it,Hasya,Hasya,0.158,"Hasya, Shringara, Adbhuta",1.0,0.528,0.563,0.494,Medium,High,Medium,High
+"i'm sick of all the hypocrisy and lies, makes me nauseous",Bibhatsa,Raudra,0.355,"Raudra, Bhayanaka, Veera",0.0,0.256,0.575,0.593,Low,Low,Medium,High
+"gotta push through this last stretch of exams, we've got this",Veera,Veera,0.223,"Veera, Adbhuta, Shringara",1.0,0.539,0.49,0.7,High,High,High,Medium
+"first date in an hour!! my hands are shaking, give me something to set the mood",Shringara,Hasya,0.224,"Hasya, Adbhuta, Shringara",0.0,0.818,0.571,0.542,High,High,High,High
+ugh why does the loneliness hit hardest at 3am,Karuna,Karuna,0.56,"Karuna, Bibhatsa, Shanta",1.0,0.414,0.198,0.243,Low,Low,Low,Low
+"my skin is crawling, bugs are everywhere in this hostel",Bibhatsa,Bibhatsa,0.336,"Bibhatsa, Bhayanaka, Karuna",1.0,0.198,0.545,0.236,Low,Low,High,Medium
+"soft music to fall asleep to, my head is finally empty",Shanta,Shanta,0.407,"Shanta, Shringara, Karuna",1.0,0.69,0.141,0.399,Medium,High,Low,Low
+omg the autocorrect fail I just sent to my mom 💀,Hasya,Karuna,0.19,"Karuna, Bibhatsa, Hasya",0.0,0.53,0.455,0.294,Medium,High,High,Medium
+"heart's doing backflips, he asked me to prom",Shringara,Raudra,0.182,"Raudra, Veera, Adbhuta",0.0,0.53,0.747,0.544,High,High,High,High
+everything in this place feels like a dream,Adbhuta,Karuna,0.293,"Karuna, Shanta, Bibhatsa",0.0,0.543,0.311,0.272,High,High,Low,Low
+"sad about the friend i lost touch with, we used to be inseparable",Karuna,Karuna,0.254,"Karuna, Shanta, Bibhatsa",1.0,0.541,0.316,0.321,Low,High,Low,Low
+"spilled coffee on my notes, missed the bus, and my phone died, I'm about to lose it",Raudra,Karuna,0.349,"Karuna, Bibhatsa, Bhayanaka",0.0,0.252,0.453,0.16,Low,Low,High,Medium
+Yelled at my brother and now feel awful but also still angry,Raudra,Raudra,0.437,"Raudra, Bhayanaka, Bibhatsa",1.0,0.168,0.717,0.546,Low,Low,High,High
+gonna chase my dream even if everyone says it's crazy,Veera,Veera,0.255,"Veera, Adbhuta, Hasya",1.0,0.639,0.744,0.595,High,High,High,High
+Truly appalled by the behaviour at that dinner.,Bibhatsa,Raudra,0.335,"Raudra, Bhayanaka, Bibhatsa",0.0,0.101,0.727,0.4,Low,Low,Medium,High
+the way he chewed with his mouth open made me lose my appetite for the whole week,Bibhatsa,Bhayanaka,0.267,"Bhayanaka, Raudra, Bibhatsa",0.0,0.312,0.653,0.378,Low,Low,Medium,High
+"going into surgery recovery with a strong heart, i'm not giving up",Veera,Adbhuta,0.259,"Adbhuta, Veera, Shringara",0.0,0.87,0.475,0.676,Medium,High,Medium,Medium
+"fun road trip with the squad, we're singing off-key and loving it",Hasya,Veera,0.258,"Veera, Adbhuta, Hasya",0.0,0.745,0.747,0.575,High,High,High,High
+i'm pretty sure no one would notice if i disappeared for a week,Karuna,Karuna,0.557,"Karuna, Bibhatsa, Bhayanaka",1.0,0.296,0.297,0.199,Low,Low,Low,Low
+I think someone followed me home,Bhayanaka,Bhayanaka,0.331,"Bhayanaka, Raudra, Bibhatsa",1.0,0.13,0.753,0.353,Low,Low,High,High
+"i've been knocked down too many times, but i'm getting back up",Veera,Hasya,0.194,"Hasya, Shringara, Adbhuta",0.0,0.613,0.499,0.454,Medium,High,High,Medium
+"a deer walked right up to me in the forest, it was magical",Adbhuta,Adbhuta,0.282,"Adbhuta, Veera, Shringara",1.0,1.0,0.505,0.696,High,High,Low,Medium
+sat on a whoopee cushion at a board meeting. i'm not okay. 😂,Hasya,Karuna,0.517,"Karuna, Bibhatsa, Bhayanaka",0.0,0.329,0.324,0.143,High,Low,High,Low
+experiencing a sense of wonder that i haven't felt since childhood,Adbhuta,Adbhuta,0.273,"Adbhuta, Veera, Shringara",1.0,1.0,0.556,0.622,High,High,Medium,High
+"can't believe the athlete just broke the world record, goosebumps",Adbhuta,Veera,0.334,"Veera, Adbhuta, Hasya",0.0,0.791,0.78,0.62,High,High,High,High
+big match tomorrow and i'm ready to give it everything,Veera,Veera,0.524,"Veera, Adbhuta, Shringara",1.0,0.738,0.788,0.794,High,High,High,High
+"calm after the storm, literally and figuratively",Shanta,Shringara,0.267,"Shringara, Adbhuta, Shanta",0.0,0.951,0.338,0.773,Medium,High,Low,Low
+every song reminds me of her and it's killing me,Karuna,Karuna,0.311,"Karuna, Bibhatsa, Bhayanaka",1.0,0.403,0.39,0.331,Low,Low,Low,Low
+teasing my boyfriend about his terrible dance moves,Hasya,Bhayanaka,0.301,"Bhayanaka, Raudra, Bibhatsa",0.0,0.367,0.831,0.352,High,Low,High,High
+that mind-bending optical illusion has me stunned,Adbhuta,Hasya,0.186,"Hasya, Shringara, Adbhuta",0.0,0.618,0.527,0.487,Medium,High,Medium,Medium
+i have a lump in my throat and can't explain why,Karuna,Karuna,0.34,"Karuna, Bibhatsa, Bhayanaka",1.0,0.225,0.412,0.351,Low,Low,Low,Low
+forgave him today. weirdly light now.,Shanta,Karuna,0.228,"Karuna, Shanta, Bibhatsa",0.0,0.422,0.35,0.462,Medium,Low,Low,Low
+"anxious about my results, can't breathe properly",Bhayanaka,Veera,0.19,"Veera, Adbhuta, Shringara",0.0,0.535,0.585,0.61,Low,High,High,High
+just got pranked by my sister and honestly respect,Hasya,Shanta,0.207,"Shanta, Hasya, Shringara",0.0,0.667,0.442,0.451,High,High,Medium,Medium
+"there's rot in everything these days, I'm just tired and repulsed",Bibhatsa,Karuna,0.689,"Karuna, Bibhatsa, Bhayanaka",0.0,0.08,0.243,0.148,Low,Low,Low,Low
+"light comedy mood, like a sitcom theme song",Hasya,Shanta,0.371,"Shanta, Shringara, Hasya",0.0,0.69,0.28,0.41,High,High,Medium,Low
+kicked the door so hard earlier lol not proud of it,Raudra,Adbhuta,0.179,"Adbhuta, Veera, Hasya",0.0,0.53,0.616,0.576,Low,High,High,High
+giving my all in this audition no matter what,Veera,Veera,0.321,"Veera, Adbhuta, Shringara",1.0,0.7,0.669,0.669,High,High,High,High
+he looked at me across the room and the whole party disappeared,Shringara,Raudra,0.286,"Raudra, Bhayanaka, Hasya",0.0,0.399,0.762,0.514,High,Low,High,High
+"i despise how unfair this is, I'm shaking with fury",Raudra,Raudra,0.411,"Raudra, Bhayanaka, Bibhatsa",1.0,0.003,0.761,0.464,Low,Low,High,High
+just emerged from the cave and the view blew me away,Adbhuta,Adbhuta,0.273,"Adbhuta, Veera, Shringara",1.0,0.959,0.494,0.698,High,High,High,Medium
+deeply resentful of my manager tonight,Raudra,Raudra,0.416,"Raudra, Bhayanaka, Bibhatsa",1.0,0.117,0.69,0.503,Low,Low,Medium,High
+yet another lonely birthday dinner for one,Karuna,Karuna,0.306,"Karuna, Shanta, Bibhatsa",1.0,0.557,0.278,0.315,Low,High,Low,Low
+confident and ready to speak up at the town hall tonight,Veera,Veera,0.654,"Veera, Adbhuta, Shringara",1.0,0.88,0.7,0.92,High,High,High,High
+I'd like something calm to read a book to,Shanta,Shanta,0.501,"Shanta, Shringara, Adbhuta",1.0,0.817,0.0,0.451,Medium,High,Low,Low
+just sipped a warm drink and everything feels fine,Shanta,Shanta,0.364,"Shanta, Shringara, Hasya",1.0,0.654,0.289,0.449,High,High,Low,Low
+disgust is the only word for how I feel about that article,Bibhatsa,Karuna,0.362,"Karuna, Bibhatsa, Bhayanaka",0.0,0.109,0.408,0.377,Low,Low,Medium,Low
+"need to vent, i'm seething",Raudra,Raudra,0.366,"Raudra, Bhayanaka, Bibhatsa",1.0,0.0,0.773,0.4,Low,Low,High,High
+gentle music for my grandpa's evening prayer,Shanta,Shanta,0.435,"Shanta, Shringara, Adbhuta",1.0,0.827,0.207,0.501,Medium,High,Low,Low
+need something seductive for a night in 😏,Shringara,Karuna,0.152,"Karuna, Shanta, Bibhatsa",0.0,0.539,0.436,0.362,High,High,High,Low
+the fake charity event was so cringey and false I wanted to leave,Bibhatsa,Bibhatsa,0.307,"Bibhatsa, Bhayanaka, Raudra",1.0,0.215,0.605,0.207,Low,Low,Medium,High
+a baby was just born in front of me and it feels like a miracle,Adbhuta,Veera,0.435,"Veera, Adbhuta, Shringara",0.0,1.0,0.683,0.755,High,High,Medium,High
+I will not let this setback define me,Veera,Karuna,0.165,"Karuna, Bibhatsa, Shanta",0.0,0.385,0.409,0.511,Medium,Low,High,Low
+a friend just told me she's moving on from our friendship and i'm gutted,Karuna,Karuna,0.262,"Karuna, Bibhatsa, Bhayanaka",1.0,0.341,0.424,0.394,Low,Low,Low,Low
+i want to feel adored tonight,Shringara,Shanta,0.274,"Shanta, Shringara, Adbhuta",0.0,0.857,0.412,0.501,High,High,Low,Low
+it's been a normal week,None,Shanta,0.248,"Shanta, Karuna, Shringara",,0.546,0.304,0.414,Medium,High,Low,Low
+"Courage is what I need right now, I have a hard conversation ahead",Veera,Veera,0.302,"Veera, Adbhuta, Shringara",1.0,0.659,0.558,0.715,Medium,High,Medium,Medium
+something feels off and the whole room has gone silent,Bhayanaka,Karuna,0.488,"Karuna, Bibhatsa, Bhayanaka",0.0,0.0,0.37,0.075,Low,Low,Medium,Low
+feeling grounded and serene after my walk in the park,Shanta,Shanta,0.376,"Shanta, Shringara, Adbhuta",1.0,1.0,0.299,0.554,High,High,Low,Low
+I'm disgusted by how people treat animals,Bibhatsa,Bibhatsa,0.317,"Bibhatsa, Bhayanaka, Karuna",1.0,0.0,0.558,0.242,Low,Low,Medium,High
+mad at the entire system tbh,Raudra,Bibhatsa,0.261,"Bibhatsa, Bhayanaka, Raudra",0.0,0.161,0.553,0.4,Low,Low,Medium,Medium
+Standing before the Himalayas for the first time. Awestruck.,Adbhuta,Veera,0.283,"Veera, Adbhuta, Shringara",0.0,0.956,0.481,0.746,High,High,Medium,Medium
+ready to fight the whole world today,Raudra,Veera,0.705,"Veera, Adbhuta, Shringara",0.0,0.609,0.829,0.977,Medium,High,High,High
+"gentle rain and chai, that's all I want",Shanta,Shanta,0.389,"Shanta, Shringara, Hasya",1.0,0.744,0.246,0.384,High,High,Low,Low
+anxiety through the roof before my first day at the new job,Bhayanaka,Raudra,0.261,"Raudra, Veera, Adbhuta",0.0,0.448,0.697,0.588,Low,Low,High,High
+retired last month and finally feel at peace,Shanta,Shanta,0.326,"Shanta, Shringara, Adbhuta",1.0,0.963,0.275,0.701,High,High,Low,Low
+"cuddled up under a blanket with my boyfriend, any rec for that cozy feeling",Shringara,Shanta,0.486,"Shanta, Shringara, Adbhuta",0.0,0.946,0.102,0.464,High,High,Low,Low
+my stomach is in knots after seeing that,Bibhatsa,Bhayanaka,0.175,"Bhayanaka, Hasya, Raudra",0.0,0.498,0.637,0.411,Low,Low,Medium,High
+"Feeling very affectionate toward my wife today; something gentle and loving, please.",Shringara,Shanta,0.364,"Shanta, Shringara, Adbhuta",0.0,0.951,0.335,0.51,High,High,Low,Low
+dad is in the army and watching him salute at the parade gave me chills,Veera,Veera,0.666,"Veera, Adbhuta, Shringara",1.0,1.0,0.821,0.905,High,High,High,High
+i keep hearing footsteps behind me on my walk home and i'm scared,Bhayanaka,Bhayanaka,0.316,"Bhayanaka, Bibhatsa, Raudra",1.0,0.013,0.659,0.277,Low,Low,High,High
+"so-so day, not much to report",None,Hasya,0.166,"Hasya, Shanta, Shringara",,0.593,0.459,0.433,Medium,High,Low,Medium
+feeling like a kid at a magic show 🎩,Adbhuta,Hasya,0.25,"Hasya, Shanta, Shringara",0.0,0.806,0.43,0.294,High,High,Medium,Low
+wanna hear something that makes me smile like an idiot,Hasya,Adbhuta,0.28,"Adbhuta, Veera, Shringara",0.0,1.0,0.641,0.633,High,High,Medium,High
+"quiet night on the balcony watching stars, mind is clear",Shanta,Shanta,0.464,"Shanta, Shringara, Adbhuta",1.0,1.0,0.086,0.593,High,High,Low,Low
+an unknown number keeps calling me at night,Bhayanaka,Raudra,0.32,"Raudra, Bhayanaka, Bibhatsa",0.0,0.138,0.605,0.478,Low,Low,High,High
+sound bath vibes pls 🧘,Shanta,Shanta,0.265,"Shanta, Shringara, Hasya",1.0,0.699,0.322,0.322,Medium,High,Low,Low
+"mildly stressed about laundry, nothing serious",None,Bibhatsa,0.327,"Bibhatsa, Bhayanaka, Karuna",,0.22,0.55,0.27,Low,Low,Medium,Medium
+disgusted with myself for what I did last night,Bibhatsa,Bibhatsa,0.272,"Bibhatsa, Bhayanaka, Raudra",1.0,0.238,0.589,0.356,Low,Low,Medium,High
+"Melting into tears over a sad movie, in need of a matching soundtrack",Karuna,Bibhatsa,0.299,"Bibhatsa, Karuna, Bhayanaka",0.0,0.282,0.453,0.295,Low,Low,Low,Medium
+today I'm not afraid of failing,Veera,Veera,0.345,"Veera, Adbhuta, Shringara",1.0,0.963,0.519,0.772,High,High,Medium,Medium
+wonderstruck by how the temple was built thousands of years ago,Adbhuta,Shringara,0.252,"Shringara, Shanta, Adbhuta",0.0,0.822,0.391,0.641,High,High,Low,Low
+i got scammed out of my savings and i'm just boiling,Raudra,Bhayanaka,0.312,"Bhayanaka, Raudra, Bibhatsa",0.0,0.122,0.687,0.383,Low,Low,High,High
+alone in the house and something just creaked upstairs,Bhayanaka,Karuna,0.337,"Karuna, Bibhatsa, Bhayanaka",0.0,0.126,0.465,0.214,Low,Low,High,Medium
+"need something eerie for tonight, it's Halloween",Bhayanaka,Karuna,0.445,"Karuna, Bibhatsa, Bhayanaka",0.0,0.246,0.4,0.186,Medium,Low,Medium,Low
+my mind can't process how beautiful and strange that was,Adbhuta,Hasya,0.205,"Hasya, Adbhuta, Shringara",0.0,0.633,0.512,0.435,High,High,Medium,Medium
+bro the horror game just jump-scared me so hard i screamed 😭,Bhayanaka,Raudra,0.298,"Raudra, Bhayanaka, Bibhatsa",0.0,0.308,0.733,0.399,Medium,Low,High,High
+there's chemistry between us and neither of us is saying it,Shringara,Hasya,0.175,"Hasya, Adbhuta, Shringara",0.0,0.576,0.57,0.511,Medium,High,High,High
+feeling melancholy today. Something wistful might help.,Karuna,Shanta,0.429,"Shanta, Shringara, Hasya",0.0,0.771,0.205,0.382,Low,High,Low,Low
+"mind = blown, the movie's twist was insane",Adbhuta,Hasya,0.178,"Hasya, Veera, Adbhuta",0.0,0.565,0.722,0.51,High,High,High,High
+"let go of old grudges today, feeling at ease",Shanta,Shanta,0.365,"Shanta, Shringara, Adbhuta",1.0,0.895,0.274,0.644,High,High,Low,Low
+cleaning out his things and finding his handwriting everywhere,Karuna,Bibhatsa,0.23,"Bibhatsa, Bhayanaka, Karuna",0.0,0.326,0.526,0.399,Low,Low,Low,Medium
+so furious right now i can't even form a sentence,Raudra,Raudra,0.386,"Raudra, Bhayanaka, Bibhatsa",1.0,0.194,0.712,0.497,Low,Low,High,High
+"just found out someone's been spreading rumours about me, I could tear them apart",Raudra,Raudra,0.487,"Raudra, Bhayanaka, Bibhatsa",1.0,0.0,0.91,0.501,Low,Low,High,High
+my coach said I'm not good enough so I'm gonna prove him wrong,Veera,Veera,0.356,"Veera, Adbhuta, Raudra",1.0,0.557,0.75,0.705,Medium,High,High,High
+"staring at the ceiling feeling oddly peaceful, no thoughts",Shanta,Shanta,0.461,"Shanta, Shringara, Adbhuta",1.0,0.862,0.212,0.563,Medium,High,Low,Low
+you know that feeling when you decide to stop making excuses? that's me today,Veera,Shanta,0.433,"Shanta, Shringara, Adbhuta",0.0,0.772,0.24,0.487,High,High,Medium,Low
+my ex had the nerve to text me like nothing happened 😡,Raudra,Raudra,0.312,"Raudra, Bhayanaka, Bibhatsa",1.0,0.331,0.704,0.461,Low,Low,High,High
+the carvings on that ancient cave blew my mind,Adbhuta,Shanta,0.32,"Shanta, Shringara, Adbhuta",0.0,0.624,0.338,0.528,High,High,Medium,Low
+"gotta be brave for my little sister, she's counting on me",Veera,Hasya,0.181,"Hasya, Adbhuta, Shringara",0.0,0.598,0.525,0.491,Medium,High,Medium,Medium
+i woke up from a nightmare and can't go back to sleep,Bhayanaka,Bibhatsa,0.266,"Bibhatsa, Bhayanaka, Raudra",0.0,0.192,0.537,0.384,Low,Low,High,Medium
+cringing so hard at the lies that politicians tell,Bibhatsa,Raudra,0.366,"Raudra, Bhayanaka, Bibhatsa",0.0,0.036,0.791,0.381,Low,Low,Medium,High
+I'm terrified of tomorrow's surgery,Bhayanaka,Bhayanaka,0.243,"Bhayanaka, Bibhatsa, Raudra",1.0,0.236,0.568,0.41,Low,Low,High,High
+everyone left the party and i'm sitting alone in my room feeling invisible,Karuna,Karuna,0.522,"Karuna, Bibhatsa, Bhayanaka",1.0,0.181,0.344,0.106,Low,Low,Low,Low
+"cant stand the cheating, lying, backstabbing in this office",Bibhatsa,Karuna,0.429,"Karuna, Bibhatsa, Bhayanaka",0.0,0.166,0.361,0.434,Low,Low,Medium,Low
+just got home,None,Shanta,0.307,"Shanta, Karuna, Shringara",,0.548,0.282,0.439,Medium,High,Low,Low
+my mind keeps going to worst-case scenarios,Bhayanaka,Bibhatsa,0.309,"Bibhatsa, Bhayanaka, Raudra",0.0,0.146,0.567,0.293,Low,Low,Medium,High
+"i like the way he says my name, is that weird",Shringara,Hasya,0.207,"Hasya, Veera, Adbhuta",0.0,0.632,0.714,0.537,High,High,Low,High
+watching a total solar eclipse and the whole crowd went silent,Adbhuta,Karuna,0.396,"Karuna, Bibhatsa, Shanta",0.0,0.511,0.284,0.228,High,High,Medium,Low
+"suspense is killing me, the thriller is at the best part",Bhayanaka,Veera,0.213,"Veera, Adbhuta, Raudra",0.0,0.516,0.655,0.614,Medium,Low,High,High
+he left a note in my bag and i'm tearing up in a good way,Shringara,Hasya,0.219,"Hasya, Adbhuta, Shringara",0.0,0.683,0.578,0.479,High,High,Low,High
+I am enraged by the corruption on the news tonight,Raudra,Raudra,0.537,"Raudra, Bhayanaka, Bibhatsa",1.0,0.026,0.807,0.587,Low,Low,High,High
+wanna feel like a bumbling cartoon character 🤡,Hasya,Karuna,0.435,"Karuna, Bibhatsa, Bhayanaka",0.0,0.438,0.328,0.177,High,Low,High,Low
+"everything feels rotten and corrupt, I don't trust anyone",Bibhatsa,Karuna,0.348,"Karuna, Bibhatsa, Bhayanaka",0.0,0.084,0.432,0.361,Low,Low,Low,Low
+i want to feel like the world has stopped for a moment,Shanta,Hasya,0.172,"Hasya, Shanta, Shringara",0.0,0.566,0.474,0.386,Medium,High,Low,Medium
+"my hands are cold and sweaty, big announcement in five minutes",Bhayanaka,Veera,0.226,"Veera, Adbhuta, Shringara",0.0,0.631,0.59,0.615,Low,High,High,High
+bro i just tripped in front of my whole class and honestly it was kinda hilarious,Hasya,Karuna,0.269,"Karuna, Bibhatsa, Bhayanaka",0.0,0.462,0.416,0.273,High,Low,High,Low
+Something upbeat please; I just watched a brilliant comedy and I'm still chuckling.,Hasya,Adbhuta,0.223,"Adbhuta, Shringara, Shanta",0.0,0.961,0.467,0.571,High,High,Medium,Medium
+just very disgusted with the way things are going,Bibhatsa,Bibhatsa,0.338,"Bibhatsa, Bhayanaka, Karuna",1.0,0.0,0.547,0.256,Low,Low,Low,High
+wanna drift into a peaceful state before bed,Shanta,Shanta,0.425,"Shanta, Shringara, Adbhuta",1.0,0.703,0.203,0.558,Medium,High,Low,Low
+the news today is horrifying and I'm afraid for what comes next,Bhayanaka,Raudra,0.482,"Raudra, Bhayanaka, Bibhatsa",0.0,0.099,0.806,0.512,Low,Low,Medium,High
+been lied to for months and today i found out. i'm livid,Raudra,Bhayanaka,0.328,"Bhayanaka, Raudra, Bibhatsa",0.0,0.09,0.741,0.306,Low,Low,High,High
+I am quietly terrified of losing my mother,Bhayanaka,Karuna,0.355,"Karuna, Bibhatsa, Bhayanaka",0.0,0.12,0.454,0.209,Low,Low,Medium,Low
+"cracking up at memes at 2am, send help (and music)",Hasya,Bhayanaka,0.159,"Bhayanaka, Bibhatsa, Hasya",0.0,0.492,0.55,0.395,High,Low,Medium,High
+Waiting on biopsy results. My mind is racing.,Bhayanaka,Raudra,0.19,"Raudra, Bhayanaka, Hasya",0.0,0.474,0.598,0.526,Low,Low,High,High
+I accidentally sent my crush a meme meant for my brother. Mortifying and hilarious.,Hasya,Bhayanaka,0.181,"Bhayanaka, Bibhatsa, Hasya",0.0,0.486,0.589,0.4,Medium,Low,High,High
+had lunch and now i'm back at my desk,None,Shanta,0.272,"Shanta, Shringara, Hasya",,0.584,0.36,0.462,Medium,High,Low,Low
+my best friend's wedding was beautiful but all i could think is i'll never have that,Karuna,Shanta,0.246,"Shanta, Shringara, Hasya",0.0,0.724,0.41,0.423,Low,High,Low,Low
+i want something cheeky that makes me wanna prank someone,Hasya,Bhayanaka,0.291,"Bhayanaka, Raudra, Bibhatsa",0.0,0.32,0.769,0.391,High,Low,High,High
+"stuck in an elevator, heart pounding",Bhayanaka,Raudra,0.274,"Raudra, Bhayanaka, Veera",0.0,0.424,0.716,0.552,Low,Low,High,High
+honeymoon mode activated 🥰,Shringara,Hasya,0.19,"Hasya, Bibhatsa, Karuna",0.0,0.577,0.512,0.305,High,High,Medium,Medium
+"feeling hollow after the breakup, like the colour went out of everything",Karuna,Karuna,0.507,"Karuna, Bibhatsa, Bhayanaka",1.0,0.199,0.349,0.208,Low,Low,Low,Low
+"can't concentrate on anything, all i think about is that smile",Shringara,Adbhuta,0.233,"Adbhuta, Shringara, Hasya",0.0,0.948,0.503,0.556,High,High,Medium,Medium
+"feeling unstoppable, nothing can stop me 💪",Veera,Veera,0.52,"Veera, Adbhuta, Shringara",1.0,0.923,0.645,0.835,High,High,High,High
+The thought of failing in front of everyone is paralyzing me.,Bhayanaka,Bibhatsa,0.335,"Bibhatsa, Karuna, Bhayanaka",0.0,0.069,0.479,0.236,Low,Low,High,Medium
+I feel unsafe walking alone at night in this neighborhood,Bhayanaka,Karuna,0.386,"Karuna, Bibhatsa, Bhayanaka",0.0,0.15,0.423,0.285,Low,Low,Medium,Low
+our song came on at the cafe and we just looked at each other and grinned,Shringara,Veera,0.364,"Veera, Adbhuta, Shringara",0.0,1.0,0.731,0.673,High,High,Medium,High
+"watching a show, it's fine",None,Karuna,0.254,"Karuna, Bibhatsa, Bhayanaka",,0.505,0.41,0.284,Medium,High,Low,Low
+"tired of everyone's toxic positivity, it makes me cringe",Bibhatsa,Raudra,0.227,"Raudra, Bhayanaka, Hasya",0.0,0.437,0.62,0.516,Low,Low,Low,High
+nauseated by how the rich flaunt while others starve,Bibhatsa,Karuna,0.379,"Karuna, Bibhatsa, Bhayanaka",0.0,0.08,0.439,0.259,Low,Low,Medium,Low
+my mom's in the hospital and i feel so helpless,Karuna,Shanta,0.215,"Shanta, Karuna, Hasya",0.0,0.592,0.342,0.342,Low,High,Medium,Low
+something playful for a lazy sunday with my roommates,Hasya,Hasya,0.259,"Hasya, Adbhuta, Shringara",1.0,0.83,0.582,0.449,High,High,Low,High
+"forest at night, no phone signal, fear is real",Bhayanaka,Karuna,0.322,"Karuna, Bibhatsa, Bhayanaka",0.0,0.089,0.467,0.253,Low,Low,High,Medium
+stress is gone and I feel like floating,Shanta,Shanta,0.396,"Shanta, Shringara, Adbhuta",1.0,1.0,0.302,0.504,High,High,Low,Low
+"proposing tomorrow. nervous, excited, in love, all at once",Shringara,Veera,0.558,"Veera, Adbhuta, Shringara",0.0,1.0,0.803,0.812,High,High,High,High
+i have to carry my team through this deadline and i'm ready,Veera,Veera,0.344,"Veera, Raudra, Adbhuta",1.0,0.492,0.808,0.714,High,Low,High,High
+feeling a creeping fear I can't explain,Bhayanaka,Bhayanaka,0.322,"Bhayanaka, Bibhatsa, Raudra",1.0,0.0,0.684,0.317,Low,Low,Medium,High
+"date night at home, wine, pasta, and zero phones",Shringara,Shanta,0.386,"Shanta, Shringara, Hasya",0.0,0.775,0.266,0.323,High,High,Low,Low
+i feel so tired of pretending i'm fine,Karuna,Karuna,0.386,"Karuna, Bibhatsa, Bhayanaka",1.0,0.372,0.384,0.269,Low,Low,Low,Low
+she's moving abroad next month and i just want to hold on to every moment with her,Shringara,Adbhuta,0.238,"Adbhuta, Veera, Shringara",0.0,0.856,0.507,0.647,Medium,High,Medium,Medium
+"fighting spirit today, let's make some noise",Veera,Veera,0.614,"Veera, Adbhuta, Shringara",1.0,0.766,0.872,0.838,High,High,High,High
+"about to jump into the ocean for the first time, adrenaline is crazy",Veera,Veera,0.373,"Veera, Adbhuta, Hasya",1.0,0.71,0.893,0.657,High,High,High,High
+we've been together ten years and i still get giddy when he walks in,Shringara,Veera,0.575,"Veera, Adbhuta, Shringara",0.0,1.0,0.822,0.805,High,High,Medium,High
+"butterflies every time my phone buzzes, is this what being sixteen feels like again",Shringara,Hasya,0.195,"Hasya, Bhayanaka, Bibhatsa",0.0,0.557,0.586,0.342,High,High,High,High
+"long day, no one called, feeling forgotten",Karuna,Karuna,0.633,"Karuna, Bibhatsa, Shanta",1.0,0.345,0.152,0.18,Low,Low,Low,Low
+the storm outside is getting louder and the power just went out,Bhayanaka,Raudra,0.38,"Raudra, Bhayanaka, Bibhatsa",0.0,0.218,0.697,0.488,Low,Low,High,High
+"i crave closeness tonight, just someone to hold",Shringara,Shanta,0.346,"Shanta, Karuna, Shringara",0.0,0.626,0.203,0.339,Medium,High,Low,Low
+"haunted house tour tonight, already regretting it",Bhayanaka,Bibhatsa,0.305,"Bibhatsa, Karuna, Bhayanaka",0.0,0.272,0.507,0.278,Medium,Low,High,Medium
+"gym session, but in a bad mood, going to take it out on the weights",Raudra,Bibhatsa,0.201,"Bibhatsa, Bhayanaka, Raudra",0.0,0.358,0.539,0.424,Low,Low,High,Medium
+crushing hard on the new girl at work and it's making mondays bearable,Shringara,Adbhuta,0.196,"Adbhuta, Hasya, Shringara",0.0,0.631,0.57,0.543,High,High,Medium,High
+"social anxiety kicking in, the party is too loud and I want to hide",Bhayanaka,Bibhatsa,0.284,"Bibhatsa, Karuna, Bhayanaka",0.0,0.315,0.49,0.342,Low,Low,High,Medium
+"low-key content, nothing needed, nothing missing",Shanta,Karuna,0.385,"Karuna, Shanta, Bibhatsa",0.0,0.6,0.0,0.217,High,High,Low,Low
+"thinking about my ex's hands and how safe i felt, ugh",Shringara,Raudra,0.244,"Raudra, Bhayanaka, Bibhatsa",0.0,0.364,0.645,0.409,Low,Low,Low,High
+i want music that feels like a first kiss,Shringara,Hasya,0.211,"Hasya, Adbhuta, Shringara",0.0,0.809,0.5,0.504,High,High,Medium,Medium
+can't unsee what I saw in that video,Bibhatsa,Hasya,0.167,"Hasya, Shanta, Shringara",0.0,0.559,0.481,0.45,Low,High,Medium,Medium
+today I'm going to do the thing I've been afraid of,Veera,Veera,0.216,"Veera, Adbhuta, Hasya",1.0,0.606,0.653,0.584,High,High,High,High
+what's something fun to put on while i do my terrible impressions,Hasya,Bibhatsa,0.291,"Bibhatsa, Karuna, Bhayanaka",0.0,0.345,0.462,0.26,High,Low,Medium,Medium
+"so angry at myself for messing up, I keep hitting the steering wheel",Raudra,Veera,0.197,"Veera, Raudra, Adbhuta",0.0,0.525,0.69,0.583,Low,High,High,High

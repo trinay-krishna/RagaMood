@@ -1,0 +1,5 @@
+correct=['Shringara']  predicted=Adbhuta  | I've got a huge crush and can't stop thinking about them, suggest some songs
+correct=['Karuna']  predicted=Shringara  | can you recommend songs for a breakup? I'm heartbroken
+correct=['Karuna']  predicted=Bhayanaka  | I'm having a really bad day, nothing is going right
+correct=['Raudra']  predicted=Karuna  | I want to scream, play something heavy
+correct=['Adbhuta']  predicted=Veera  | just saw the northern lights and I'm speechless, what music fits this?

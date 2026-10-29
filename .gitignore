@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Third-party dataset (re-downloadable)
+data/
+
+# Regenerable caches, checkpoints and trained models
+cache/
+*/cache/
+rasa_compare/checkpoints/
+rasa_compare/models/
+*.joblib
+*.npy
+*.npz
+*.pt
+*.pth
+*.safetensors

@@ -1,0 +1,25 @@
+correct=['Shringara']  predicted=Adbhuta  | I'm on a date tonight, any romantic songs for the mood?
+correct=['Shringara']  predicted=Adbhuta  | play something that makes me think of my girlfriend
+correct=['Shringara']  predicted=Hasya  | need a song for our anniversary dinner
+correct=['Shringara']  predicted=Hasya  | something sweet and tender for slow dancing with my wife
+correct=['Shringara']  predicted=Hasya  | I've got a huge crush and can't stop thinking about them, suggest some songs
+correct=['Hasya']  predicted=Adbhuta  | any funny songs? I want to laugh
+correct=['Hasya']  predicted=Adbhuta  | I'm in such a playful mood today, what should I listen to?
+correct=['Raudra']  predicted=Veera  | I want to scream, play something heavy
+correct=['Raudra']  predicted=Veera  | I need a song to vent my rage
+correct=['Veera']  predicted=Hasya  | pump me up, I have a big race tomorrow
+correct=['Veera']  predicted=Shringara  | going into a tough interview, give me something to feel brave
+correct=['Veera']  predicted=Shringara  | play something heroic and powerful, epic battle vibes
+correct=['Bhayanaka']  predicted=Hasya  | I'm really anxious about my exam tomorrow, can't stop shaking
+correct=['Bibhatsa']  predicted=Karuna  | ugh this whole situation is revolting, I feel sick
+correct=['Bibhatsa']  predicted=Raudra  | I can't stand how fake and corrupt everyone is, it makes me nauseous
+correct=['Bibhatsa']  predicted=Karuna  | found mould all over my kitchen, I'm so grossed out
+correct=['Adbhuta']  predicted=Shringara  | I want a song that is amazing, something that gives me chills
+correct=['Adbhuta']  predicted=Hasya  | play something awe-inspiring, like looking at the stars
+correct=['Adbhuta']  predicted=Hasya  | I just got back from the Grand Canyon and I'm still in awe
+correct=['Adbhuta']  predicted=Veera  | something mind-blowing and otherworldly please
+correct=['Shanta']  predicted=Veera  | I need to unwind, play something calm and peaceful
+correct=['Shanta']  predicted=Adbhuta  | music for meditation please
+correct=['Shanta']  predicted=Veera  | I want to relax and let my mind go quiet
+correct=['Shanta']  predicted=Veera  | it's a quiet Sunday morning, I want something gentle and soothing
+correct=['Shanta']  predicted=Karuna  | help me fall asleep with something slow and calm

@@ -1,0 +1,91 @@
+RaagProject commands (run from the project root)
+=================================================
+
+Routing guide for the agent
+---------------------------
+  emotion only   -> playlist.py   (or pipeline.py for every candidate song)
+  entity only    -> hybrid.py     (raga / artist / title / form / taala)
+  both           -> mixed.py      (named entity first, mood fills the rest)
+
+1. pipeline.py - text -> rasas -> ragas -> ALL candidate songs
+-------------------------------------------------------------
+  python pipeline.py "I'm so happy to see my wife again"
+  python pipeline.py "I miss my mother" --top-k 3
+  python pipeline.py "I miss my mother" --json
+  python pipeline.py                      (interactive; empty line quits)
+
+  --top-k N   number of rasas to use (default 3)
+  --json      JSON output
+  --equivalents  also search unverified cross-name/tradition counterparts (see ALIASES.md)
+
+2. playlist.py - text -> short ranked playlist (more songs from likelier rasas, de-duplicated)
+---------------------------------------------------------------------------------------------
+  python playlist.py "I'm feeling happy today" --n 10
+  python playlist.py "I'm feeling happy today" --n 10 --top-k 3 --temperature 0.5 --max-per-artist 2
+  python playlist.py "I miss my mother" --n 20 --seed 1 --json
+  python playlist.py                      (interactive)
+
+  --n N                total songs (default 10)
+  --top-k N            rasas considered (default 3)
+  --temperature T      slots per rasa follow p**T; lower = flatter split (default 0.5)
+  --max-per-artist N   cap per artist (default 2)
+  --seed S             tie-break shuffle seed (default 0)
+  --json               JSON output
+  --equivalents        also search unverified counterparts (see ALIASES.md)
+
+3. hybrid.py - BM25 (sparse) + MiniLM (dense) search over Saraga metadata, fused with RRF
+-----------------------------------------------------------------------------------------
+  python hybrid.py "Sanjay Subrahmanyan kriti in Kalyani"
+  python hybrid.py "slow khayal in teentaal" --n 5
+  python hybrid.py "fast dance piece" --mode dense
+  python hybrid.py "sankarabharanam" --mode sparse
+  python hybrid.py "thillana" --w-dense 1 --w-sparse 2 --pool 50 --max-per-artist 2 --json
+  python hybrid.py                        (interactive)
+
+  --n N                songs to show (default 10)
+  --mode M             hybrid | dense | sparse (default hybrid)
+  --pool N             candidates taken from each retriever (default 50)
+  --w-dense W          RRF weight for dense (default 1.0)
+  --w-sparse W         RRF weight for sparse (default 1.0)
+  --max-per-artist N   cap per artist (default 2)
+  --json               JSON output
+
+4. mixed.py - query with BOTH an entity and an emotion
+-----------------------------------------------------
+  python mixed.py --emotion "I'm feeling sad today" --entity "raga Ahibhairav" --n 10
+  python mixed.py "I'm feeling sad today, play raga Ahibhairav"       (same text used for both parts)
+  python mixed.py --emotion "I'm so happy" --entity "Sanjay Subrahmanyan" --requested-share 0.5 --json
+
+  --emotion TEXT       the mood part
+  --entity TEXT        the raga / artist / title / form part
+  --n N                total songs (default 10)
+  --requested-share F  fraction of slots for the entity (default 0.6)
+  --top-k N            rasas considered (default 3)
+  --max-per-artist N   cap per artist (default 2)
+  --seed S             tie-break seed (default 0)
+  --json               JSON output
+  --equivalents        also search unverified counterparts (see ALIASES.md)
+
+5. coverage_report.py - how many Saraga songs each mapped raga has -> coverage_report.md
+----------------------------------------------------------------------------------------
+  python coverage_report.py
+  python coverage_report.py --equivalents
+
+6. Tests
+--------
+  python -m pytest tests -q
+  python -m pytest tests/test_hybrid.py -q          (one file)
+
+7. Original rasa classifier / evaluation scripts (existing, not part of the song pipelines)
+-------------------------------------------------------------------------------------------
+  python rasa_compare/try_classifier.py             (test the saved text->rasa classifier)
+  python rerank/rerank.py                           (cross-validate and refit the reranker)
+  python vad_supervised/vad_supervised.py           (train/evaluate the supervised VAD model)
+  python run_all.py [vad|go|emb_max|emb_mean|all]   (baseline retriever evaluations)
+
+Notes
+-----
+  - Install dependencies: pip install -r requirements.txt
+  - The first run of a text-to-rasa command loads several models and prints a lot of loading output;
+    a Hugging Face "unauthenticated requests" warning is harmless.
+  - hybrid.py builds a cache in cache/ on its first dense run.

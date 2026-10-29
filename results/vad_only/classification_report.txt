@@ -1,0 +1,14 @@
+                    precision    recall  f1-score   support
+
+           Adbhuta       0.25      0.40      0.31         5
+Bhayanaka/Bibhatsa       0.60      0.30      0.40        10
+             Hasya       0.67      0.33      0.44         6
+            Karuna       0.71      0.71      0.71         7
+            Raudra       0.60      0.60      0.60         5
+            Shanta       0.26      1.00      0.42         5
+         Shringara       0.00      0.00      0.00         5
+             Veera       0.00      0.00      0.00         5
+
+          accuracy                           0.42        48
+         macro avg       0.39      0.42      0.36        48
+      weighted avg       0.43      0.42      0.38        48

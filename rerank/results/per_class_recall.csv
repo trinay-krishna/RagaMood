@@ -1,0 +1,10 @@
+,vad_supervised,embeddingRetriever,rasa_classifier,RRF (k=60),log-linear fusion (all 9),rerank top-2 candidates,rerank top-3 candidates,rerank top-4 candidates
+Shringara,0.04,0.48,0.8,0.72,0.8,0.76,0.78,0.8
+Hasya,0.32,0.7,0.84,0.82,0.82,0.84,0.84,0.82
+Karuna,0.56,0.72,0.64,0.68,0.74,0.7,0.72,0.72
+Raudra,0.58,0.54,0.58,0.68,0.66,0.62,0.66,0.66
+Veera,0.74,0.26,0.74,0.74,0.82,0.74,0.74,0.78
+Bhayanaka,0.22,0.76,0.84,0.9,0.88,0.88,0.88,0.88
+Bibhatsa,0.36,0.76,0.82,0.78,0.88,0.92,0.9,0.88
+Adbhuta,0.12,0.64,0.9,0.74,0.88,0.86,0.88,0.86
+Shanta,0.76,0.44,0.68,0.74,0.84,0.8,0.82,0.82

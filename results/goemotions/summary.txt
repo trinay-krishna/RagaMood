@@ -1,0 +1,51 @@
+
+===== GoEmotions  (n=48) =====
+top-1 accuracy : 48%   95% CI 35% to 62%   (chance ~11%)
+top-3 accuracy : 77%   95% CI 67% to 88%   (chance ~33%)
+MRR            : 0.64
+macro-F1       : 0.45
+
+Per-rasa precision / recall / F1:
+              precision    recall  f1-score   support
+
+     Adbhuta       0.17      0.20      0.18         5
+   Bhayanaka       1.00      0.80      0.89         5
+    Bibhatsa       1.00      0.40      0.57         5
+       Hasya       0.36      0.67      0.47         6
+      Karuna       0.67      1.00      0.80         6
+      Raudra       0.75      0.60      0.67         5
+      Shanta       0.00      0.00      0.00         5
+   Shringara       0.25      0.17      0.20         6
+       Veera       0.25      0.40      0.31         5
+
+    accuracy                           0.48        48
+   macro avg       0.49      0.47      0.45        48
+weighted avg       0.49      0.48      0.46        48
+
+
+Misclassified (25):
+  correct=['Shringara']  predicted=Adbhuta  | I'm on a date tonight, any romantic songs for the mood?
+  correct=['Shringara']  predicted=Adbhuta  | play something that makes me think of my girlfriend
+  correct=['Shringara']  predicted=Hasya  | need a song for our anniversary dinner
+  correct=['Shringara']  predicted=Hasya  | something sweet and tender for slow dancing with my wife
+  correct=['Shringara']  predicted=Hasya  | I've got a huge crush and can't stop thinking about them, suggest some songs
+  correct=['Hasya']  predicted=Adbhuta  | any funny songs? I want to laugh
+  correct=['Hasya']  predicted=Adbhuta  | I'm in such a playful mood today, what should I listen to?
+  correct=['Raudra']  predicted=Veera  | I want to scream, play something heavy
+  correct=['Raudra']  predicted=Veera  | I need a song to vent my rage
+  correct=['Veera']  predicted=Hasya  | pump me up, I have a big race tomorrow
+  correct=['Veera']  predicted=Shringara  | going into a tough interview, give me something to feel brave
+  correct=['Veera']  predicted=Shringara  | play something heroic and powerful, epic battle vibes
+  correct=['Bhayanaka']  predicted=Hasya  | I'm really anxious about my exam tomorrow, can't stop shaking
+  correct=['Bibhatsa']  predicted=Karuna  | ugh this whole situation is revolting, I feel sick
+  correct=['Bibhatsa']  predicted=Raudra  | I can't stand how fake and corrupt everyone is, it makes me nauseous
+  correct=['Bibhatsa']  predicted=Karuna  | found mould all over my kitchen, I'm so grossed out
+  correct=['Adbhuta']  predicted=Shringara  | I want a song that is amazing, something that gives me chills
+  correct=['Adbhuta']  predicted=Hasya  | play something awe-inspiring, like looking at the stars
+  correct=['Adbhuta']  predicted=Hasya  | I just got back from the Grand Canyon and I'm still in awe
+  correct=['Adbhuta']  predicted=Veera  | something mind-blowing and otherworldly please
+  correct=['Shanta']  predicted=Veera  | I need to unwind, play something calm and peaceful
+  correct=['Shanta']  predicted=Adbhuta  | music for meditation please
+  correct=['Shanta']  predicted=Veera  | I want to relax and let my mind go quiet
+  correct=['Shanta']  predicted=Veera  | it's a quiet Sunday morning, I want something gentle and soothing
+  correct=['Shanta']  predicted=Karuna  | help me fall asleep with something slow and calm

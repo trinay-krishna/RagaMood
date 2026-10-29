@@ -1,0 +1,28 @@
+correct=['Shringara']  predicted=Shanta  | I'm on a date tonight, any romantic songs for the mood?
+correct=['Shringara']  predicted=Shanta  | play something that makes me think of my girlfriend
+correct=['Shringara']  predicted=Shanta  | need a song for our anniversary dinner
+correct=['Shringara']  predicted=Shanta  | something sweet and tender for slow dancing with my wife
+correct=['Shringara']  predicted=Shanta  | I've got a huge crush and can't stop thinking about them, suggest some songs
+correct=['Karuna', 'Shringara']  predicted=Shanta  | I miss him so much, I want love songs
+correct=['Hasya']  predicted=Shanta  | give me something silly and fun, I'm in a goofy mood
+correct=['Hasya']  predicted=Shanta  | any funny songs? I want to laugh
+correct=['Hasya']  predicted=Shanta  | my friends and I want a playlist of comedy songs for the road trip lol
+correct=['Hasya']  predicted=Shanta  | something light and cheerful to crack me up
+correct=['Karuna']  predicted=Shanta  | I'm sad, I need something to cheer me up
+correct=['Raudra']  predicted=Bhayanaka/Bibhatsa  | everything is making me mad today
+correct=['Raudra']  predicted=Bhayanaka/Bibhatsa  | I need a song to vent my rage
+correct=['Veera']  predicted=Adbhuta  | pump me up, I have a big race tomorrow
+correct=['Veera']  predicted=Adbhuta  | I need a motivational song to push through my workout
+correct=['Veera']  predicted=Adbhuta  | going into a tough interview, give me something to feel brave
+correct=['Veera']  predicted=Hasya  | I want an anthem that makes me feel unstoppable
+correct=['Veera']  predicted=Adbhuta  | play something heroic and powerful, epic battle vibes
+correct=['Bhayanaka', 'Bibhatsa']  predicted=Adbhuta  | I'm really anxious about my exam tomorrow, can't stop shaking
+correct=['Bhayanaka', 'Bibhatsa']  predicted=Karuna  | I'm scared to walk home alone tonight
+correct=['Bhayanaka', 'Bibhatsa']  predicted=Raudra  | I keep having panic attacks and I'm terrified
+correct=['Bhayanaka', 'Bibhatsa']  predicted=Adbhuta  | I'm so nervous about the surgery, my heart is racing
+correct=['Bhayanaka', 'Bibhatsa']  predicted=Raudra  | I'm so disgusted by what I saw on the news today
+correct=['Bhayanaka', 'Bibhatsa']  predicted=Shanta  | I feel gross after that conversation, I need to shake it off
+correct=['Bhayanaka', 'Bibhatsa']  predicted=Karuna  | found mould all over my kitchen, I'm so grossed out
+correct=['Adbhuta']  predicted=Shanta  | just saw the northern lights and I'm speechless, what music fits this?
+correct=['Adbhuta']  predicted=Shringara  | play something awe-inspiring, like looking at the stars
+correct=['Adbhuta']  predicted=Shanta  | I just got back from the Grand Canyon and I'm still in awe

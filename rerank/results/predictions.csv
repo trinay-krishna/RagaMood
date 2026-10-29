@@ -1,0 +1,451 @@
+﻿text,true,pred,clf_pred,confidence,correct
+the monastery was so silent I could hear my heartbeat and I loved it,Shanta,Shanta,Adbhuta,0.724,True
+"no way that actually happened, I'm stunned",Adbhuta,Adbhuta,Adbhuta,0.77,True
+"my girlfriend and i are watching the sunset on the terrace, what should we listen to",Shringara,Shringara,Shringara,0.886,True
+"my grandma's village life has taught me patience, feeling that calm now",Shanta,Shanta,Shanta,0.888,True
+"we won!!! after all those months of training, we actually won",Veera,Veera,Veera,0.885,True
+"what a plot twist in my life, I'm still processing",Adbhuta,Karuna,Adbhuta,0.378,False
+"my patience is gone, completely gone",Raudra,Shanta,Shanta,0.716,False
+I lost my job today and I'm trying to hold it together,Karuna,Karuna,Veera,0.564,True
+he promised he'd come back. he didn't.,Karuna,Raudra,Raudra,0.763,False
+"Beach at sunset with nobody around, can't ask for more",Shanta,Shanta,Shanta,0.764,True
+today my toddler said her first swear word and i can't stop giggling,Hasya,Hasya,Hasya,0.974,True
+i have to speak in front of 500 people and i feel sick with fear,Bhayanaka,Bhayanaka,Bhayanaka,0.961,True
+"i want something slow and warm for tonight, my partner's coming over for dinner",Shringara,Shringara,Shringara,0.869,True
+my teammate took credit for my work and I want to explode,Raudra,Raudra,Veera,0.5,True
+"fed up with watching people exploit others for money, it makes me want to retch",Bibhatsa,Bibhatsa,Bibhatsa,0.944,True
+time to stand tall and take back my life after everything,Veera,Veera,Veera,0.92,True
+i just want to slow dance in the kitchen with my husband at midnight,Shringara,Hasya,Hasya,0.523,False
+I want music that feels like discovering a secret world,Adbhuta,Adbhuta,Adbhuta,0.63,True
+my exam is tomorrow and I haven't studied. I'm dying inside.,Bhayanaka,Bhayanaka,Bhayanaka,0.735,True
+i want to throw something against a wall,Raudra,Raudra,Raudra,0.602,True
+trembling because I saw a snake in the garden,Bhayanaka,Bhayanaka,Bhayanaka,0.855,True
+Incredible. I never imagined a place like this could exist.,Adbhuta,Adbhuta,Adbhuta,0.995,True
+someone scratched my car and drove off and I'm shaking with rage,Raudra,Raudra,Raudra,0.991,True
+"my boss wants to see me in his office ""right now"" and i'm freaking out",Bhayanaka,Bhayanaka,Bhayanaka,0.803,True
+"i miss my grandmother so much, the house feels so empty without her",Karuna,Karuna,Karuna,0.999,True
+"Seeking tranquility, preferably something spacious and unhurried",Shanta,Shanta,Shanta,0.964,True
+My best friend moved away and I miss her more than I expected.,Karuna,Karuna,Karuna,0.871,True
+"light and bouncy please, I'm in a giggly mood",Hasya,Hasya,Hasya,0.79,True
+holy crap I just got into my dream school,Adbhuta,Adbhuta,Adbhuta,0.717,True
+"there's this tenderness i feel watching her sleep, can't really explain it",Shringara,Shringara,Shringara,0.924,True
+lol my dad tried to use tiktok and it's the funniest thing i've ever seen,Hasya,Hasya,Hasya,0.906,True
+today I said goodbye to my childhood home,Karuna,Karuna,Karuna,0.807,True
+"i keep pinching myself, did that really happen",Adbhuta,Bibhatsa,Bibhatsa,0.448,False
+long distance is rough but hearing her voice tonight made everything okay,Shringara,Shringara,Shringara,0.952,True
+"Time to rise to the occasion. Something stirring, please.",Veera,Hasya,Hasya,0.524,False
+"a goofy song for cooking, i'm dancing with a spatula",Hasya,Hasya,Hasya,0.945,True
+"bro i'm so down rn, my whole friend group went out without me",Karuna,Karuna,Karuna,0.943,True
+"i am SO done with my landlord, the audacity of this man",Raudra,Raudra,Raudra,0.635,True
+"looking at the milky way on a clear night, I feel so tiny and amazed",Adbhuta,Adbhuta,Adbhuta,0.944,True
+"letting the day dissolve, soft lights, soft music",Shanta,Shanta,Shanta,0.792,True
+I'm leading the charge on this project and nothing will get in my way,Veera,Veera,Raudra,0.766,True
+"she just texted ""thinking of you"" and my whole day is made lol",Shringara,Shringara,Shringara,0.943,True
+"need a track that matches my fury, nothing mellow",Raudra,Veera,Veera,0.801,False
+I saw maggots in the bin and now I'm done for the day,Bibhatsa,Bibhatsa,Bibhatsa,0.959,True
+gonna scream into a pillow. recommend something that screams back,Raudra,Bhayanaka,Bhayanaka,0.709,False
+"feeling mischievous, plotting a harmless prank on my roommate",Hasya,Raudra,Hasya,0.693,False
+feel completely revolted by what he said about women,Bibhatsa,Bibhatsa,Bibhatsa,0.64,True
+been getting through my anxiety with breathing and I'm finally calm,Shanta,Shanta,Bhayanaka,0.545,True
+my partner surprised me with flowers for no reason and i melted,Shringara,Shringara,Shringara,0.876,True
+"sitting by the lake at dawn, feeling content",Shanta,Shanta,Shanta,0.926,True
+just saw the northern lights and I'm speechless,Adbhuta,Adbhuta,Adbhuta,0.975,True
+"he said he never loved me, and i keep replaying it",Karuna,Karuna,Shringara,0.45,True
+"that smell, i'll never forget it, gross",Bibhatsa,Bibhatsa,Bibhatsa,0.992,True
+it hurts to watch my parents fight and not be able to help,Karuna,Raudra,Raudra,0.773,False
+rage-cleaning my whole apartment at midnight lol,Raudra,Raudra,Raudra,0.967,True
+my uncle did the worm at the wedding and fell over. iconic,Hasya,Hasya,Bibhatsa,0.473,True
+"When the stars came out over the desert, I could hardly speak.",Adbhuta,Adbhuta,Adbhuta,0.58,True
+relaxed and weightless after a long massage,Shanta,Shanta,Shanta,0.913,True
+nobody remembered my birthday and i'm trying not to cry,Karuna,Karuna,Karuna,0.986,True
+"been laughing since morning, no reason, it's just one of those days",Hasya,Hasya,Hasya,0.968,True
+A moment of stillness is all I want,Shanta,Shanta,Shanta,0.991,True
+"wish i could tell my younger self it gets better, cause right now it doesn't",Karuna,Shanta,Raudra,0.472,False
+need clowning-around music for the office party,Hasya,Hasya,Hasya,0.957,True
+His grovelling in front of the boss turned my stomach,Bibhatsa,Raudra,Raudra,0.745,False
+"feeling really low and lonely tonight, nothing helps",Karuna,Karuna,Karuna,0.972,True
+"something sensual and moody, candles are lit and the lights are low",Shringara,Shringara,Shringara,0.858,True
+spent the evening looking at old photos 😢,Karuna,Shanta,Shanta,0.483,False
+"pure goofball energy, give me something to dance badly to",Hasya,Veera,Hasya,0.616,False
+"proud to say I finally quit smoking, 100 days clean",Veera,Shanta,Shanta,0.47,False
+watching old family videos and missing everybody who's gone,Karuna,Karuna,Karuna,0.795,True
+"need a playlist for a picnic with my crush, nothing too cheesy but still romantic",Shringara,Shringara,Shringara,0.971,True
+"sitting under a tree after a long hike, perfectly at rest",Shanta,Shanta,Shanta,0.935,True
+Looking for music for yoga and deep breathing,Shanta,Shanta,Shanta,0.905,True
+woah!! the tiny robot just solved the rubik's cube in 2 seconds,Adbhuta,Adbhuta,Adbhuta,0.758,True
+just saw roadkill on my morning walk and I'm shaken,Bibhatsa,Raudra,Raudra,0.409,False
+i'm tired of being treated like I don't matter and it's making my blood boil,Raudra,Raudra,Raudra,0.482,True
+"earthquake just hit, everyone's panicking",Bhayanaka,Bhayanaka,Bhayanaka,0.877,True
+so nervous about the interview that I feel nauseous,Bhayanaka,Bhayanaka,Bhayanaka,0.937,True
+the lava glowing in the night is out of this world,Adbhuta,Adbhuta,Adbhuta,0.956,True
+satisfied with my life as it is right now,Shanta,Shanta,Shanta,0.769,True
+"my heart is racing, i have a really bad feeling about tonight",Bhayanaka,Karuna,Shringara,0.51,False
+Overthinking everything and my chest feels tight.,Bhayanaka,Bhayanaka,Shanta,0.545,True
+"fed up, absolutely fed up with everyone's excuses",Raudra,Raudra,Raudra,0.462,True
+been holding this anger in for years and it's finally boiling over,Raudra,Raudra,Raudra,0.99,True
+"wedding season vibes, i want to feel dreamy and in love",Shringara,Shringara,Shringara,0.969,True
+"last lap of the race, legs are burning but I'm not slowing down",Veera,Bhayanaka,Veera,0.422,False
+grandpa told the same joke for the fifth time and we all still laughed,Hasya,Hasya,Hasya,0.965,True
+It's surreal how the sky turned purple during the storm,Adbhuta,Adbhuta,Adbhuta,0.933,True
+i love him. i just wanted to say it out loud to someone.,Shringara,Shringara,Shringara,0.697,True
+today I learnt how big the universe is and my brain is melting,Adbhuta,Adbhuta,Adbhuta,0.924,True
+my dog died this morning 💔,Karuna,Karuna,Karuna,0.823,True
+"there's a fire in my chest, so much resentment",Raudra,Raudra,Raudra,0.933,True
+watching someone be cruel to a waiter just made my stomach flip,Bibhatsa,Bibhatsa,Bibhatsa,0.813,True
+my blood pressure is through the roof after that argument,Raudra,Raudra,Shanta,0.478,True
+"sick of the cruelty on social media, I need to log off",Bibhatsa,Bibhatsa,Raudra,0.556,True
+lost in wonder at the deep sea documentary,Adbhuta,Adbhuta,Adbhuta,0.96,True
+"my boss sent a ""per my last email"" and i just laughed because the audacity",Hasya,Hasya,Hasya,0.775,True
+what if i lose everything? i can't stop spiralling,Bhayanaka,Raudra,Veera,0.722,False
+"no rush today, just want to be here",Shanta,Shanta,Veera,0.497,True
+my heart hurts for the kids in that news story,Karuna,Bibhatsa,Bibhatsa,0.417,False
+"i'm done chasing, just content with what i have",Shanta,Veera,Veera,0.604,False
+my grandfather doesn't recognise me anymore,Karuna,Karuna,Karuna,0.94,True
+"seeing my city from the top of the tower, I'm overwhelmed by how beautiful it is",Adbhuta,Adbhuta,Adbhuta,0.836,True
+i failed my exam again and i feel like such a disappointment,Karuna,Karuna,Karuna,0.823,True
+I feel a deep sorrow I can't quite name.,Karuna,Karuna,Karuna,0.976,True
+"fantasy-novel energy today, as if dragons could fly outside",Adbhuta,Adbhuta,Adbhuta,0.685,True
+everything leaves a bad taste in my mouth lately,Bibhatsa,Bibhatsa,Bibhatsa,0.912,True
+furious at how the referee ruined the whole match,Raudra,Raudra,Raudra,0.734,True
+I feel so settled in my own skin lately,Shanta,Shanta,Shanta,0.905,True
+"hype for movie night with friends, we're watching the dumbest comedy ever",Hasya,Hasya,Hasya,0.936,True
+"rainy day, dull heart, i just want to feel it out",Karuna,Karuna,Karuna,0.847,True
+Raise the spirit! We're launching the product today,Veera,Veera,Veera,0.96,True
+"flirty mood today, someone hit me with a song that makes me wink at strangers",Shringara,Shringara,Shringara,0.505,True
+I can't shake this uneasy feeling that someone's watching me,Bhayanaka,Bhayanaka,Bhayanaka,0.942,True
+after the temple visit I feel so still inside,Shanta,Adbhuta,Adbhuta,0.57,False
+dude my dog is wearing a tiny raincoat and i can't,Hasya,Hasya,Raudra,0.534,True
+he laughed when I told him I was hurt. I will not forget that.,Raudra,Shringara,Shringara,0.762,False
+"morning tea, birds chirping, I feel complete",Shanta,Shanta,Shanta,0.954,True
+"finals week and I'm locked in, ain't nobody breaking my focus",Veera,Veera,Veera,0.78,True
+I want a song that makes me feel like the main character walking into a boss fight,Veera,Hasya,Hasya,0.493,False
+the smell in that public restroom was unbearable ugh,Bibhatsa,Bibhatsa,Bibhatsa,0.976,True
+unbelievable! my favourite band just walked onto the stage,Adbhuta,Adbhuta,Adbhuta,0.704,True
+just finished journaling and feel lighter,Shanta,Shanta,Shanta,0.86,True
+"i hate how they talk down to me in every meeting, I could scream",Raudra,Raudra,Raudra,0.45,True
+we've been cracking jokes all evening and my face hurts 😂,Hasya,Hasya,Hasya,0.97,True
+was gobsmacked by the ending of that game,Adbhuta,Adbhuta,Adbhuta,0.808,True
+watching politicians do their thing makes my skin crawl,Bibhatsa,Bibhatsa,Bibhatsa,0.963,True
+my jaw literally dropped at the fireworks show,Adbhuta,Raudra,Raudra,0.488,False
+the news about the scam made me physically sick,Bibhatsa,Bibhatsa,Bibhatsa,0.859,True
+"why do people think it's okay to treat staff like dirt, it makes me see red",Raudra,Bibhatsa,Bibhatsa,0.977,False
+Could you suggest music for an anniversary evening? We've been married thirty years.,Shringara,Shringara,Shringara,0.961,True
+"pre-game hype, the whole team is pumped",Veera,Veera,Veera,0.869,True
+visited the Taj Mahal at sunrise and I'm lost for words,Adbhuta,Adbhuta,Adbhuta,0.819,True
+"Rainy evening, a warm blanket, absolutely no plans.",Shanta,Shanta,Shanta,0.77,True
+feeling guilty and sad about how i treated my brother before he left,Karuna,Karuna,Karuna,0.862,True
+"i'm amazed by how the human body works, just learnt about it",Adbhuta,Adbhuta,Adbhuta,0.907,True
+creepy vibes in this empty parking garage,Bhayanaka,Bhayanaka,Bhayanaka,0.717,True
+just saw a stray puppy shivering in the cold and it broke me,Karuna,Karuna,Karuna,0.714,True
+"feeling the fire to protect my family, whatever it takes",Veera,Veera,Veera,0.946,True
+need a soundtrack for flying a plane for the first time,Adbhuta,Veera,Veera,0.478,False
+romance is back in my life and i'm not hiding it 💃,Shringara,Shringara,Shringara,0.979,True
+"i'm in a revenge mood, don't ask",Raudra,Raudra,Raudra,0.824,True
+"chill vibes only, I'm lying in the grass looking at clouds",Shanta,Shanta,Shanta,0.92,True
+"panic attack incoming, hands are shaking",Bhayanaka,Bhayanaka,Bhayanaka,0.977,True
+just got a good morning text with a heart and i'm absolutely glowing,Shringara,Shringara,Shringara,0.647,True
+anger is the only thing i can feel today,Raudra,Raudra,Raudra,0.959,True
+"I've never seen anything like this before, what even is this place",Adbhuta,Adbhuta,Adbhuta,0.437,True
+disgusted and ashamed at how corrupt the officials were,Bibhatsa,Bibhatsa,Bibhatsa,0.977,True
+just got dumped over text. i don't even know how to feel,Karuna,Karuna,Karuna,0.949,True
+we haven't spoken in days and i'm aching for her to just call,Shringara,Shringara,Shringara,0.91,True
+my entire body recoiled when I touched that slime,Bibhatsa,Bibhatsa,Adbhuta,0.507,True
+feeling so sick of the world's selfishness,Bibhatsa,Bibhatsa,Bibhatsa,0.885,True
+"a little jealous, a little smitten, mostly just thinking about her all day",Shringara,Shringara,Shringara,0.958,True
+"ugh the neighbours are blasting music at 3am, I'm about to lose it",Raudra,Raudra,Bhayanaka,0.569,True
+"we're getting giddy over nothing, three coffees deep",Hasya,Hasya,Veera,0.427,True
+"nasty comments under every post, humanity is gross",Bibhatsa,Bibhatsa,Bibhatsa,0.973,True
+he held my hand in the rain and i think i forgot how to breathe,Shringara,Adbhuta,Adbhuta,0.682,False
+"mountain trek starts at dawn, I'm hyped and determined",Veera,Veera,Veera,0.77,True
+play something that sounds like a ghost is behind me lol,Bhayanaka,Bhayanaka,Bhayanaka,0.839,True
+i can't believe he betrayed me like that after everything i did,Raudra,Bibhatsa,Bibhatsa,0.53,False
+I can't believe how greedy and shameless some people are,Bibhatsa,Bibhatsa,Bibhatsa,0.843,True
+something about this old house gives me chills,Bhayanaka,Shanta,Shanta,0.42,False
+"dread is sitting in my stomach, something's coming, I just know it",Bhayanaka,Bhayanaka,Bhayanaka,0.925,True
+watched a horror movie and now i'm afraid to turn off the lights,Bhayanaka,Bhayanaka,Bhayanaka,0.952,True
+"just need to decompress after work, no noise",Shanta,Shanta,Bhayanaka,0.753,True
+smelled something rotten in the elevator and nearly passed out,Bibhatsa,Bibhatsa,Bibhatsa,0.718,True
+"my cat just fell off the fridge and i'm crying laughing, need music to match",Hasya,Hasya,Hasya,0.799,True
+"standing up to my bully tomorrow, wish me luck",Veera,Veera,Veera,0.973,True
+paranoid that i left the stove on and now i can't think of anything else,Bhayanaka,Bhayanaka,Bhayanaka,0.892,True
+cannot get over how huge the whale was,Adbhuta,Adbhuta,Adbhuta,0.8,True
+every little noise makes me jump tonight,Bhayanaka,Veera,Bhayanaka,0.598,False
+First time seeing snow. Absolutely astonished.,Adbhuta,Adbhuta,Adbhuta,0.991,True
+"feeling heroic, like I could carry the whole world",Veera,Veera,Veera,0.697,True
+"tickle fight with my niece, I need music that sounds like that",Hasya,Hasya,Hasya,0.54,True
+"need to unwind after a crazy week, something soothing please",Shanta,Shanta,Shanta,0.971,True
+releasing everything I can't control and breathing out,Shanta,Shanta,Shanta,0.535,True
+lowkey in a roast-your-friends mood,Hasya,Hasya,Hasya,0.829,True
+my sibling broke my laptop and shrugged. unreal.,Raudra,Karuna,Karuna,0.564,False
+"I get tense whenever I hear sirens, bad memories",Bhayanaka,Bhayanaka,Bhayanaka,0.938,True
+I want to feel determined and focused for my workout,Veera,Veera,Veera,0.881,True
+"we've come so far, no way we're quitting now",Veera,Veera,Veera,0.859,True
+"cried in the shower again, wanna let it all out",Karuna,Karuna,Raudra,0.658,True
+"it's so ridiculous that i can't even be mad, just laughing",Hasya,Raudra,Hasya,0.584,False
+rooting for my country's team and the energy is unreal,Veera,Veera,Veera,0.99,True
+i keep rereading our old messages and smiling like an idiot,Shringara,Shringara,Shringara,0.538,True
+so revolted by my own bad habits right now,Bibhatsa,Bibhatsa,Bibhatsa,0.924,True
+the hills are quiet and so am i,Shanta,Shanta,Shanta,0.95,True
+eww. just eww. that video is stuck in my head.,Bibhatsa,Hasya,Hasya,0.558,False
+my friends and i are doing karaoke badly on purpose,Hasya,Raudra,Hasya,0.483,False
+the sheer scale of the waterfall left me dumbfounded,Adbhuta,Adbhuta,Adbhuta,0.963,True
+"can't stop crying, today is one year since dad passed",Karuna,Karuna,Karuna,0.971,True
+the group chat is unhinged tonight and i'm loving it,Hasya,Hasya,Hasya,0.505,True
+Interview in an hour. Need courage.,Veera,Veera,Veera,0.77,True
+"slow and soft, i'm in a reflective mood",Shanta,Shanta,Shanta,0.903,True
+bleh. that was vile.,Bibhatsa,Bibhatsa,Bibhatsa,0.758,True
+i just want to meditate in silence,Shanta,Shanta,Shanta,0.989,True
+"feeling like a warrior today, bring on the challenge",Veera,Veera,Veera,0.962,True
+Extremely irritated with my coworker. Please provide something forceful.,Raudra,Raudra,Raudra,0.949,True
+"blood in the street, I wish I hadn't seen it",Bibhatsa,Bibhatsa,Adbhuta,0.702,True
+injustice makes me so mad i could fight someone,Raudra,Raudra,Raudra,0.994,True
+watching my daughter walk for the first time and I'm amazed,Adbhuta,Adbhuta,Adbhuta,0.855,True
+so overwhelmed and sad i can barely get out of bed,Karuna,Karuna,Karuna,0.966,True
+Absolutely livid about the way they've treated the elderly at that care home,Raudra,Bibhatsa,Bibhatsa,0.828,False
+the scale of this cathedral is unreal,Adbhuta,Adbhuta,Adbhuta,0.784,True
+Please play something sad. I don't want to be cheered up.,Karuna,Karuna,Hasya,0.859,True
+need a song that sounds like a cartoon chase scene,Hasya,Hasya,Hasya,0.449,True
+wow the magician made a whole elephant disappear,Adbhuta,Adbhuta,Adbhuta,0.934,True
+"cheerful and a little bit silly, thanks",Hasya,Hasya,Shanta,0.832,True
+Horrified and repulsed by the documentary on factory farming.,Bibhatsa,Bibhatsa,Bibhatsa,0.987,True
+everything about this city feels filthy and I need out,Bibhatsa,Bibhatsa,Bibhatsa,0.935,True
+"i'm done being scared, going to ask for that promotion",Veera,Veera,Veera,0.714,True
+ugh people who spit on the street are the worst,Bibhatsa,Bibhatsa,Bibhatsa,0.962,True
+need an anthem for my startup launch,Veera,Veera,Veera,0.991,True
+"They insulted my family in front of everyone and I just stood there, now I'm burning up",Raudra,Raudra,Raudra,0.906,True
+need something to quieten my racing thoughts before bed,Shanta,Shanta,Bhayanaka,0.823,True
+every no just fuels me more,Veera,Raudra,Raudra,0.65,False
+They cancelled my flight AGAIN and customer service just hung up on me,Raudra,Raudra,Raudra,0.78,True
+"my kid hasn't come home and it's been hours, I'm sick with worry",Bhayanaka,Bhayanaka,Bhayanaka,0.838,True
+ready to fight for what's right at the protest tomorrow,Veera,Veera,Veera,0.937,True
+yuck the milk went bad and I drank it 🤢,Bibhatsa,Bibhatsa,Bibhatsa,0.714,True
+my stomach turned when I saw the kitchen at that restaurant,Bibhatsa,Bibhatsa,Bibhatsa,0.751,True
+"just finished my first lift of a new PR, feeling invincible 🔥",Veera,Veera,Veera,0.93,True
+today is just heavy for no reason,Karuna,Raudra,Raudra,0.774,False
+"don't talk to me, i'm in a foul mood and want heavy, aggressive music",Raudra,Raudra,Raudra,0.979,True
+astonished at a street performer who juggled fire and played guitar,Adbhuta,Adbhuta,Adbhuta,0.406,True
+my mind is finally quiet after months of chaos,Shanta,Shanta,Shanta,0.948,True
+got rejected from my dream college. i'm numb,Karuna,Karuna,Karuna,0.918,True
+after the argument we hugged and everything felt okay again,Shanta,Shringara,Shringara,0.842,False
+"miss him so much it physically hurts, three more weeks until he's back",Shringara,Karuna,Karuna,0.569,False
+graduation day and the one person i wanted there isn't alive to see it,Karuna,Karuna,Karuna,0.795,True
+I am so over this sleazy industry,Bibhatsa,Bibhatsa,Bibhatsa,0.864,True
+everything feels tense and I'm waiting for the other shoe to drop,Bhayanaka,Karuna,Karuna,0.876,False
+"I feel dirty after that conversation, like I need a shower",Bibhatsa,Bibhatsa,Bibhatsa,0.724,True
+"my ex got engaged, happy for them i guess but it stings",Karuna,Shringara,Shringara,0.893,False
+stand-up comedy night just ended and my cheeks are sore,Hasya,Hasya,Hasya,0.875,True
+just saw something so gross in the fridge i gagged,Bibhatsa,Bibhatsa,Bibhatsa,0.974,True
+"my little cousin does the funniest voices, we've been in stitches",Hasya,Hasya,Hasya,0.978,True
+every little thing is setting me off today,Raudra,Bhayanaka,Veera,0.833,False
+"gotta walk through the cemetery to get home, send courage",Bhayanaka,Shanta,Veera,0.386,False
+scared of the dark again like i'm five,Bhayanaka,Bhayanaka,Bhayanaka,0.989,True
+What would you play while writing a love poem to someone you've never told?,Shringara,Shringara,Shringara,0.78,True
+"these people on the road are driving me insane, honking nonstop",Raudra,Raudra,Raudra,0.829,True
+"cheer me on, I'm about to start a business from scratch",Veera,Veera,Veera,0.881,True
+"feeling noble and resolute, need something majestic",Veera,Shanta,Shanta,0.436,False
+"at peace with everything today, no worries",Shanta,Shanta,Shanta,0.943,True
+brave mode: on. nothing scares me today,Veera,Veera,Veera,0.856,True
+"amazed by how fast technology is moving, feels like sci-fi",Adbhuta,Adbhuta,Adbhuta,0.936,True
+"i feel like a kid again, giggling at everything",Hasya,Hasya,Hasya,0.828,True
+space documentary has me questioning everything,Adbhuta,Adbhuta,Adbhuta,0.835,True
+"sunday morning, nowhere to be, windows open",Shanta,Bhayanaka,Shanta,0.511,False
+I'm repulsed by gossip culture at work,Bibhatsa,Bibhatsa,Bibhatsa,0.955,True
+it's been a rough week and i just need a good cry,Karuna,Karuna,Karuna,0.977,True
+"i swear my brain has no filter today, just blurting out dumb jokes",Hasya,Hasya,Hasya,0.709,True
+punch-the-wall level of annoyed rn,Raudra,Raudra,Raudra,0.958,True
+We met on a train and now we're planning a life together. Something to celebrate that.,Shringara,Shringara,Shringara,0.828,True
+falling for my best friend and i have no idea what to do about it,Shringara,Karuna,Karuna,0.705,False
+wow. just wow. the nerve of some people.,Raudra,Bibhatsa,Bibhatsa,0.568,False
+"feeling silly today, want something goofy",Hasya,Hasya,Hasya,0.984,True
+"he is so fake, every smile makes me want to be sick",Bibhatsa,Bibhatsa,Shringara,0.721,True
+"been seeing someone new and i genuinely can't stop smiling, need a song that feels like that",Shringara,Shringara,Shringara,0.895,True
+"so in love it's embarrassing, my friends are tired of hearing about it",Shringara,Bibhatsa,Hasya,0.467,False
+"goosebumps all over, the orchestra was beyond words",Adbhuta,Adbhuta,Adbhuta,0.584,True
+"i'm in such a goofy mood, everything is funny rn",Hasya,Hasya,Hasya,0.996,True
+my friend's wedding speech was so funny the whole hall was roaring,Hasya,Hasya,Hasya,0.938,True
+"grind mode on, 5am run in the rain",Veera,Shanta,Veera,0.443,False
+"Heartbroken. I would like something to cry to, quietly.",Karuna,Karuna,Karuna,0.983,True
+"love letter energy today, i feel poetic and soft",Shringara,Shringara,Shringara,0.832,True
+snort-laughing at my own jokes again,Hasya,Hasya,Hasya,0.963,True
+"a double rainbow right outside my window, look at that",Adbhuta,Adbhuta,Adbhuta,0.912,True
+had a rough year but I'm still standing and stronger for it,Veera,Veera,Veera,0.895,True
+Looking for something lighthearted and amusing to start the weekend.,Hasya,Hasya,Hasya,0.992,True
+need a song to pump me up before my presentation,Veera,Veera,Veera,0.885,True
+"just signed up for my first marathon, let's gooo",Veera,Veera,Veera,0.843,True
+"spoiled food, dirty dishes, a messy house, I can't take it",Bibhatsa,Bibhatsa,Bibhatsa,0.71,True
+giving thanks for the little things today,Shanta,Veera,Veera,0.383,False
+something magical happened today and I can't even explain,Adbhuta,Adbhuta,Adbhuta,0.838,True
+"late night drive with the one i love, windows down, what's the soundtrack",Shringara,Shringara,Shringara,0.67,True
+scared something is wrong with my health and afraid to check,Bhayanaka,Bhayanaka,Bhayanaka,0.991,True
+Today's mood: sarcastic and amused. Nothing serious please.,Hasya,Hasya,Hasya,0.973,True
+"proper rage mode, headphones on, world off",Raudra,Raudra,Raudra,0.97,True
+"feeling content and detached, like watching clouds drift by",Shanta,Shanta,Shanta,0.516,True
+"so mad I'm crying, which makes me even madder",Raudra,Raudra,Raudra,0.892,True
+I'm petrified of flying and my flight is in two hours,Bhayanaka,Bhayanaka,Bhayanaka,0.866,True
+"never thought humans could build something this grand, look at the pyramids",Adbhuta,Adbhuta,Adbhuta,0.969,True
+we're pretending to be fancy at dinner but dropped spaghetti on the floor 😭,Hasya,Hasya,Hasya,0.889,True
+ngl i think i'm catching feelings and it's terrifying and amazing,Shringara,Adbhuta,Shringara,0.574,False
+"just feel a quiet ache today, hard to describe",Karuna,Bhayanaka,Shanta,0.515,False
+"sitting at the airport after saying goodbye, feeling so empty",Karuna,Karuna,Karuna,0.955,True
+everything is a bit absurd today and i'm leaning into it,Hasya,Hasya,Shanta,0.508,True
+"i'm sick of all the hypocrisy and lies, makes me nauseous",Bibhatsa,Bibhatsa,Bibhatsa,0.826,True
+"gotta push through this last stretch of exams, we've got this",Veera,Veera,Veera,0.951,True
+"first date in an hour!! my hands are shaking, give me something to set the mood",Shringara,Shringara,Shringara,0.784,True
+ugh why does the loneliness hit hardest at 3am,Karuna,Karuna,Karuna,0.927,True
+"my skin is crawling, bugs are everywhere in this hostel",Bibhatsa,Bhayanaka,Bhayanaka,0.701,False
+"soft music to fall asleep to, my head is finally empty",Shanta,Shanta,Shanta,0.845,True
+omg the autocorrect fail I just sent to my mom 💀,Hasya,Hasya,Hasya,0.724,True
+"heart's doing backflips, he asked me to prom",Shringara,Shringara,Shringara,0.564,True
+everything in this place feels like a dream,Adbhuta,Shanta,Shanta,0.441,False
+"sad about the friend i lost touch with, we used to be inseparable",Karuna,Karuna,Karuna,0.944,True
+"spilled coffee on my notes, missed the bus, and my phone died, I'm about to lose it",Raudra,Karuna,Karuna,0.845,False
+Yelled at my brother and now feel awful but also still angry,Raudra,Raudra,Raudra,0.963,True
+gonna chase my dream even if everyone says it's crazy,Veera,Adbhuta,Adbhuta,0.622,False
+Truly appalled by the behaviour at that dinner.,Bibhatsa,Bibhatsa,Bibhatsa,0.868,True
+the way he chewed with his mouth open made me lose my appetite for the whole week,Bibhatsa,Bibhatsa,Bibhatsa,0.777,True
+"going into surgery recovery with a strong heart, i'm not giving up",Veera,Veera,Veera,0.832,True
+"fun road trip with the squad, we're singing off-key and loving it",Hasya,Veera,Veera,0.794,False
+i'm pretty sure no one would notice if i disappeared for a week,Karuna,Karuna,Karuna,0.925,True
+I think someone followed me home,Bhayanaka,Bhayanaka,Bhayanaka,0.653,True
+"i've been knocked down too many times, but i'm getting back up",Veera,Raudra,Raudra,0.383,False
+"a deer walked right up to me in the forest, it was magical",Adbhuta,Adbhuta,Adbhuta,0.92,True
+sat on a whoopee cushion at a board meeting. i'm not okay. 😂,Hasya,Bibhatsa,Bibhatsa,0.571,False
+experiencing a sense of wonder that i haven't felt since childhood,Adbhuta,Adbhuta,Adbhuta,0.972,True
+"can't believe the athlete just broke the world record, goosebumps",Adbhuta,Adbhuta,Adbhuta,0.862,True
+big match tomorrow and i'm ready to give it everything,Veera,Veera,Veera,0.948,True
+"calm after the storm, literally and figuratively",Shanta,Shanta,Shanta,0.895,True
+every song reminds me of her and it's killing me,Karuna,Shringara,Shringara,0.759,False
+teasing my boyfriend about his terrible dance moves,Hasya,Hasya,Hasya,0.674,True
+that mind-bending optical illusion has me stunned,Adbhuta,Adbhuta,Adbhuta,0.963,True
+i have a lump in my throat and can't explain why,Karuna,Bhayanaka,Bhayanaka,0.776,False
+forgave him today. weirdly light now.,Shanta,Shringara,Shringara,0.447,False
+"anxious about my results, can't breathe properly",Bhayanaka,Bhayanaka,Bhayanaka,0.853,True
+just got pranked by my sister and honestly respect,Hasya,Raudra,Raudra,0.498,False
+"there's rot in everything these days, I'm just tired and repulsed",Bibhatsa,Bibhatsa,Bibhatsa,0.957,True
+"light comedy mood, like a sitcom theme song",Hasya,Hasya,Hasya,0.959,True
+kicked the door so hard earlier lol not proud of it,Raudra,Veera,Veera,0.631,False
+giving my all in this audition no matter what,Veera,Veera,Veera,0.936,True
+he looked at me across the room and the whole party disappeared,Shringara,Karuna,Karuna,0.55,False
+"i despise how unfair this is, I'm shaking with fury",Raudra,Raudra,Raudra,0.961,True
+just emerged from the cave and the view blew me away,Adbhuta,Adbhuta,Adbhuta,0.982,True
+deeply resentful of my manager tonight,Raudra,Raudra,Raudra,0.905,True
+yet another lonely birthday dinner for one,Karuna,Karuna,Karuna,0.599,True
+confident and ready to speak up at the town hall tonight,Veera,Veera,Veera,0.967,True
+I'd like something calm to read a book to,Shanta,Shanta,Shanta,0.961,True
+just sipped a warm drink and everything feels fine,Shanta,Shanta,Shanta,0.939,True
+disgust is the only word for how I feel about that article,Bibhatsa,Bibhatsa,Bibhatsa,0.996,True
+"need to vent, i'm seething",Raudra,Raudra,Raudra,0.93,True
+gentle music for my grandpa's evening prayer,Shanta,Shanta,Shanta,0.919,True
+need something seductive for a night in 😏,Shringara,Shringara,Shringara,0.835,True
+the fake charity event was so cringey and false I wanted to leave,Bibhatsa,Bibhatsa,Bibhatsa,0.894,True
+a baby was just born in front of me and it feels like a miracle,Adbhuta,Adbhuta,Adbhuta,0.968,True
+I will not let this setback define me,Veera,Veera,Veera,0.55,True
+a friend just told me she's moving on from our friendship and i'm gutted,Karuna,Karuna,Shringara,0.613,True
+i want to feel adored tonight,Shringara,Shringara,Karuna,0.511,True
+"Courage is what I need right now, I have a hard conversation ahead",Veera,Veera,Veera,0.884,True
+something feels off and the whole room has gone silent,Bhayanaka,Bhayanaka,Bhayanaka,0.817,True
+feeling grounded and serene after my walk in the park,Shanta,Shanta,Shanta,0.944,True
+I'm disgusted by how people treat animals,Bibhatsa,Bibhatsa,Bibhatsa,0.99,True
+mad at the entire system tbh,Raudra,Raudra,Raudra,0.88,True
+Standing before the Himalayas for the first time. Awestruck.,Adbhuta,Adbhuta,Adbhuta,0.909,True
+ready to fight the whole world today,Raudra,Veera,Veera,0.989,False
+"gentle rain and chai, that's all I want",Shanta,Shanta,Shanta,0.715,True
+anxiety through the roof before my first day at the new job,Bhayanaka,Bhayanaka,Bhayanaka,0.948,True
+retired last month and finally feel at peace,Shanta,Shanta,Shanta,0.895,True
+"cuddled up under a blanket with my boyfriend, any rec for that cozy feeling",Shringara,Shringara,Shringara,0.55,True
+my stomach is in knots after seeing that,Bibhatsa,Bibhatsa,Bibhatsa,0.415,True
+"Feeling very affectionate toward my wife today; something gentle and loving, please.",Shringara,Shringara,Shringara,0.958,True
+dad is in the army and watching him salute at the parade gave me chills,Veera,Hasya,Hasya,0.716,False
+i keep hearing footsteps behind me on my walk home and i'm scared,Bhayanaka,Bhayanaka,Bhayanaka,0.984,True
+feeling like a kid at a magic show 🎩,Adbhuta,Adbhuta,Adbhuta,0.84,True
+wanna hear something that makes me smile like an idiot,Hasya,Hasya,Hasya,0.938,True
+"quiet night on the balcony watching stars, mind is clear",Shanta,Shanta,Adbhuta,0.732,True
+an unknown number keeps calling me at night,Bhayanaka,Bhayanaka,Bhayanaka,0.712,True
+sound bath vibes pls 🧘,Shanta,Shringara,Shringara,0.509,False
+disgusted with myself for what I did last night,Bibhatsa,Bibhatsa,Bibhatsa,0.941,True
+"Melting into tears over a sad movie, in need of a matching soundtrack",Karuna,Karuna,Karuna,0.901,True
+today I'm not afraid of failing,Veera,Veera,Veera,0.894,True
+wonderstruck by how the temple was built thousands of years ago,Adbhuta,Adbhuta,Adbhuta,0.943,True
+i got scammed out of my savings and i'm just boiling,Raudra,Raudra,Raudra,0.685,True
+alone in the house and something just creaked upstairs,Bhayanaka,Bhayanaka,Bhayanaka,0.741,True
+"need something eerie for tonight, it's Halloween",Bhayanaka,Bhayanaka,Bhayanaka,0.926,True
+my mind can't process how beautiful and strange that was,Adbhuta,Adbhuta,Adbhuta,0.916,True
+bro the horror game just jump-scared me so hard i screamed 😭,Bhayanaka,Bhayanaka,Bhayanaka,0.981,True
+there's chemistry between us and neither of us is saying it,Shringara,Shringara,Shringara,0.806,True
+feeling melancholy today. Something wistful might help.,Karuna,Shanta,Karuna,0.499,False
+"mind = blown, the movie's twist was insane",Adbhuta,Adbhuta,Adbhuta,0.896,True
+"let go of old grudges today, feeling at ease",Shanta,Raudra,Karuna,0.375,False
+cleaning out his things and finding his handwriting everywhere,Karuna,Raudra,Raudra,0.643,False
+so furious right now i can't even form a sentence,Raudra,Raudra,Raudra,0.965,True
+"just found out someone's been spreading rumours about me, I could tear them apart",Raudra,Raudra,Karuna,0.617,True
+my coach said I'm not good enough so I'm gonna prove him wrong,Veera,Veera,Veera,0.789,True
+"staring at the ceiling feeling oddly peaceful, no thoughts",Shanta,Shanta,Bhayanaka,0.564,True
+you know that feeling when you decide to stop making excuses? that's me today,Veera,Karuna,Raudra,0.581,False
+my ex had the nerve to text me like nothing happened 😡,Raudra,Shringara,Shringara,0.44,False
+the carvings on that ancient cave blew my mind,Adbhuta,Adbhuta,Adbhuta,0.945,True
+"gotta be brave for my little sister, she's counting on me",Veera,Veera,Veera,0.884,True
+i woke up from a nightmare and can't go back to sleep,Bhayanaka,Bhayanaka,Bhayanaka,0.95,True
+cringing so hard at the lies that politicians tell,Bibhatsa,Bibhatsa,Bibhatsa,0.903,True
+I'm terrified of tomorrow's surgery,Bhayanaka,Bhayanaka,Bhayanaka,0.987,True
+everyone left the party and i'm sitting alone in my room feeling invisible,Karuna,Karuna,Karuna,0.856,True
+"cant stand the cheating, lying, backstabbing in this office",Bibhatsa,Bibhatsa,Bibhatsa,0.96,True
+my mind keeps going to worst-case scenarios,Bhayanaka,Bhayanaka,Bhayanaka,0.762,True
+"i like the way he says my name, is that weird",Shringara,Hasya,Shringara,0.46,False
+watching a total solar eclipse and the whole crowd went silent,Adbhuta,Shanta,Bhayanaka,0.499,False
+"suspense is killing me, the thriller is at the best part",Bhayanaka,Bhayanaka,Bhayanaka,0.77,True
+he left a note in my bag and i'm tearing up in a good way,Shringara,Shringara,Shringara,0.663,True
+I am enraged by the corruption on the news tonight,Raudra,Bibhatsa,Bibhatsa,0.71,False
+wanna feel like a bumbling cartoon character 🤡,Hasya,Bibhatsa,Hasya,0.444,False
+"everything feels rotten and corrupt, I don't trust anyone",Bibhatsa,Bibhatsa,Bibhatsa,0.964,True
+i want to feel like the world has stopped for a moment,Shanta,Adbhuta,Adbhuta,0.398,False
+"my hands are cold and sweaty, big announcement in five minutes",Bhayanaka,Bhayanaka,Veera,0.376,True
+bro i just tripped in front of my whole class and honestly it was kinda hilarious,Hasya,Hasya,Hasya,0.924,True
+Something upbeat please; I just watched a brilliant comedy and I'm still chuckling.,Hasya,Hasya,Hasya,0.978,True
+just very disgusted with the way things are going,Bibhatsa,Bibhatsa,Bibhatsa,0.993,True
+wanna drift into a peaceful state before bed,Shanta,Shanta,Shanta,0.962,True
+the news today is horrifying and I'm afraid for what comes next,Bhayanaka,Bhayanaka,Bhayanaka,0.933,True
+been lied to for months and today i found out. i'm livid,Raudra,Karuna,Karuna,0.551,False
+I am quietly terrified of losing my mother,Bhayanaka,Bhayanaka,Bhayanaka,0.669,True
+"cracking up at memes at 2am, send help (and music)",Hasya,Hasya,Hasya,0.773,True
+Waiting on biopsy results. My mind is racing.,Bhayanaka,Bhayanaka,Bhayanaka,0.904,True
+I accidentally sent my crush a meme meant for my brother. Mortifying and hilarious.,Hasya,Hasya,Hasya,0.81,True
+my best friend's wedding was beautiful but all i could think is i'll never have that,Karuna,Shringara,Shringara,0.799,False
+i want something cheeky that makes me wanna prank someone,Hasya,Hasya,Hasya,0.962,True
+"stuck in an elevator, heart pounding",Bhayanaka,Bhayanaka,Bhayanaka,0.519,True
+honeymoon mode activated 🥰,Shringara,Shringara,Shringara,0.771,True
+"feeling hollow after the breakup, like the colour went out of everything",Karuna,Karuna,Karuna,0.987,True
+"can't concentrate on anything, all i think about is that smile",Shringara,Hasya,Shanta,0.456,False
+"feeling unstoppable, nothing can stop me 💪",Veera,Veera,Veera,0.979,True
+The thought of failing in front of everyone is paralyzing me.,Bhayanaka,Bhayanaka,Veera,0.617,True
+I feel unsafe walking alone at night in this neighborhood,Bhayanaka,Bhayanaka,Bhayanaka,0.978,True
+our song came on at the cafe and we just looked at each other and grinned,Shringara,Shringara,Shringara,0.81,True
+"tired of everyone's toxic positivity, it makes me cringe",Bibhatsa,Bibhatsa,Bibhatsa,0.865,True
+nauseated by how the rich flaunt while others starve,Bibhatsa,Bibhatsa,Bibhatsa,0.97,True
+my mom's in the hospital and i feel so helpless,Karuna,Karuna,Karuna,0.827,True
+something playful for a lazy sunday with my roommates,Hasya,Hasya,Hasya,0.966,True
+"forest at night, no phone signal, fear is real",Bhayanaka,Bhayanaka,Bhayanaka,0.959,True
+stress is gone and I feel like floating,Shanta,Shanta,Karuna,0.753,True
+"proposing tomorrow. nervous, excited, in love, all at once",Shringara,Shringara,Shringara,0.885,True
+i have to carry my team through this deadline and i'm ready,Veera,Veera,Veera,0.975,True
+feeling a creeping fear I can't explain,Bhayanaka,Bhayanaka,Bhayanaka,0.989,True
+"date night at home, wine, pasta, and zero phones",Shringara,Shringara,Shringara,0.617,True
+i feel so tired of pretending i'm fine,Karuna,Shanta,Shanta,0.469,False
+she's moving abroad next month and i just want to hold on to every moment with her,Shringara,Shringara,Shringara,0.969,True
+"fighting spirit today, let's make some noise",Veera,Veera,Shanta,0.538,True
+"about to jump into the ocean for the first time, adrenaline is crazy",Veera,Bhayanaka,Bhayanaka,0.637,False
+we've been together ten years and i still get giddy when he walks in,Shringara,Shringara,Shringara,0.942,True
+"butterflies every time my phone buzzes, is this what being sixteen feels like again",Shringara,Bhayanaka,Bhayanaka,0.9,False
+"long day, no one called, feeling forgotten",Karuna,Karuna,Karuna,0.981,True
+the storm outside is getting louder and the power just went out,Bhayanaka,Bhayanaka,Bhayanaka,0.569,True
+"i crave closeness tonight, just someone to hold",Shringara,Shringara,Shringara,0.623,True
+"haunted house tour tonight, already regretting it",Bhayanaka,Bhayanaka,Bhayanaka,0.944,True
+"gym session, but in a bad mood, going to take it out on the weights",Raudra,Shanta,Hasya,0.476,False
+crushing hard on the new girl at work and it's making mondays bearable,Shringara,Shringara,Shringara,0.753,True
+"social anxiety kicking in, the party is too loud and I want to hide",Bhayanaka,Bhayanaka,Bhayanaka,0.747,True
+"low-key content, nothing needed, nothing missing",Shanta,Shanta,Shanta,0.508,True
+"thinking about my ex's hands and how safe i felt, ugh",Shringara,Bhayanaka,Bhayanaka,0.495,False
+i want music that feels like a first kiss,Shringara,Shringara,Shringara,0.884,True
+can't unsee what I saw in that video,Bibhatsa,Adbhuta,Adbhuta,0.521,False
+today I'm going to do the thing I've been afraid of,Veera,Bhayanaka,Bhayanaka,0.907,False
+what's something fun to put on while i do my terrible impressions,Hasya,Hasya,Hasya,0.86,True
+"so angry at myself for messing up, I keep hitting the steering wheel",Raudra,Raudra,Raudra,0.981,True

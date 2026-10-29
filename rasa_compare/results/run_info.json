@@ -1,0 +1,15 @@
+{
+  "best": "logreg",
+  "logreg_C": [
+    3,
+    3,
+    3,
+    10,
+    30
+  ],
+  "setfit": {
+    "epochs": 1,
+    "iters": 10,
+    "batch": 16
+  }
+}
