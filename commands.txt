@@ -66,6 +66,16 @@ Routing guide for the agent
   --json               JSON output
   --equivalents        also search unverified counterparts (see ALIASES.md)
 
+4b. chatbot - conversational agent (Qwen3-8B on Ollama) that routes to playlist / hybrid / mixed
+---------------------------------------------------------------------------------------------
+  ollama pull qwen3:8b            (once; Ollama must be running)
+  python -m chatbot
+  python -m chatbot --debug       (shows each tool call and the rewritten query)
+  python -m chatbot --time 23:00 --model qwen3:8b --url http://localhost:11434
+
+  /reset clears the conversation, /quit exits.
+  Use from code: from chatbot import ChatBot; ChatBot().send("I'm sad, cheer me up")
+
 5. coverage_report.py - how many Saraga songs each mapped raga has -> coverage_report.md
 ----------------------------------------------------------------------------------------
   python coverage_report.py

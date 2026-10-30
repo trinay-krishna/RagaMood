@@ -18,6 +18,7 @@ from pipeline import DATA_ROOT, TRADITIONS, _scorer, text_to_rasas
 from rasa_raga_map import RASA_TO_RAGAS, search_names, set_equivalents
 from raaga_search import find_songs
 from raaga_search.search import normalize
+from raga_time import MATCH_PICKS, parse_time, time_match
 
 
 def quotas(probs, n, temperature=0.5):
@@ -50,9 +51,10 @@ def dupe_key(song):
     return t
 
 
-def _songs_by_raga(rasa, root, traditions):
+def _songs_by_raga(rasa, root, traditions, hour=None):
+    """{raga: songs}, time-matched ragas first."""
     out = {}
-    for raga in RASA_TO_RAGAS[rasa]:
+    for raga in sorted(RASA_TO_RAGAS[rasa], key=lambda r: not time_match(r, hour)):
         found, _ = find_songs(search_names(raga), root, traditions)
         songs = {s.metadata_path: s for ss in found.values() for s in ss}
         if songs:
@@ -73,33 +75,37 @@ def _pick(songs, chosen, max_per_artist, rng):
 
 
 def make_playlist(text, n=10, top_k=3, temperature=0.5, max_per_artist=2, seed=0,
-                  root=DATA_ROOT, traditions=TRADITIONS, scorer=_scorer, exclude=()):
-    """exclude: dupe_keys of songs that must not appear (e.g. already chosen elsewhere)."""
+                  root=DATA_ROOT, traditions=TRADITIONS, scorer=_scorer, exclude=(), hour=None):
+    """exclude: dupe_keys of songs that must not appear (e.g. already chosen elsewhere).
+    hour: time of day (float, default = now); ragas of that slot go first and get MATCH_PICKS per pass."""
     rng = random.Random(seed)
     rasas = text_to_rasas(text, top_k, scorer)
     total = sum(p for _, p in rasas) or 1.0
     probs = [p / total for _, p in rasas]
     plan = quotas(probs, n, temperature)
-    pools = {r: _songs_by_raga(r, root, traditions) for r, _ in rasas}
+    pools = {r: _songs_by_raga(r, root, traditions, hour) for r, _ in rasas}
     chosen, items, used = [], [], set(exclude)
     short = 0
     for (rasa, p), q in zip(rasas, plan):
         want, short = q + short, 0
         pool = {k: list(v) for k, v in pools[rasa].items()}
         while want and pool:
-            for raga in list(pool):  # round-robin: one song per raga per pass
-                if not want:
-                    break
-                cand = [s for s in pool[raga] if dupe_key(s) not in used]
-                s = _pick(cand, chosen, max_per_artist, rng)
-                if s is None:
-                    pool.pop(raga)
-                    continue
-                used.add(dupe_key(s))
-                chosen.append(s)
-                pool[raga].remove(s)
-                items.append({"rasa": rasa, "prob": round(p, 3), "raga": raga, **s.to_dict()})
-                want -= 1
+            for raga in list(pool):  # round-robin: one song per raga per pass (time-matched ragas get more)
+                matched = time_match(raga, hour)
+                for _ in range(MATCH_PICKS if matched else 1):
+                    if not want:
+                        break
+                    cand = [s for s in pool[raga] if dupe_key(s) not in used]
+                    s = _pick(cand, chosen, max_per_artist, rng)
+                    if s is None:
+                        pool.pop(raga)
+                        break
+                    used.add(dupe_key(s))
+                    chosen.append(s)
+                    pool[raga].remove(s)
+                    items.append({"rasa": rasa, "prob": round(p, 3), "raga": raga, "time_match": matched,
+                                  **s.to_dict()})
+                    want -= 1
         short = want  # unfilled slots roll down to the next rasa
     return {"text": text, "rasas": [{"rasa": r, "prob": round(p, 3), "quota": q}
                                    for (r, p), q in zip(rasas, plan)], "songs": items}
@@ -109,7 +115,7 @@ def show(res):
     print("Rasas: " + ", ".join(f"{d['rasa']} ({d['prob']:.2f}, {d['quota']} slots)" for d in res["rasas"]))
     for i, s in enumerate(res["songs"], 1):
         extra = " / ".join(x for x in (s["tradition"], s["form"]) if x)
-        print(f"{i:2}. [{s['rasa']} {s['prob']:.2f}] {s['raga']}: {s['title']} | "
+        print(f"{i:2}. [{s['rasa']} {s['prob']:.2f}] {s['raga']}{' *' if s['time_match'] else ''}: {s['title']} | "
               f"{', '.join(s['artists'])} | {s['concert']} | {extra}")
 
 
@@ -124,11 +130,12 @@ def main():
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--equivalents", action="store_true",
                     help="also search unverified cross-name/tradition counterparts (rasa_raga_map.RAGA_EQUIVALENTS)")
+    ap.add_argument("--time", help="HH:MM for the time-of-day raga boost (default: now); * marks boosted ragas")
     a = ap.parse_args()
     set_equivalents(a.equivalents)
     texts = [a.text] if a.text else iter(lambda: input("text> ").strip(), "")
     for t in texts:
-        res = make_playlist(t, a.n, a.top_k, a.temperature, a.max_per_artist, a.seed)
+        res = make_playlist(t, a.n, a.top_k, a.temperature, a.max_per_artist, a.seed, hour=parse_time(a.time))
         if a.json:
             print(json.dumps(res, ensure_ascii=False, indent=2))
         else:

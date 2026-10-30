@@ -24,6 +24,7 @@ from hybrid import Index, tokens
 from pipeline import DATA_ROOT, TRADITIONS, _scorer, text_to_rasas
 from playlist import _pick, dupe_key, make_playlist
 from raaga_search import find_songs
+from raga_time import parse_time
 from rasa_raga_map import RASA_TO_RAGAS, rasa_for_raga, search_names, set_equivalents
 
 STOP = {"raga", "raag", "ragam", "song", "songs", "music", "by", "in", "the", "a", "an", "of", "to", "with",
@@ -70,7 +71,7 @@ def entity_songs(entity, index, root=DATA_ROOT, traditions=TRADITIONS):
 
 
 def mixed_search(emotion, entity, n=10, requested_share=0.6, top_k=3, max_per_artist=2, seed=0,
-                 index=None, scorer=_scorer, root=DATA_ROOT, traditions=TRADITIONS):
+                 index=None, scorer=_scorer, root=DATA_ROOT, traditions=TRADITIONS, hour=None):
     ix = index or Index(root, traditions)
     rng = random.Random(seed)
     rasas = text_to_rasas(emotion, top_k, scorer)
@@ -96,7 +97,7 @@ def mixed_search(emotion, entity, n=10, requested_share=0.6, top_k=3, max_per_ar
     block = {dupe_key(s) for _, s in pool}  # mood section adds *other* songs, not more of the entity
     rest = n - len(items)
     mood = make_playlist(emotion, rest, top_k, max_per_artist=max_per_artist, seed=seed, root=root,
-                         traditions=traditions, scorer=scorer, exclude=used | block)["songs"] if rest > 0 else []
+                         traditions=traditions, scorer=scorer, exclude=used | block, hour=hour)["songs"] if rest > 0 else []
     for s in mood:
         items.append({"section": "mood", "label": f"{s['rasa']} {s['prob']:.2f}", **s})
     return {"emotion": emotion, "entity": entity, "rasas": [{"rasa": r, "prob": round(p, 3)} for r, p in rasas],
@@ -131,12 +132,14 @@ def main():
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--equivalents", action="store_true",
                     help="also search unverified cross-name/tradition counterparts (rasa_raga_map.RAGA_EQUIVALENTS)")
+    ap.add_argument("--time", help="HH:MM for the time-of-day raga boost in the mood section (default: now)")
     a = ap.parse_args()
     set_equivalents(a.equivalents)
     emotion, entity = a.emotion or a.text, a.entity or a.text
     if not emotion or not entity:
         ap.error("give a text, or both --emotion and --entity")
-    res = mixed_search(emotion, entity, a.n, a.requested_share, a.top_k, a.max_per_artist, a.seed)
+    res = mixed_search(emotion, entity, a.n, a.requested_share, a.top_k, a.max_per_artist, a.seed,
+                       hour=parse_time(a.time))
     print(json.dumps(res, ensure_ascii=False, indent=2) if a.json else "", end="")
     if not a.json:
         show(res)

@@ -16,6 +16,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 from common import RASAS
 from rasa_raga_map import RASA_TO_RAGAS, search_names, set_equivalents
 from raaga_search import find_songs
+from raga_time import parse_time, time_match
 
 DATA_ROOT = ROOT / "data" / "saraga"
 TRADITIONS = ("carnatic", "hindustani")
@@ -48,22 +49,25 @@ def rasas_to_ragas(rasas):
     return {r: RASA_TO_RAGAS[r] for r in rasas}
 
 
-def songs_for_text(text, top_k=3, root=DATA_ROOT, traditions=TRADITIONS, scorer=_scorer):
+def songs_for_text(text, top_k=3, root=DATA_ROOT, traditions=TRADITIONS, scorer=_scorer, hour=None):
+    """hour: time of day (float, default = now); ragas of that day slot come first within their rasa."""
     rasas = text_to_rasas(text, top_k, scorer)
     out = {"text": text, "rasas": [{"rasa": r, "prob": round(p, 3)} for r, p in rasas], "ragas": []}
     for rasa, ragas in rasas_to_ragas([r for r, _ in rasas]).items():
+        entries = []
         for raga in ragas:
             found, _ = find_songs(search_names(raga), root, traditions)
             songs = {s.metadata_path: s for ss in found.values() for s in ss}.values()
-            out["ragas"].append({"rasa": rasa, "raga": raga,
-                                 "songs": [s.to_dict() for s in songs]})
+            entries.append({"rasa": rasa, "raga": raga, "time_match": time_match(raga, hour),
+                            "songs": [s.to_dict() for s in songs]})
+        out["ragas"] += sorted(entries, key=lambda e: not e["time_match"])  # stable: rasa order untouched
     return out
 
 
 def show(res):
     print("Rasas: " + ", ".join(f"{d['rasa']} ({d['prob']:.2f})" for d in res["rasas"]))
     for e in res["ragas"]:
-        print(f"\n[{e['rasa']}] {e['raga']}: {len(e['songs'])} song(s)")
+        print(f"\n[{e['rasa']}] {e['raga']}{' *' if e['time_match'] else ''}: {len(e['songs'])} song(s)")
         for s in e["songs"]:
             print(f"  - {s['title']} | {', '.join(s['artists'])} | {s['concert']}")
     none = [e["raga"] for e in res["ragas"] if not e["songs"]]
@@ -78,11 +82,12 @@ def main():
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--equivalents", action="store_true",
                     help="also search unverified cross-name/tradition counterparts (rasa_raga_map.RAGA_EQUIVALENTS)")
+    ap.add_argument("--time", help="HH:MM for the time-of-day raga boost (default: now); * marks boosted ragas")
     a = ap.parse_args()
     set_equivalents(a.equivalents)
     texts = [a.text] if a.text else iter(lambda: input("text> ").strip(), "")
     for t in texts:
-        res = songs_for_text(t, a.top_k)
+        res = songs_for_text(t, a.top_k, hour=parse_time(a.time))
         print(json.dumps(res, ensure_ascii=False, indent=2) if a.json else "", end="")
         if not a.json:
             show(res)
