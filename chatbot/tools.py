@@ -50,12 +50,29 @@ class Tools:
                     "recommend_mixed": mixed or self._mixed}
         self.hour = hour
         self._index = None
+        self._vocab = None
 
     def _ix(self):
         if self._index is None:
             from hybrid import Index
             self._index = Index()
         return self._index
+
+    def entity_hint(self, text):
+        """True if the message names a known artist / raga / form of the catalogue (used by the agent's guard)."""
+        if self._vocab is None:
+            from raaga_search.search import normalize
+            from rasa_raga_map import RASA_TO_RAGAS, search_names
+            v = {"kriti", "khayal", "thillana", "varnam", "thumri", "tarana", "bhajan", "mangalam", "ragamalika",
+                 "teentaal", "javali", "viruttham"}
+            for s in self._ix().songs:
+                v.update(normalize(a) for a in s.artists)
+                v.update(normalize(r) for r in s.raagas)
+            v.update(normalize(n) for rs in RASA_TO_RAGAS.values() for r in rs for n in search_names(r))
+            self._vocab = {x for x in v if len(x) >= 4}
+            self._normalize = normalize
+        t = self._normalize(text)
+        return any(w in t for w in self._vocab)
 
     def _playlist(self, mood_text, n=config.DEFAULT_N):
         from playlist import make_playlist

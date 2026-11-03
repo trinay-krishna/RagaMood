@@ -1,0 +1,224 @@
+{
+  "known_item": [
+    {
+      "mode": "sparse",
+      "query": "title",
+      "n": 300,
+      "recall@1": 0.98,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.9894444444444446,
+      "ndcg@10": 0.9921821625595243
+    },
+    {
+      "mode": "sparse",
+      "query": "title+artist",
+      "n": 300,
+      "recall@1": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "sparse",
+      "query": "title (typo)",
+      "n": 300,
+      "recall@1": 0.64,
+      "recall@5": 0.72,
+      "recall@10": 0.7333333333333333,
+      "mrr": 0.677526455026455,
+      "ndcg@10": 0.6913916396550035
+    },
+    {
+      "mode": "dense",
+      "query": "title",
+      "n": 300,
+      "recall@1": 0.8133333333333334,
+      "recall@5": 0.9633333333333334,
+      "recall@10": 0.9833333333333333,
+      "mrr": 0.8775753968253969,
+      "ndcg@10": 0.9037697430215144
+    },
+    {
+      "mode": "dense",
+      "query": "title+artist",
+      "n": 300,
+      "recall@1": 0.7966666666666666,
+      "recall@5": 0.9433333333333334,
+      "recall@10": 0.9533333333333334,
+      "mrr": 0.8584246031746031,
+      "ndcg@10": 0.8821012713583639
+    },
+    {
+      "mode": "dense",
+      "query": "title (typo)",
+      "n": 300,
+      "recall@1": 0.6366666666666667,
+      "recall@5": 0.85,
+      "recall@10": 0.8866666666666667,
+      "mrr": 0.7223306878306879,
+      "ndcg@10": 0.7625091613980393
+    },
+    {
+      "mode": "hybrid",
+      "query": "title",
+      "n": 300,
+      "recall@1": 0.9633333333333334,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.9805555555555556,
+      "ndcg@10": 0.9855945592738105
+    },
+    {
+      "mode": "hybrid",
+      "query": "title+artist",
+      "n": 300,
+      "recall@1": 0.9266666666666666,
+      "recall@5": 0.9866666666666667,
+      "recall@10": 0.9866666666666667,
+      "mrr": 0.955,
+      "ndcg@10": 0.9631874305776338
+    },
+    {
+      "mode": "hybrid",
+      "query": "title (typo)",
+      "n": 300,
+      "recall@1": 0.7433333333333333,
+      "recall@5": 0.8766666666666667,
+      "recall@10": 0.91,
+      "mrr": 0.8000370370370371,
+      "ndcg@10": 0.8268133481842758
+    }
+  ],
+  "attribute": [
+    {
+      "mode": "sparse",
+      "query": "artist+form",
+      "n": 60,
+      "precision@10": 0.1787103174603174
+    },
+    {
+      "mode": "dense",
+      "query": "artist+form",
+      "n": 60,
+      "precision@10": 0.05500000000000001
+    },
+    {
+      "mode": "hybrid",
+      "query": "artist+form",
+      "n": 60,
+      "precision@10": 0.10666666666666665
+    }
+  ],
+  "mood_playlists": {
+    "precision@10": {
+      "playlist": 0.6692592592592593,
+      "dense": 0.030833333333333334,
+      "random": 0.030000000000000002
+    },
+    "ndcg@10": {
+      "playlist": 0.8585837398940683,
+      "dense": 0.036938334813075915,
+      "random": 0.03594519422536406
+    },
+    "per_rasa": [
+      {
+        "rasa": "Adbhuta",
+        "playlist": 0.4600000000000001,
+        "dense": 0.0,
+        "random": 0.01,
+        "ndcg_playlist": 0.8687949224876583,
+        "ndcg_dense": 0.0,
+        "ndcg_random": 0.010454526374508772
+      },
+      {
+        "rasa": "Hasya",
+        "playlist": 0.5833333333333333,
+        "dense": 0.02,
+        "random": 0.035,
+        "ndcg_playlist": 0.7596419688915217,
+        "ndcg_dense": 0.02036657633597765,
+        "ndcg_random": 0.04191581043299702
+      },
+      {
+        "rasa": "Karuna",
+        "playlist": 0.78,
+        "dense": 0.01,
+        "random": 0.02,
+        "ndcg_playlist": 0.8358826684080816,
+        "ndcg_dense": 0.0069809072776874535,
+        "ndcg_random": 0.020341872079566573
+      },
+      {
+        "rasa": "Shanta",
+        "playlist": 0.6788888888888888,
+        "dense": 0.025,
+        "random": 0.015000000000000003,
+        "ndcg_playlist": 0.9320836332165443,
+        "ndcg_dense": 0.025896891885700497,
+        "ndcg_random": 0.022216809135686532
+      },
+      {
+        "rasa": "Shringara",
+        "playlist": 0.7183333333333333,
+        "dense": 0.125,
+        "random": 0.06500000000000002,
+        "ndcg_playlist": 0.8083849090693784,
+        "ndcg_dense": 0.16439590645096747,
+        "ndcg_random": 0.074827999284553
+      },
+      {
+        "rasa": "Veera",
+        "playlist": 0.795,
+        "dense": 0.005,
+        "random": 0.035,
+        "ndcg_playlist": 0.9467143372912252,
+        "ndcg_dense": 0.003989726928122409,
+        "ndcg_random": 0.04591414804487247
+      }
+    ],
+    "empty_rate": 0.0,
+    "n_queries": 120,
+    "diversity": {
+      "artists": 27.72,
+      "ragas": 7.06,
+      "forms": 4.02,
+      "dupes": 0.0,
+      "size": 9.69
+    }
+  },
+  "mixed": {
+    "n_queries": 35,
+    "requested_share": 0.32999999999999996,
+    "requested_entity_hit": 1.0,
+    "mood_section_precision@rasa": 0.7408163265306122
+  },
+  "time_boost": [
+    {
+      "hour": 5,
+      "boost": 0.09583333333333333,
+      "no boost": 0.05416666666666667
+    },
+    {
+      "hour": 14,
+      "boost": 0.0,
+      "no boost": 0.0
+    },
+    {
+      "hour": 17,
+      "boost": 0.0375,
+      "no boost": 0.016666666666666666
+    },
+    {
+      "hour": 20,
+      "boost": 0.075,
+      "no boost": 0.0375
+    },
+    {
+      "hour": 23,
+      "boost": 0.07500000000000001,
+      "no boost": 0.07083333333333335
+    }
+  ]
+}

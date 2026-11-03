@@ -76,6 +76,13 @@ Routing guide for the agent
   /reset clears the conversation, /quit exits.
   Use from code: from chatbot import ChatBot; ChatBot().send("I'm sad, cheer me up")
 
+4c. evaluation - agent + retrieval metrics -> evaluation/results/report.html and figures/*.png
+-------------------------------------------------------------------------------------------
+  python evaluation/run_agent_eval.py            (Ollama must be running; ~110 cases, resumable; --limit N, --fresh, --full-reply)
+  python evaluation/run_retrieval_eval.py        (known-item search, mood playlists, mixed, time boost; no LLM)
+  python evaluation/report.py                    (scores the logs, writes report.html, CSVs and 300-dpi PNGs)
+  Test cases live in evaluation/cases.py; review the labels before quoting numbers.
+
 5. coverage_report.py - how many Saraga songs each mapped raga has -> coverage_report.md
 ----------------------------------------------------------------------------------------
   python coverage_report.py

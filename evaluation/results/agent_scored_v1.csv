@@ -1,0 +1,110 @@
+﻿id,category,gold_tool,pred_tool,tool_ok,error,calls,latency,mood_text,entity_text,rewrite_hit1,rewrite_hit3,entity_ok
+mood-000,mood,recommend_by_mood,recommend_by_mood,True,False,1,27.14,I feel sad and heavy-hearted.,,True,True,
+mood-001,mood,recommend_by_mood,recommend_by_mood,True,False,1,9.91,I feel longing and deeply emotional.,,True,True,
+mood-002,mood,recommend_by_mood,recommend_by_mood,True,False,1,9.93,I feel sad and heartbroken.,,True,True,
+mood-003,mood,recommend_by_mood,recommend_by_mood,True,False,1,11.29,"I feel empty, sad and longing for someone dear.",,True,True,
+mood-004,mood,recommend_by_mood,recommend_by_mood,True,False,1,10.14,I feel happy and energetic.,,False,True,
+mood-005,mood,recommend_by_mood,none,False,False,0,32.06,,,False,False,
+mood-006,mood,recommend_by_mood,none,False,False,0,39.58,,,False,False,
+mood-007,mood,recommend_by_mood,recommend_by_mood,True,False,1,11.68,"I feel playful, joyful and full of energy.",,False,False,
+mood-008,mood,recommend_by_mood,recommend_by_mood,True,False,1,12.45,"I feel calm, peaceful and at ease.",,True,True,
+mood-009,mood,recommend_by_mood,recommend_by_mood,True,False,1,10.55,"I feel calm, peaceful and at ease.",,True,True,
+mood-010,mood,recommend_by_mood,recommend_by_mood,True,False,1,10.13,"I feel calm, peaceful and at ease.",,True,True,
+mood-011,mood,recommend_by_mood,recommend_by_mood,True,False,1,14.99,"I feel loving, passionate and deeply connected.",,True,True,
+mood-012,mood,recommend_by_mood,recommend_by_mood,True,False,1,15.17,"I feel tender, nostalgic and longing for someone.",,False,True,
+mood-013,mood,recommend_by_mood,recommend_by_mood,True,False,1,14.29,I feel romantic and longing for someone.,,True,True,
+mood-014,mood,recommend_by_mood,recommend_by_mood,True,False,1,13.95,"I feel determined, focused and ready to face challenges.",,True,True,
+mood-015,mood,recommend_by_mood,recommend_by_mood,True,False,1,11.44,I feel determined and powerful.,,True,True,
+mood-016,mood,recommend_by_mood,recommend_by_mood,True,False,1,14.06,"I feel energetic, determined and ready to win.",,True,True,
+mood-017,mood,recommend_by_mood,none,False,False,0,26.18,,,False,False,
+mood-018,mood,recommend_by_mood,recommend_by_mood,True,False,1,10.7,I feel angry and frustrated.,,True,True,
+mood-019,mood,recommend_by_mood,none,False,False,0,46.4,,,False,False,
+mood-020,mood,recommend_by_mood,recommend_by_mood,True,False,1,12.27,I feel anxious and scared.,,True,True,
+mood-021,mood,recommend_by_mood,none,False,False,0,38.39,,,False,False,
+mood-022,mood,recommend_by_mood,clarify,False,False,0,11.96,,,False,False,
+mood-023,mood,recommend_by_mood,clarify,False,False,0,26.58,,,False,False,
+mood-024,mood,recommend_by_mood,none,False,False,0,4.72,,,False,False,
+inversion-025,inversion,recommend_by_mood,recommend_by_mood,True,False,1,17.57,"I feel happy, cheerful and full of energy.",,False,True,
+inversion-026,inversion,recommend_by_mood,recommend_by_mood,True,False,1,14.72,I feel low and need something uplifting.,,False,True,
+inversion-027,inversion,recommend_by_mood,recommend_by_mood,True,False,1,11.97,"I feel calm, peaceful and at ease.",,True,True,
+inversion-028,inversion,recommend_by_mood,recommend_by_mood,True,False,1,12.33,"I feel calm, peaceful and at ease.",,True,True,
+inversion-029,inversion,recommend_by_mood,recommend_by_mood,True,False,1,12.23,"I feel calm, peaceful and at ease.",,True,True,
+inversion-030,inversion,recommend_by_mood,recommend_by_mood,True,False,1,12.85,I feel tired and in need of energy.,,False,False,
+inversion-031,inversion,recommend_by_mood,recommend_by_mood,True,False,1,14.34,I feel curious and excited to explore new music.,,True,True,
+inversion-032,inversion,recommend_by_mood,recommend_by_mood,True,False,1,13.41,I feel lonely and I miss someone.,,False,True,
+inversion-033,inversion,recommend_by_mood,recommend_by_mood,True,False,1,12.51,I feel scared but I want to feel brave and strong.,,True,True,
+inversion-034,inversion,recommend_by_mood,recommend_by_mood,True,False,1,12.99,I feel anxious and need peace.,,True,True,
+inversion-035,inversion,recommend_by_mood,recommend_by_mood,True,False,1,11.52,I feel sad and heavy-hearted.,,True,True,
+inversion-036,inversion,recommend_by_mood,recommend_by_mood,True,False,1,11.57,I feel sad and heavy-hearted.,,True,True,
+keyword-037,keyword,search_catalog,search_catalog,True,False,1,10.08,,Sanjay Subrahmanyan kriti,,,True
+keyword-038,keyword,search_catalog,search_catalog,True,False,1,10.01,,Neyveli B Venkatesh,,,True
+keyword-039,keyword,search_catalog,search_catalog,True,False,1,8.97,,Ajoy Chakrabarty,,,True
+keyword-040,keyword,search_catalog,none,False,False,0,43.96,,,,,False
+keyword-041,keyword,search_catalog,search_catalog,True,False,1,8.48,,Kalyani,,,True
+keyword-042,keyword,search_catalog,search_catalog,True,False,1,8.47,,Bhairavi,,,True
+keyword-043,keyword,search_catalog,search_catalog,True,False,1,8.1,,Thodi,,,True
+keyword-044,keyword,search_catalog,clarify,False,False,0,7.22,,,,,False
+keyword-045,keyword,search_catalog,none,False,False,0,40.41,,,,,False
+keyword-046,keyword,search_catalog,search_catalog,True,False,1,9.7,,Shankarabharanam kriti,,,True
+keyword-047,keyword,search_catalog,search_catalog,True,False,1,8.44,,thillana,,,True
+keyword-048,keyword,search_catalog,clarify,False,False,0,7.61,,,,,False
+keyword-049,keyword,search_catalog,search_catalog,True,False,1,9.81,,Ajoy Chakrabarty khayal,,,True
+keyword-050,keyword,search_catalog,clarify,False,False,0,11.24,,,,,False
+keyword-051,keyword,search_catalog,search_catalog,True,False,1,9.95,,Bageshri khayal,,,True
+keyword-052,keyword,search_catalog,search_catalog,True,False,1,9.4,,slow khayal teentaal,,,True
+keyword-053,keyword,search_catalog,search_catalog,True,False,1,9.07,,Mohana kriti,,,True
+keyword-054,keyword,search_catalog,search_catalog,True,False,1,9.77,,Sanjay Subrahmanyan Thodi,,,True
+keyword-055,keyword,search_catalog,clarify,False,False,0,10.44,,,,,False
+keyword-056,keyword,search_catalog,search_catalog,True,False,1,8.31,,Mangalam,,,True
+keyword-057,keyword,search_catalog,search_catalog,True,False,1,8.18,,Sri,,,True
+keyword-058,keyword,search_catalog,clarify,False,False,0,10.64,,,,,False
+keyword-059,keyword,search_catalog,clarify,False,False,0,10.62,,,,,False
+keyword-060,keyword,search_catalog,search_catalog,True,False,1,10.92,,Paromita Mukherjee khayal,,,True
+mixed-061,mixed,recommend_mixed,recommend_mixed,True,False,1,12.62,I feel sad and heavy-hearted.,Ahibhairav,True,True,True
+mixed-062,mixed,recommend_mixed,recommend_mixed,True,False,1,16.25,I feel happy and cheerful.,Sanjay Subrahmanyan,False,True,True
+mixed-063,mixed,recommend_mixed,recommend_mixed,True,False,1,16.27,I feel in love and full of longing.,Kalyani,False,True,True
+mixed-064,mixed,recommend_mixed,recommend_mixed,True,False,1,11.99,I feel sad and deeply heartbroken.,Bageshri khayal,True,True,True
+mixed-065,mixed,recommend_mixed,recommend_mixed,True,False,1,12.01,"I feel calm, peaceful and at ease.",Thodi,True,True,True
+mixed-066,mixed,recommend_mixed,recommend_mixed,True,False,1,10.7,I feel brave and determined.,thillana,True,True,True
+mixed-067,mixed,recommend_mixed,recommend_mixed,True,False,1,11.66,"I feel calm, peaceful and at ease.",Ajoy Chakrabarty,True,True,True
+mixed-068,mixed,recommend_mixed,recommend_mixed,True,False,1,12.01,"I feel happy, cheerful and full of energy.",Mohana,False,True,True
+mixed-069,mixed,recommend_mixed,none,False,False,0,32.78,,,False,False,False
+mixed-070,mixed,recommend_mixed,recommend_mixed,True,False,1,12.87,I feel joyful and full of energy.,Shankarabharanam kriti,False,True,True
+mixed-071,mixed,recommend_mixed,recommend_mixed,True,False,1,12.01,"I feel calm, peaceful and at ease.",Akkarai Subhalakshmi,True,True,True
+mixed-072,mixed,recommend_mixed,recommend_mixed,True,False,1,11.08,I feel sad and longing for comfort.,thumri,True,True,True
+mixed-073,mixed,recommend_mixed,recommend_mixed,True,False,1,10.52,I feel amazed and in awe.,Desh,True,True,True
+mixed-074,mixed,recommend_mixed,recommend_mixed,True,False,1,11.1,I feel stressed and need to relax.,Bhairavi,True,True,True
+mixed-075,mixed,recommend_mixed,recommend_mixed,True,False,1,10.62,I feel romantic and longing for someone.,Behag,True,True,True
+mixed-076,mixed,recommend_mixed,recommend_mixed,True,False,1,10.54,I feel brave and confident.,Meghamalhaar,True,True,True
+followup-077,followup,recommend_by_mood,recommend_by_mood,True,False,1,12.28,I feel happy and energetic.,,True,True,
+followup-078,followup,recommend_by_mood,recommend_by_mood,True,False,1,11.93,"I feel calm, peaceful and at ease.",,True,True,
+followup-079,followup,recommend_by_mood,recommend_by_mood,True,False,1,19.74,"I feel calm, peaceful and at ease.",,True,True,
+followup-080,followup,search_catalog|recommend_mixed,search_catalog,True,False,1,10.4,,Kalyani,,,True
+followup-081,followup,search_catalog,none,False,False,0,11.87,,,,,False
+followup-082,followup,recommend_mixed,recommend_mixed,True,False,1,13.49,I feel sad and heavy-hearted.,Bageshri,True,True,True
+followup-083,followup,recommend_mixed|search_catalog,recommend_mixed,True,False,1,14.0,I feel sad and heavy-hearted.,Thodi,True,True,True
+followup-084,followup,recommend_by_mood,recommend_by_mood,True,False,1,12.92,"I feel calm, peaceful and at ease.",,True,True,
+followup-085,followup,search_catalog|recommend_mixed,recommend_by_mood,False,False,1,14.22,"I feel calm, peaceful and at ease.",,,,False
+followup-086,followup,recommend_mixed|recommend_by_mood,recommend_by_mood,True,False,1,15.33,"I feel loving, passionate and deeply connected.",,True,True,
+followup-087,followup,none,none,True,False,0,9.82,,,,,
+followup-088,followup,none,none,True,False,0,45.57,,,,,
+followup-089,followup,recommend_by_mood,none,False,False,0,29.81,,,False,False,
+followup-090,followup,search_catalog,search_catalog,True,False,1,12.2,,Neyveli B Venkatesh kriti,,,True
+followup-091,followup,recommend_by_mood,none,False,False,0,10.52,,,False,False,
+followup-092,followup,recommend_by_mood,recommend_by_mood,True,False,1,14.72,I feel nostalgic and sad.,,True,True,
+followup-093,followup,recommend_by_mood,recommend_by_mood,True,False,1,14.75,"I feel calm, peaceful and at ease.",,True,True,
+followup-094,followup,recommend_mixed,recommend_mixed,True,False,1,18.14,I feel happy and cheerful.,Bageshri,False,True,True
+chitchat-095,chitchat,none,none,True,False,0,8.83,,,,,
+chitchat-096,chitchat,none,none,True,False,0,9.42,,,,,
+chitchat-097,chitchat,none,none,True,False,0,12.1,,,,,
+chitchat-098,chitchat,none,clarify,False,False,0,11.19,,,,,
+chitchat-099,chitchat,none,clarify,False,False,0,17.73,,,,,
+chitchat-100,chitchat,none,clarify,False,False,0,8.83,,,,,
+chitchat-101,chitchat,none,clarify,False,False,0,6.38,,,,,
+chitchat-102,chitchat,none,none,True,False,0,29.94,,,,,
+vague-103,vague,clarify,clarify,True,False,0,7.61,,,,,
+vague-104,vague,clarify,clarify,True,False,0,8.41,,,,,
+vague-105,vague,clarify,clarify,True,False,0,8.66,,,,,
+vague-106,vague,clarify,clarify,True,False,0,9.8,,,,,
+vague-107,vague,clarify,recommend_by_mood,False,False,1,14.49,I feel curious and excited to discover something new.,,,,
+vague-108,vague,clarify,clarify,True,False,0,8.24,,,,,

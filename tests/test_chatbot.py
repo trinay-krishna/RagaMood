@@ -37,7 +37,9 @@ def tools(log):
             log.append((name, kw))
             return {"songs": [SONG], "rasas": [{"rasa": "Karuna", "prob": 0.5}]}
         return f
-    return Tools(playlist=mk("recommend_by_mood"), search=mk("search_catalog"), mixed=mk("recommend_mixed"))
+    t = Tools(playlist=mk("recommend_by_mood"), search=mk("search_catalog"), mixed=mk("recommend_mixed"))
+    t.entity_hint = lambda text: any(w in text.lower() for w in ("kalyani", "thillana"))   # no catalogue in unit tests
+    return t
 
 
 def test_routes_and_returns_reply():
@@ -107,3 +109,39 @@ def test_prompt_and_schemas():
     for s in ("recommend_by_mood", "search_catalog", "recommend_mixed", "cheer me up"):
         assert s in SYSTEM_PROMPT
     assert {t["function"]["name"] for t in TOOL_SCHEMAS} == {"recommend_by_mood", "search_catalog", "recommend_mixed"}
+
+
+LIST = 'Here you go:\n1. "Kalyani Kriti" - Kalyani - Sanjay Subrahmanyan\n2. "Thillana" - Kalyani - Bombay Jayashri'
+
+
+def test_guard_retries_when_songs_are_invented_then_calls_tool():
+    log = []
+    llm = FakeLLM(say(LIST), call("recommend_by_mood", mood_text="I feel joyful."), say("Real songs"))
+    bot = ChatBot(llm, tools(log))
+    out = bot.send("I can't stop smiling")
+    assert out["retried"] and not out["blocked"] and out["reply"] == "Real songs" and log
+    assert "must call a tool" in llm.seen[1][0][-1]["content"]          # nudge sent to the model ...
+    assert all("must call a tool" not in t["user"] + t["reply"] for t in bot.turns)   # ... but not kept in history
+
+
+def test_guard_blocks_invented_songs_when_model_keeps_listing():
+    out = ChatBot(FakeLLM(say(LIST), say(LIST)), tools([])).send("hello there")
+    assert out["blocked"] and "1." not in out["reply"] and not out["tool_calls"]
+
+
+def test_guard_retries_question_on_keyword_request():
+    log = []
+    llm = FakeLLM(say("Which raga do you mean?"), call("search_catalog", query="Kalyani"), say("done"))
+    out = ChatBot(llm, tools(log)).send("raga Kalyani")
+    assert out["retried"] and log == [("search_catalog", {"query": "Kalyani"})]
+
+
+def test_guard_leaves_chitchat_and_clarifying_questions_alone():
+    llm = FakeLLM(say("You're welcome!"), say("How are you feeling?"))
+    bot = ChatBot(llm, tools([]))
+    assert not bot.send("thanks")["retried"] and not bot.send("play something")["retried"]
+
+
+def test_guard_can_be_disabled():
+    out = ChatBot(FakeLLM(say(LIST)), tools([]), guard=False).send("I can't stop smiling")
+    assert not out["retried"] and not out["blocked"] and "Kalyani Kriti" in out["reply"]

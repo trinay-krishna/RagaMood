@@ -1,0 +1,123 @@
+0 done, running 109 cases with qwen3:8b
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 3767.15it/s]
+Shanta        centroid=[0.87 0.19 0.59]  spread=0.15
+Hasya         centroid=[0.95 0.83 0.73]  spread=0.10
+Adbhuta       centroid=[0.73 0.79 0.6 ]  spread=0.12
+Raudra        centroid=[0.11 0.87 0.67]  spread=0.10
+Karuna        centroid=[0.21 0.3  0.19]  spread=0.10
+Shringara     centroid=[0.99 0.67 0.6 ]  spread=0.10
+Fear/Disgust  centroid=[0.05 0.76 0.28]  spread=0.10
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:   4%|4         | 8/199 [00:00<00:02, 78.73it/s]Loading weights:  22%|##2       | 44/199 [00:00<00:00, 191.94it/s]Loading weights:  31%|###1      | 62/199 [00:00<00:00, 183.22it/s]Loading weights:  40%|####      | 80/199 [00:00<00:00, 119.10it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 330.71it/s]
+loaded cached embeddings (54801, 768)
+loaded cached ridge model
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 1417.02it/s]
+[1/109] mood-000: recommend_by_mood  126.42s  | I'm feeling really sad today
+[2/109] mood-001: recommend_by_mood  13.58s  | I miss my mother so much
+[3/109] mood-002: recommend_by_mood  13.79s  | My heart is broken
+[4/109] mood-003: recommend_by_mood  14.28s  | I just lost my grandfather and I feel empty
+[5/109] mood-004: recommend_by_mood  13.93s  | I'm so happy today!
+[6/109] mood-005: recommend_by_mood  14.32s  | I can't stop smiling
+[7/109] mood-006: recommend_by_mood  55.1s  | Everything is going great, I feel joyful
+[8/109] mood-007: recommend_by_mood  14.21s  | I'm in a playful, joking mood
+[9/109] mood-008: recommend_by_mood  11.87s  | I want to relax and feel calm
+[10/109] mood-009: recommend_by_mood  12.1s  | I need some peace and quiet
+[11/109] mood-010: recommend_by_mood  11.94s  | I'm feeling serene and want to meditate
+[12/109] mood-011: recommend_by_mood  13.84s  | I'm in love
+[13/109] mood-012: recommend_by_mood  15.26s  | I miss my partner and feel tender
+[14/109] mood-013: recommend_by_mood  15.01s  | Feeling romantic tonight
+[15/109] mood-014: recommend_by_mood  14.6s  | I need courage for my exam tomorrow
+[16/109] mood-015: recommend_by_mood  12.4s  | I feel determined and powerful
+[17/109] mood-016: recommend_by_mood  14.67s  | Pump me up, I have a big match
+[18/109] mood-017: recommend_by_mood  11.41s  | I'm furious at my boss
+[19/109] mood-018: recommend_by_mood  11.12s  | I feel so angry I can't think straight
+[20/109] mood-019: recommend_by_mood  12.35s  | I'm terrified of tomorrow's results
+[21/109] mood-020: recommend_by_mood  11.54s  | I feel anxious and scared
+[22/109] mood-021: recommend_by_mood  13.71s  | I'm amazed by the night sky
+[23/109] mood-022: search_catalog  22.37s  | That performance was awe-inspiring
+[24/109] mood-023: recommend_by_mood  11.49s  | I'm disgusted by what I saw today
+[25/109] mood-024: -  8.77s  | I'm sick of all this corruption
+[26/109] inversion-025: recommend_by_mood  15.82s  | I'm sad, find something to cheer me up
+[27/109] inversion-026: recommend_by_mood  13.64s  | I feel down, I need something uplifting
+[28/109] inversion-027: recommend_by_mood  11.98s  | I'm angry, calm me down
+[29/109] inversion-028: recommend_by_mood  11.89s  | I'm so stressed, help me unwind
+[30/109] inversion-029: recommend_by_mood  11.79s  | I'm anxious, play something soothing
+[31/109] inversion-030: recommend_by_mood  13.66s  | I'm exhausted and unmotivated, give me some energy
+[32/109] inversion-031: recommend_by_mood  13.34s  | I'm bored, something exciting please
+[33/109] inversion-032: recommend_by_mood  15.87s  | I'm lonely, make me feel loved
+[34/109] inversion-033: recommend_by_mood  12.86s  | I'm scared, help me feel brave
+[35/109] inversion-034: recommend_by_mood  11.29s  | I can't sleep because I'm worried, something to settle me
+[36/109] inversion-035: recommend_by_mood  11.59s  | I'm sad and I want a song that matches how I feel
+[37/109] inversion-036: recommend_by_mood  13.35s  | I'm down, I want something sad to cry to
+[38/109] keyword-037: search_catalog  9.9s  | Sanjay Subrahmanyan kriti
+[39/109] keyword-038: search_catalog  10.06s  | songs by Neyveli B Venkatesh
+[40/109] keyword-039: search_catalog  9.41s  | play Ajoy Chakrabarty
+[41/109] keyword-040: search_catalog  9.89s  | Akkarai Subhalakshmi
+[42/109] keyword-041: search_catalog  8.84s  | raga Kalyani
+[43/109] keyword-042: search_catalog  8.58s  | raag Bhairavi
+[44/109] keyword-043: search_catalog  8.22s  | play Thodi
+[45/109] keyword-044: search_catalog  8.29s  | find Kamas
+[46/109] keyword-045: search_catalog  8.21s  | Behag songs
+[47/109] keyword-046: search_catalog  10.18s  | Shankarabharanam kriti
+[48/109] keyword-047: search_catalog  8.6s  | any thillana?
+[49/109] keyword-048: search_catalog  8.42s  | a varnam please
+[50/109] keyword-049: search_catalog  10.0s  | khayal by Ajoy Chakrabarty
+[51/109] keyword-050: search_catalog  8.76s  | thumri recordings
+[52/109] keyword-051: search_catalog  9.85s  | Hindustani khayal in raga Bageshri
+[53/109] keyword-052: search_catalog  9.5s  | slow khayal in teentaal
+[54/109] keyword-053: search_catalog  9.21s  | Carnatic kriti in Mohana
+[55/109] keyword-054: search_catalog  9.79s  | Sanjay Subrahmanyan Thodi
+[56/109] keyword-055: search_catalog  8.96s  | do you have Saurashtram?
+[57/109] keyword-056: search_catalog  8.59s  | Mangalam pieces
+[58/109] keyword-057: search_catalog  8.47s  | songs in raga Sri
+[59/109] keyword-058: search_catalog  8.73s  | ragamalika
+[60/109] keyword-059: search_catalog  9.36s  | Kaustuv Kanti Ganguli
+[61/109] keyword-060: search_catalog  9.87s  | Paromita Mukherjee khayal
+[62/109] mixed-061: recommend_mixed  13.53s  | I'm sad, play raga Ahibhairav
+[63/109] mixed-062: recommend_mixed  17.35s  | Feeling happy, something by Sanjay Subrahmanyan
+[64/109] mixed-063: recommend_mixed  13.79s  | I'm in love, Kalyani please
+[65/109] mixed-064: recommend_mixed  13.67s  | I'm heartbroken, a Bageshri khayal
+[66/109] mixed-065: recommend_mixed  13.3s  | I feel calm, Thodi by Neyveli B Venkatesh
+[67/109] mixed-066: recommend_mixed  10.2s  | I need courage, play a thillana
+[68/109] mixed-067: recommend_mixed  12.22s  | I'm angry, something by Ajoy Chakrabarty to calm me down
+[69/109] mixed-068: recommend_mixed  12.01s  | Cheer me up with raga Mohana
+[70/109] mixed-069: search_catalog  8.92s  | I miss home, any Kamas?
+[71/109] mixed-070: recommend_mixed  14.31s  | I'm joyful, a kriti in Shankarabharanam
+[72/109] mixed-071: recommend_mixed  12.88s  | Feeling peaceful, Akkarai Subhalakshmi please
+[73/109] mixed-072: recommend_mixed  10.62s  | I'm sad, a thumri would be nice
+[74/109] mixed-073: recommend_mixed  9.86s  | I'm amazed and I want Desh
+[75/109] mixed-074: recommend_mixed  11.57s  | Stressed out, play Bhairavi to unwind
+[76/109] mixed-075: recommend_mixed  11.03s  | I'm romantic tonight, Behag
+[77/109] mixed-076: recommend_mixed  11.24s  | Feeling brave, Meghamalhaar
+[78/109] followup-077: recommend_by_mood  16.84s  | something more upbeat now
+[79/109] followup-078: recommend_by_mood  12.69s  | actually make it calmer
+[80/109] followup-079: recommend_by_mood  15.0s  | more like that
+[81/109] followup-080: search_catalog  11.43s  | same raga but a different artist
+[82/109] followup-081: search_catalog  11.29s  | now something by Ajoy Chakrabarty
+[83/109] followup-082: recommend_mixed  14.96s  | now play raga Bageshri for that
+[84/109] followup-083: recommend_mixed  14.8s  | I'm feeling low, anything with it?
+[85/109] followup-084: recommend_by_mood  14.22s  | calm me down instead
+[86/109] followup-085: search_catalog  11.09s  | something slower
+[87/109] followup-086: recommend_by_mood  16.08s  | a Hindustani one please
+[88/109] followup-087: -  8.27s  | thanks!
+[89/109] followup-088: -  8.08s  | thanks, that helps
+[90/109] followup-089: recommend_by_mood  13.69s  | I meant I want to feel brave
+[91/109] followup-090: search_catalog  12.32s  | more
+[92/109] followup-091: recommend_by_mood  17.21s  | not that, something more romantic
+[93/109] followup-092: recommend_by_mood  13.86s  | I'm feeling nostalgic and sad
+[94/109] followup-093: recommend_by_mood  13.9s  | I want a calm song
+[95/109] followup-094: recommend_mixed  18.5s  | now the same raga but happy
+[96/109] chitchat-095: -  8.76s  | hi there
+[97/109] chitchat-096: -  5.61s  | thank you!
+[98/109] chitchat-097: -  11.79s  | what can you do?
+[99/109] chitchat-098: -  11.96s  | who are you?
+[100/109] chitchat-099: -  15.24s  | what is a raga?
+[101/109] chitchat-100: -  7.79s  | tell me a joke
+[102/109] chitchat-101: -  9.63s  | what's the weather like?
+[103/109] chitchat-102: -  26.02s  | what is the difference between Carnatic and Hindustani music
+[104/109] vague-103: -  5.68s  | play something
+[105/109] vague-104: -  7.19s  | suggest a song
+[106/109] vague-105: -  7.2s  | recommend me some music
+[107/109] vague-106: -  5.61s  | I want some music
+[108/109] vague-107: recommend_by_mood  14.01s  | surprise me
+[109/109] vague-108: -  7.93s  | give me a good song

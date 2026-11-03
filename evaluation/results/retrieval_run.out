@@ -1,0 +1,19 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+359 songs
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 6570.94it/s]
+known-item done
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 2674.04it/s]
+Shanta        centroid=[0.87 0.19 0.59]  spread=0.15
+Hasya         centroid=[0.95 0.83 0.73]  spread=0.10
+Adbhuta       centroid=[0.73 0.79 0.6 ]  spread=0.12
+Raudra        centroid=[0.11 0.87 0.67]  spread=0.10
+Karuna        centroid=[0.21 0.3  0.19]  spread=0.10
+Shringara     centroid=[0.99 0.67 0.6 ]  spread=0.10
+Fear/Disgust  centroid=[0.05 0.76 0.28]  spread=0.10
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:   5%|4         | 9/199 [00:00<00:02, 77.97it/s]Loading weights:  10%|#         | 20/199 [00:00<00:02, 88.07it/s]Loading weights:  15%|#5        | 30/199 [00:00<00:01, 86.70it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 465.18it/s]
+loaded cached embeddings (54801, 768)
+loaded cached ridge model
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 2738.68it/s]
+mood playlists: {'playlist': 0.6692592592592593, 'dense': 0.030833333333333334, 'random': 0.030000000000000002}
+mixed: {'n_queries': 35, 'requested_share': 0.32999999999999996, 'requested_entity_hit': 1.0, 'mood_section_precision@rasa': 0.7408163265306122}
+time boost: [{'hour': 5, 'boost': 0.09583333333333333, 'no boost': 0.05416666666666667}, {'hour': 14, 'boost': 0.0, 'no boost': 0.0}, {'hour': 17, 'boost': 0.0375, 'no boost': 0.016666666666666666}, {'hour': 20, 'boost': 0.075, 'no boost': 0.0375}, {'hour': 23, 'boost': 0.07500000000000001, 'no boost': 0.07083333333333335}]
