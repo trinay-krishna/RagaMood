@@ -1,0 +1,5 @@
+system,n,tool_acc,e2e_success,mood_n,mood_precision,mood_ndcg,entity_n,entity_hit,entity_precision
+agent_v1,109.0,0.761,0.569,59.0,0.49,0.418,47.0,0.702,0.441
+agent_v2,109.0,0.899,0.734,59.0,0.571,0.505,47.0,0.936,0.665
+keyword,109.0,0.807,0.615,59.0,0.467,0.425,47.0,0.83,0.41
+oracle,109.0,1.0,0.936,59.0,0.702,0.614,47.0,0.979,0.511

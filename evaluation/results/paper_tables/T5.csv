@@ -1,0 +1,13 @@
+,value,without time boost
+Mixed (mood + named raga): requested songs found by the named raga,1.0,
+Mixed: share of the list that is the requested raga,0.32999999999999996,
+Mixed: precision of the mood-filled part for the rasa,0.7408163265306122,
+Diversity: distinct artists per playlist,27.72,
+Diversity: distinct ragas per playlist,7.06,
+Diversity: distinct forms per playlist,4.02,
+Diversity: duplicate pieces per playlist,0.0,
+Time of day 05:00: share of songs whose raga fits the hour,0.09583333333333333,0.05416666666666667
+Time of day 14:00: share of songs whose raga fits the hour,0.0,0.0
+Time of day 17:00: share of songs whose raga fits the hour,0.0375,0.016666666666666666
+Time of day 20:00: share of songs whose raga fits the hour,0.075,0.0375
+Time of day 23:00: share of songs whose raga fits the hour,0.07500000000000001,0.07083333333333335

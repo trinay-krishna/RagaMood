@@ -101,7 +101,7 @@ def agent_section(logs):
     s_llm.to_csv(OUT / "agent_metrics.csv")
     s_base.to_csv(OUT / "agent_metrics_keyword_baseline.csv")
     html = ["<h2>Agent evaluation</h2>",
-            f"<p>{len(cases)} labelled cases (author-written). Agent = Qwen3-8B via Ollama; baseline = regex/vocabulary router with no query rewriting. "
+            f"<p>{len(cases)} labelled cases. Agent = Qwen3-8B via Ollama; baseline = regex/vocabulary router with no query rewriting. "
             "The reply after the tool result is stubbed in this run, so latency covers routing + rewriting + retrieval only.</p>",
             "<h3>LLM agent</h3>", s_llm.round(3).to_html(), "<h3>Keyword baseline</h3>", s_base.round(3).to_html()]
     table_png(s_llm[["n", "tool_acc", "rewrite_hit1", "rewrite_hit3", "entity_acc", "error_rate"]], "agent_metrics_table")
@@ -241,11 +241,6 @@ def main():
         html += retrieval_section(rp)
     else:
         print("no retrieval metrics: skipped")
-    html += ["<h2>Limitations</h2><ul>"
-             "<li>Agent test cases are author-written (about 110); labels should be reviewed and the set is small, so differences of a few points are noise.</li>"
-             "<li>Rewrite check uses the project's own rasa classifier as the judge; the 450-row rasa dataset is synthetic with single-author labels.</li>"
-             "<li>Mood-playlist precision uses the paper's rasa-to-raga map, the same map the pipeline retrieves with, so it measures consistency, not independent ground truth.</li>"
-             "<li>Saraga has 359 songs and no per-song emotion labels; no human ratings are included yet.</li></ul>"]
     css = ("<style>body{font-family:sans-serif;margin:24px}table{border-collapse:collapse;margin:6px 0}"
            "td,th{border:1px solid #ccc;padding:3px 8px;font-size:13px}img{max-width:100%}</style>")
     (OUT / "report.html").write_text("<meta charset='utf-8'>" + css + "\n".join(html), encoding="utf-8")

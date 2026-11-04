@@ -1,0 +1,4 @@
+,right tool,mood rewrite (rasa in top 3),keyword rewrite keeps the name
+before: original prompt,0.7614678899082569,0.8,0.7659574468085106
+prompt + guard,0.8990825688073395,0.9384615384615383,1.0
+keyword baseline,0.8073394495412844,0.8153846153846154,0.8723404255319149

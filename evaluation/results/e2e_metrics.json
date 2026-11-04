@@ -1,0 +1,222 @@
+{
+  "overall": [
+    {
+      "system": "agent_v1",
+      "n": 109.0,
+      "tool_acc": 0.7615,
+      "e2e_success": 0.5688,
+      "mood_n": 59.0,
+      "mood_precision": 0.4903,
+      "mood_ndcg": 0.4178,
+      "entity_n": 47.0,
+      "entity_hit": 0.7021,
+      "entity_precision": 0.4415
+    },
+    {
+      "system": "agent_v2",
+      "n": 109.0,
+      "tool_acc": 0.8991,
+      "e2e_success": 0.7339,
+      "mood_n": 59.0,
+      "mood_precision": 0.5713,
+      "mood_ndcg": 0.5048,
+      "entity_n": 47.0,
+      "entity_hit": 0.9362,
+      "entity_precision": 0.6649
+    },
+    {
+      "system": "keyword",
+      "n": 109.0,
+      "tool_acc": 0.8073,
+      "e2e_success": 0.6147,
+      "mood_n": 59.0,
+      "mood_precision": 0.4672,
+      "mood_ndcg": 0.425,
+      "entity_n": 47.0,
+      "entity_hit": 0.8298,
+      "entity_precision": 0.4096
+    },
+    {
+      "system": "oracle",
+      "n": 109.0,
+      "tool_acc": 1.0,
+      "e2e_success": 0.9358,
+      "mood_n": 59.0,
+      "mood_precision": 0.7017,
+      "mood_ndcg": 0.6139,
+      "entity_n": 47.0,
+      "entity_hit": 0.9787,
+      "entity_precision": 0.5106
+    }
+  ],
+  "by_category": [
+    {
+      "system": "agent_v1",
+      "category": "chitchat",
+      "tool_ok": 0.5,
+      "e2e_ok": 0.5
+    },
+    {
+      "system": "agent_v1",
+      "category": "followup",
+      "tool_ok": 0.778,
+      "e2e_ok": 0.722
+    },
+    {
+      "system": "agent_v1",
+      "category": "inversion",
+      "tool_ok": 1.0,
+      "e2e_ok": 0.583
+    },
+    {
+      "system": "agent_v1",
+      "category": "keyword",
+      "tool_ok": 0.667,
+      "e2e_ok": 0.583
+    },
+    {
+      "system": "agent_v1",
+      "category": "mixed",
+      "tool_ok": 0.938,
+      "e2e_ok": 0.312
+    },
+    {
+      "system": "agent_v1",
+      "category": "mood",
+      "tool_ok": 0.68,
+      "e2e_ok": 0.56
+    },
+    {
+      "system": "agent_v1",
+      "category": "vague",
+      "tool_ok": 0.833,
+      "e2e_ok": 0.833
+    },
+    {
+      "system": "agent_v2",
+      "category": "chitchat",
+      "tool_ok": 0.375,
+      "e2e_ok": 0.375
+    },
+    {
+      "system": "agent_v2",
+      "category": "followup",
+      "tool_ok": 1.0,
+      "e2e_ok": 0.944
+    },
+    {
+      "system": "agent_v2",
+      "category": "inversion",
+      "tool_ok": 1.0,
+      "e2e_ok": 0.75
+    },
+    {
+      "system": "agent_v2",
+      "category": "keyword",
+      "tool_ok": 1.0,
+      "e2e_ok": 0.917
+    },
+    {
+      "system": "agent_v2",
+      "category": "mixed",
+      "tool_ok": 0.938,
+      "e2e_ok": 0.375
+    },
+    {
+      "system": "agent_v2",
+      "category": "mood",
+      "tool_ok": 0.92,
+      "e2e_ok": 0.8
+    },
+    {
+      "system": "agent_v2",
+      "category": "vague",
+      "tool_ok": 0.5,
+      "e2e_ok": 0.5
+    },
+    {
+      "system": "keyword",
+      "category": "chitchat",
+      "tool_ok": 1.0,
+      "e2e_ok": 1.0
+    },
+    {
+      "system": "keyword",
+      "category": "followup",
+      "tool_ok": 0.5,
+      "e2e_ok": 0.389
+    },
+    {
+      "system": "keyword",
+      "category": "inversion",
+      "tool_ok": 1.0,
+      "e2e_ok": 0.5
+    },
+    {
+      "system": "keyword",
+      "category": "keyword",
+      "tool_ok": 0.958,
+      "e2e_ok": 0.875
+    },
+    {
+      "system": "keyword",
+      "category": "mixed",
+      "tool_ok": 1.0,
+      "e2e_ok": 0.5
+    },
+    {
+      "system": "keyword",
+      "category": "mood",
+      "tool_ok": 0.8,
+      "e2e_ok": 0.68
+    },
+    {
+      "system": "keyword",
+      "category": "vague",
+      "tool_ok": 0.0,
+      "e2e_ok": 0.0
+    },
+    {
+      "system": "oracle",
+      "category": "chitchat",
+      "tool_ok": 1.0,
+      "e2e_ok": 1.0
+    },
+    {
+      "system": "oracle",
+      "category": "followup",
+      "tool_ok": 1.0,
+      "e2e_ok": 1.0
+    },
+    {
+      "system": "oracle",
+      "category": "inversion",
+      "tool_ok": 1.0,
+      "e2e_ok": 1.0
+    },
+    {
+      "system": "oracle",
+      "category": "keyword",
+      "tool_ok": 1.0,
+      "e2e_ok": 0.958
+    },
+    {
+      "system": "oracle",
+      "category": "mixed",
+      "tool_ok": 1.0,
+      "e2e_ok": 0.812
+    },
+    {
+      "system": "oracle",
+      "category": "mood",
+      "tool_ok": 1.0,
+      "e2e_ok": 0.88
+    },
+    {
+      "system": "oracle",
+      "category": "vague",
+      "tool_ok": 1.0,
+      "e2e_ok": 1.0
+    }
+  ]
+}

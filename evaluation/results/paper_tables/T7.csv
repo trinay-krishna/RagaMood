@@ -1,0 +1,5 @@
+,right tool,mood precision,mood nDCG@10,named raga/artist found
+"agent, original prompt",0.761,0.49,0.418,0.702
+"agent, prompt + guard",0.899,0.571,0.505,0.936
+keyword router (no LLM),0.807,0.467,0.425,0.83
+oracle (perfect call),1.0,0.702,0.614,0.979
