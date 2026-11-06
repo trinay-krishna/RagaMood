@@ -2,6 +2,7 @@
 import requests
 
 from . import config
+from .tracing import traceable, without_self
 
 
 class LLMError(RuntimeError):
@@ -15,6 +16,11 @@ class OllamaLLM:
         self.temperature, self.timeout = temperature, timeout
 
     def chat(self, messages, tools=None):
+        meta = {"ls_provider": "ollama", "ls_model_name": self.model, "ls_temperature": self.temperature}
+        return self._chat(messages, tools, langsmith_extra={"metadata": meta})
+
+    @traceable(name="ollama_chat", run_type="llm", process_inputs=without_self)
+    def _chat(self, messages, tools=None):
         body = {"model": self.model, "messages": messages, "stream": False, "think": False,
                 "options": {"temperature": self.temperature}}
         if tools:

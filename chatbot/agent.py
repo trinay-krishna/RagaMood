@@ -1,11 +1,21 @@
 """Chat session: history + tool-calling loop. Knows nothing about the song pipeline (see tools.py)."""
 import json
+import uuid
 
 from . import config
 from .guard import NUDGE, SAFE_REPLY, has_feeling, looks_like_song_list
 from .llm import OllamaLLM
 from .prompts import SYSTEM_PROMPT
 from .tools import TOOL_SCHEMAS, Tools
+from .tracing import traceable, without_self
+
+
+def _trace_output(out):
+    """What a chat_turn run shows in LangSmith: the reply, the guard flags and each tool call with its song titles."""
+    return {"reply": out["reply"], "retried": out["retried"], "blocked": out["blocked"],
+            "tool_calls": [{"name": c["name"], "args": c["args"], "count": c["result"].get("count"),
+                            "titles": [s.get("title") for s in c["result"].get("songs", [])],
+                            "error": c["result"].get("error")} for c in out["tool_calls"]]}
 
 
 def _args(raw):
@@ -24,9 +34,11 @@ class ChatBot:
         self.tools = tools or Tools()
         self.history_turns, self.max_rounds, self.guard = history_turns, max_rounds, guard
         self.turns = []  # [{"user", "calls": [str], "reply"}]
+        self.session_id = uuid.uuid4().hex   # groups the turns of one conversation into a LangSmith thread
 
     def reset(self):
         self.turns = []
+        self.session_id = uuid.uuid4().hex
 
     def _history(self):
         msgs = []
@@ -46,6 +58,10 @@ class ChatBot:
 
     def send(self, text):
         """-> {"reply": str, "tool_calls": [{"name","args","result"}], "songs": [...], "retried": bool, "blocked": bool}"""
+        return self._send(text, langsmith_extra={"metadata": {"session_id": self.session_id, "guard": self.guard}})
+
+    @traceable(name="chat_turn", run_type="chain", tags=["ragamood"], process_inputs=without_self, process_outputs=_trace_output)
+    def _send(self, text):
         msgs = [{"role": "system", "content": SYSTEM_PROMPT}, *self._history(),
                 {"role": "user", "content": text}]
         calls, songs, reply = [], [], ""

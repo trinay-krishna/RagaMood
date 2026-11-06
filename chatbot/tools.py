@@ -3,6 +3,7 @@
 Backends are imported lazily and can be replaced, so the rest of the chat bot (and its tests) never loads a model.
 """
 from . import config
+from .tracing import traceable, without_self
 
 
 def _schema(name, description, props, required):
@@ -88,6 +89,10 @@ class Tools:
 
     def call(self, name, args):
         """-> {"songs": [...], ...} or {"error": "..."}; never raises for bad model output."""
+        return self._call(name, args, langsmith_extra={"name": str(name)})
+
+    @traceable(run_type="tool", process_inputs=without_self)
+    def _call(self, name, args):
         if name not in self._fn:
             return {"error": f"unknown tool '{name}'. Use one of: {', '.join(self._fn)}"}
         try:

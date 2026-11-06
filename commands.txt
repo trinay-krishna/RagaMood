@@ -73,8 +73,15 @@ Routing guide for the agent
   python -m chatbot --debug       (shows each tool call and the rewritten query)
   python -m chatbot --time 23:00 --model qwen3:8b --url http://localhost:11434
 
-  /reset clears the conversation, /quit exits.
+  /reset clears the conversation; bye, quit, exit or /quit exits.
+  /time 23:00 sets the hour for the time-of-day boost mid-chat, /time now goes back to the real clock, /time shows it.
   Use from code: from chatbot import ChatBot; ChatBot().send("I'm sad, cheer me up")
+
+  LangSmith tracing (CLI only; off unless .env has the key; see .env.example):
+    pip install langsmith
+    .env:  LANGSMITH_TRACING=true / LANGSMITH_API_KEY=... / LANGSMITH_PROJECT=RagaMood
+    each message = one "chat_turn" run with the Ollama calls and tool calls (with songs) nested inside;
+    turns of one conversation share a session_id (/reset starts a new one).
 
 4c. evaluation - agent + retrieval metrics -> evaluation/results/report.html and figures/*.png
 -------------------------------------------------------------------------------------------
